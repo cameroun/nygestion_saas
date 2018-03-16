@@ -1,0 +1,13 @@
+[Unit]
+Description=Odoo {{version}} with workers and db prescribed in buildout
+Documentation=
+PartOf=odoo.target
+
+[Install]
+WantedBy=odoo.target
+
+[Service]
+WorkingDirectory={{buildout_dir}}
+# --workers and -d options are expected to be specified in the buildout
+# itself
+ExecStart={{buildout_dir}}/bin/start_{{odoo}}

@@ -1,0 +1,4 @@
+sandbox/
+.*\.swp$
+.*\.py[co]$
+anybox.fabric.egg-info

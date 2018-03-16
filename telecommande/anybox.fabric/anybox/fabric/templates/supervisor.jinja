@@ -1,0 +1,29 @@
+[group:{{account}}]
+priority = 5
+{% if version == '6.1' %}
+programs = {{account}}-{{odoo}}-main, {{account}}-{{odoo}}-cron
+{% else %}
+programs = {{account}}-{{odoo}}-main
+{% endif %}
+
+[program:{{account}}-{{odoo}}-main]
+user = {{account}}
+environment = LOGNAME="{{account}}",USER="{{account}}",HOME="{{account_home}}",LANG="fr_FR.UTF-8"
+{% if version == '6.1' %}
+command = {{gunicorn}}
+{% else %}
+command = {{buildout_dir}}/bin/start_{{odoo}} {{'-d' if db else ''}} {{db}} {{'--db-filter' if db else ''}} {{db}} --without-demo=all
+{% endif %}
+directory = {{buildout_dir}}/bin
+priority = 5
+redirect_stderr = false
+
+{% if version == '6.1' %}
+[program:{{account}}-{{odoo}}-cron]
+user = {{account}}
+environment = LOGNAME="{{account}}",USER="{{account}}",HOME="{{account_home}}",LANG="fr_FR.UTF-8"
+command = {{buildout_dir}}/bin/cron_worker_openerp -d {{databases}}
+directory = {{buildout_dir}}/bin
+priority = 20
+redirect_stderr = false
+{% endif %}

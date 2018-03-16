@@ -1,0 +1,6 @@
+bin/
+sandbox/
+.installed.cfg
+develop-eggs/
+.*\py[co]$
+.fabfile.rollback
