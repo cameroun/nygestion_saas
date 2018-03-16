@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+		
+		<record id="view_wizard_assign_ticket_form" model="ir.ui.view">
+            <field name="name">wizard.assign.ticket.form</field>
+            <field name="model">wizard.assign.ticket</field>
+            <field name="arch" type="xml">
+                <form string="Assign Support User">
+                    <group>
+                        <field name="user_id" style="width: 50%"/>
+                    </group>
+                    <footer>
+                        <button name="assign_ticket" string="Assign" type="object" class="oe_highlight"/>
+                        or
+                        <button string="Cancel" class="oe_link" special="cancel"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_wizard_assign_ticket" model="ir.actions.act_window">
+            <field name="name">Assign Support User</field>
+            <field name="res_model">wizard.assign.ticket</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+			<field name="view_id" ref="view_wizard_assign_ticket_form"/>
+            <field name="target">new</field>
+        </record>
+        
+		<record id="support_ticket_form_view" model="ir.ui.view">
+            <field name="name">support.ticket.form.view</field>
+            <field name="model">support.ticket</field>
+            <field name="arch" type="xml">
+                <form>
+                <header>
+                    <button name="set_to_close" string="Set To Close" type="object" class="btn-primary" attrs="{'invisible': [('is_ticket_closed', '=', True)]}"/>
+                    <button name="set_to_reset" string="Set To Reset" type="object" class="btn-primary" attrs="{'invisible': [('is_ticket_closed', '=', False)]}"/>
+                    <button name="change_level" string="Escalate Team" type="object" class="btn-primary"/>
+                    <button name="create_invoice" string="Create Invoice" type="object" class="btn-primary" attrs="{'invisible': [('is_ticket_closed', '!=', True)]}"/>
+                    <button name="%(action_wizard_assign_ticket)d" string="Assign" type="action" class="oe_highlight" attrs="{'invisible': [('is_assign', '=', True)]}"/> 
+                    
+                    <field name="stage_id" widget="statusbar" clickable="True"
+                            options="{'fold_field': 'fold'}"/>
+                </header>
+                <sheet string="Support Ticket">
+                    <div class="oe_button_box" name="button_box" groups="base.group_user">
+                        <button type="object" name="task" class="oe_stat_button" icon="fa-tasks" attrs="{'invisible': [('task_count', '=', 0)]}">
+                            <field name="task_count" widget="statinfo" string="Tasks" />
+                        </button>
+                        
+                        <button class="oe_stat_button" name="attachment_on_support_ticket_button" type="object" icon="fa-cloud-upload" attrs="{'invisible': [('attachment_count', '=', 0)]}">
+	                        <field name="attachment_count" widget="statinfo" string="Attachment"/>
+	                    </button>
+	                    
+	                    <button class="oe_stat_button" name="invoice_button" type="object" icon="fa fa-fw o_button_icon fa-pencil-square-o" attrs="{'invisible': [('invoice_count', '=', 0)]}">
+	                        <field name="invoice_count" widget="statinfo" string="Invoices"/>
+	                    </button>
+	                    
+                    </div>
+                    <div class="oe_title oe_left">
+                            <h1>
+                                <field name="sequence"/>
+                            </h1>
+                        </div>
+                        <group>
+                            <h1><field name="name" placeholder="Support Ticket..."/></h1>
+                        </group>
+                    <separator string="Customer"/>
+                    <group>
+                        <group>
+                            <field name="partner_id"/>
+                            <field name="category" />
+                            <field name="phone" widget="phone" />
+                        </group>
+                        <group>
+                            <field name="email_from"/>
+                            <field name="priority" groups="base.group_user" widget="priority"/>
+                            
+                        </group>
+                    </group>
+                    <separator string="Support Team"/>
+                    <group string="Support Team">
+                        <group>
+                            <field name="user_id"/>
+                            <field name="team_leader_id"/>
+                            <field name="is_assign" invisible="True"/>
+                        </group>
+                        <group>
+                            <field name="support_team_id"/>
+                            
+                        </group>
+                    </group>
+                    <separator string="Support Ticket Info"/>
+                    <group string="Support Ticket Info">
+                        <group>
+                            <field name="date_create"/>
+                            <field name="project_id"/>
+                            <field name="is_ticket_closed" readonly="True"/>
+                            <field name="is_assign" invisible="True"/>
+                            <field name="invoice_option" widget="radio"/>
+                        </group>
+                        <group>
+                            <field name="date_close"/>
+                            <field name="task_ids" />
+                            <field name="analytic_id"/>
+                            <field name="emp_timesheet_cost" widget="radio" attrs="{'invisible': [('invoice_option', '=', 'manual')]}"/>
+                            <field name="manual_cost" class="oe_inline" attrs="{'invisible': ['|',('emp_timesheet_cost', '=', 'employee_cost'),('invoice_option', '=', 'manual')]}" />
+                            <field name="currency_id" invisible="1"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Description">
+                            <field name="description" placeholder="Add an internal note..." groups="base.group_user"/>
+                        </page>
+                        <page string="Timesheets">
+                            <field name="timesheet_ids"/>
+                        </page>
+                        <page string="Customer Ratings">
+                            <group>
+                                <field name="customer_rating" widget="priority"/>
+                                <field name="comment"/>
+                            </group>
+                        </page>
+                        <page string="Ticket Invoice" attrs="{'invisible': [('invoice_option', '=', 'timesheet')]}">
+                            <field name="support_invoice_id">
+                                <tree string="Invoice Lines" editable="bottom">
+                                    <!--<field name="product_id"/>-->
+                                    <field name="name"/>
+                                    <field name="uom_id"/>
+                                    <field name="price_unit"/>
+                                    <field name="quantity"/>
+                                    <!--<field name="invoice_line_tax_ids"/>-->
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers"/>
+                    <field name="message_ids" widget="mail_thread"/>
+                </div>
+                </form>
+            </field>
+        </record>
+
+        <record id="inherit_bi_project_task_form" model="ir.ui.view">
+            <field name="name">inherit.bi.project.task.form</field>
+            <field name="model">project.task</field>
+            <field name="inherit_id" ref="project.view_task_form2" />
+            <field name="arch" type="xml">
+                <field name="tag_ids" position="after">
+                        <field name="ticket_id"/>
+                </field>
+            </field>
+        </record>
+
+        <record id="support_ticket_tree_view" model="ir.ui.view">
+            <field name="name">support.ticket.tree.view</field>
+            <field name="model">support.ticket</field>
+            <field name="arch" type="xml">
+                <tree string="Support Ticket">
+                    <field name="id"/>
+                    <field name="name"/>
+                    <field name="partner_id"/>
+                    <field name="date_create"/>
+                    <field name="priority" string="Priority" groups="base.group_user"/>
+                    <field name="user_id"/>
+                    <field name="stage_id" widget="selection" readonly="1"/>
+                </tree>
+            </field>
+        </record>
+        
+        
+        <record id="action_support_ticket" model="ir.actions.act_window">
+            <field name="name">Support Tickets</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">support.ticket</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        
+        <record id="action_closed_support_ticket" model="ir.actions.act_window">
+            <field name="name">Closed Tickets</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">support.ticket</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="domain">[('is_ticket_closed','=',True)]</field>
+            <field name="context">{'search_default_closed': 1, 'default_is_ticket_closed': True}</field>
+        </record>
+
+		<record id="support_team_form_view" model="ir.ui.view">
+            <field name="name">support.team.form.view</field>
+            <field name="model">support.team</field>
+            <field name="arch" type="xml">
+                <form>
+                <sheet string="Support Team">
+                    <group>
+                        <group>
+                            <field name="team_id"/>
+                            <!--<field name="is_team"/>-->
+                            <field name="team_leader"/>
+                        </group>
+                        <group>
+                            <field name="user_id"/>
+                            <field name="level"/>
+                            <field name="parent_team_id" domain="[('level', '&lt;=', level)]"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Team Members">
+                            <field name="team_member"/>
+                        </page>
+                    </notebook>
+                </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="bi_inherit_crm_team_supprt" model="ir.ui.view">
+		    <field name="name">bi.inherit.crm.team.supprt</field>
+		    <field name="model">crm.team</field>
+		    <field name="inherit_id" ref="sales_team.crm_team_view_form" />
+		    <field name="arch" type="xml">
+		    	<field name="user_id" position="after">
+                    <field name="support_ticket"/>
+                </field>
+		    </field>
+    	</record>
+
+        <record id="support_team_tree_view" model="ir.ui.view">
+            <field name="name">support.team.tree.view</field>
+            <field name="model">support.team</field>
+            <field name="arch" type="xml">
+                <tree string="Support Team">
+                    <field name="team_id"/>
+                    <field name="user_id"/>
+                    <field name="team_leader"/>
+                    <field name="parent_team_id"/>
+                    <field name="level"/>
+                    <!--<field name="is_team"/>-->
+                </tree>
+            </field>
+        </record>
+        
+		<record id="action_support_team" model="ir.actions.act_window">
+            <field name="name">Helpdesk Team</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">support.team</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        
+        <record id="support_stage_form_view" model="ir.ui.view">
+            <field name="name">support.stage.form.view</field>
+            <field name="model">support.stage</field>
+            <field name="arch" type="xml">
+                <form>
+                <sheet string="Support Stage">
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="sequence"/>
+                            <field name="fold"/>
+                        </group>
+                    </group>
+                </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="support_stage_tree_view" model="ir.ui.view">
+            <field name="name">support.stage.tree.view</field>
+            <field name="model">support.stage</field>
+            <field name="arch" type="xml">
+                <tree string="Support Stage">
+                    <field name="name"/>
+                    <field name="sequence"/>
+                </tree>
+            </field>
+        </record>
+        
+        <record id="bi_inherit_project_task_type_supprt" model="ir.ui.view">
+		    <field name="name">bi.inherit.project.task.type.supprt</field>
+		    <field name="model">project.task.type</field>
+		    <field name="inherit_id" ref="project.task_type_edit" />
+		    <field name="arch" type="xml">
+		    	<field name="project_ids" position="after">
+                    <field name="ticket_stage"/>
+                </field>
+		    </field>
+    	</record>
+    	
+        <record id="action_support_stage" model="ir.actions.act_window">
+            <field name="name">Helpdesk Stages</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">support.stage</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        
+        
+		<record id="email_template_support_ticket" model="mail.template">
+            <field name="name">Website Support Ticket</field>
+            <field name="subject">${object.name} </field>
+            <field name="email_to">${object.email|safe}</field>
+            <field name="model_id" ref="bi_website_support_ticket.model_support_ticket" />
+            <field name="auto_delete" eval="True" />
+            <field name="body_html"><![CDATA[
+                    <div style="font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: #FFF; ">
+                        <p>Dear ${object.partner_id.name}</p>
+                        <p> We received your Support Ticket.</p>
+                        <p> Support Ticket Subject : ${object.name} </p>
+                        <p> Description : ${object.description} </p>
+                    </div>
+                        ]]>
+            </field>
+        </record>
+
+        <record id="seq_support_ticket" model="ir.sequence">
+            <field name="name">Support Ticket</field>
+            <field name="code">support.ticket</field>
+            <field name="prefix">TICK-00</field>
+            <field name="padding">2</field>
+        </record>
+        
+        
+        <record id="support_ticket_type_form_view" model="ir.ui.view">
+            <field name="name">support.ticket.type.form.view</field>
+            <field name="model">support.ticket.type</field>
+            <field name="arch" type="xml">
+                <form>
+                <sheet string="Ticket Type">
+                    <group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </group>
+                </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="support_ticket_type_tree_view" model="ir.ui.view">
+            <field name="name">support.ticket.type.tree.view</field>
+            <field name="model">support.ticket.type</field>
+            <field name="arch" type="xml">
+                <tree string="Ticket Type">
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+        
+		<record id="action_support_ticket_type" model="ir.actions.act_window">
+            <field name="name">Helpdesk Ticket Type</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">support.ticket.type</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        
+        <menuitem id="menu_support_ticket" name="Helpdesk Support"/>
+		<menuitem id="menu_sub_support_ticket" name="Helpdesk Support" parent="menu_support_ticket" sequence="1"/>
+		<menuitem id="menu_sub_ticket" parent="menu_sub_support_ticket" action="action_support_ticket"  />
+		<menuitem id="menu_sub_closed_ticket" parent="menu_sub_support_ticket" action="action_closed_support_ticket"  />
+		
+		<menuitem id="menu_configuration" name="Configuration" parent="menu_support_ticket" sequence="2"/>
+		<menuitem id="menu_sub_team" parent="menu_configuration" action="action_support_team"  sequence="1"/>
+		<menuitem id="menu_sub_stage" parent="menu_configuration" action="action_support_stage"  sequence="2"/>
+		<menuitem id="menu_sub_ticket_type" parent="menu_configuration" action="action_support_ticket_type"  sequence="3"/>
+		
+		<record id="support_ticket_stage_tree" model="ir.ui.view">
+            <field name="name">support.ticket.stage.tree</field>
+            <field name="model">support.ticket.stage</field>
+            <field name="arch" type="xml">
+                <tree string="Support Ticket Stages">
+                    <field name="sequence"/>
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="support_ticket_stage_form" model="ir.ui.view">
+            <field name="name">support.ticket.stage.form</field>
+            <field name="model">support.ticket.stage</field>
+            <field name="arch" type="xml">
+                <form string="Support Ticket Stage">
+                    <group col="4">
+                        <field name="name"/>
+                        <field name="case_default"/>
+                        <field name="sequence"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record id="support_ticket_stage_act" model="ir.actions.act_window">
+            <field name="name">Support Ticket Stages</field>
+            <field name="res_model">support.ticket.stage</field>
+            <field name="view_type">form</field>
+            <field name="view_id" ref="support_ticket_stage_tree"/>
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Click to setup a new stage in the processing of the Support Ticket. 
+              </p><p>
+                You can create Support Ticket stages to categorize the status of every
+                Support Ticket entered in the system. The stages define all the steps
+                required for the resolution of a Support Ticket.
+              </p>
+            </field>
+        </record>
+
+</odoo>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+        <template id="task_report_id">
+          <t t-foreach="docs" t-as="doc">
+            <t t-call="web.internal_layout">
+                 <div class="page">
+                     <div>
+                         <h3>
+                             <strong><span t-field="doc.name"/>( <span t-field="doc.stage_id.name"/> )</strong> 
+                         </h3>
+                         <table class="table table-responsive">
+                            <tr>
+                                <th>Project </th>
+                                <th>Customer </th>
+                                <th>Assigned To </th>
+                                <th>Assigning Date </th>
+                                <th>Deadline</th>
+                            </tr>
+                            <tr>
+                                <td><span t-field="doc.project_id.name"/></td>
+                                <td><span t-field="doc.partner_id.name"/></td>
+                                <td><span t-field="doc.user_id.name"/></td>
+                                <td><span t-field="doc.date_assign"/></td>
+                                <td><span t-field="doc.date_deadline"/></td>
+                            </tr>
+                         </table>
+                         <h3>Timesheet</h3>
+                         <table class="table table-responsive">
+                            <tr style="border: 2px solid black;">
+                                <th>Date </th>
+                                <th>User </th>
+                                <th>Description </th>
+                                <th>Analytic Account</th>
+                                <th>Duration</th>
+                            </tr>
+                            <t t-foreach="doc.timesheet_ids" t-as="time">
+                                <tr style="border: 2px solid black;">
+                                    <td><span t-field="time.date"/></td>
+                                    <td><span t-field="time.user_id.name"/></td>
+                                    <td><span t-field="time.name"/></td>
+                                    <td><span t-field="time.account_id.name"/></td>
+                                    <td><span t-field="time.unit_amount" /></td>
+                                </tr>
+                            </t>
+                         </table>
+                         <div class="row">
+                             <div class="col-xs-10 text-right">
+                                 <span>Initially Planned Hours :</span><br/>
+                                 <span>Effective Hours :</span><br/>
+                                 <span>Remaining Hours :</span><br/>
+                             </div>
+                             <div class="col-xs-2 text-right">
+                                 <span t-field="doc.planned_hours"/><br/>
+                                 <span t-field="doc.effective_hours"/><br/>
+                                 <span t-field="doc.remaining_hours"/><br/>
+                             </div>
+                         </div>
+                         <div class="row">
+                             <div class="col-xs-8 text-left">
+                                Signature:____________________
+                             </div>
+                         </div>
+                     </div>
+                </div>
+              </t>
+            </t>
+        </template>
+        
+    </data>
+</openerp>

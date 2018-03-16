@@ -1,0 +1,3 @@
+"id","name","url","parent_id/id"
+"bi_website_support_ticket_main","Support","/ticket/view","website.main_menu"
+"bi_website_support_ticket_sub1","Submit Support Ticket","/support_ticket","bi_website_support_ticket.bi_website_support_ticket_main"

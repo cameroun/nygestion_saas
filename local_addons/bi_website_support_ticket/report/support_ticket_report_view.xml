@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+	<data>
+
+		<template id="support_ticket_template_view">
+            <t t-call="web.external_layout">
+                <div class="page">
+					<t t-foreach="docs" t-as="o">
+                        <div class="row">
+                            <div class="col-xs-12" style="margin-top: 25px;margin-bottom:30px;">
+                                <h3 style="margin-top: 30px; font-weight: bold;">
+                                    <span t-field="o.sequence"/> -
+                                    <span t-field="o.name"/>
+                                </h3>
+                            </div>
+                            
+                            <div class="col-xs-12">
+                                <table style="margin-bottom:30px;">
+                                    <thead>
+									    <tr class="active">
+										    <th style="font-weight: bold;">Responsible :</th>
+										    <th style="font-weight: bold;">Customer :</th>
+										    <th style="font-weight: bold;">Email :</th>
+									    </tr>
+								    </thead>
+								
+								    <tbody>
+										<tr>
+                                            <td t-if="o.user_id" style="width: 45%;">
+                                                <span t-field="o.user_id"/>
+                                            </td>
+                                            <td t-if="o.partner_id" style="width: 45%;">
+                                                <span t-field="o.partner_id.name"/>
+                                            </td>
+                                            <td t-if="o.email_from" style="width: 45%;">
+                                                <span t-field="o.email_from"/>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                            <div class="col-xs-12">
+                                <table style="margin-bottom:30px;">
+                                    <thead>
+									    <tr class="active">
+										    <th style="font-weight: bold;">Company :</th>
+										    <th style="font-weight: bold;">Phone :</th>
+										    <th style="font-weight: bold;">Create Date :</th>
+										    <th style="font-weight: bold;">Close Date :</th>
+									    </tr>
+								    </thead>
+								
+								    <tbody>
+										<tr>
+                                            <td t-if="o.user_id.company_id.name" style="width: 30%;">
+                                                <span t-field="o.user_id.company_id.name"/>
+                                            </td>
+                                            <td t-if="o.phone" style="width: 30%;">
+                                                <span t-field="o.phone"/>
+                                            </td>
+                                            <td t-if="o.date_create" style="width: 30%;">
+                                                <span t-field="o.date_create"/>
+                                            </td>
+                                            <td t-if="o.date_close" style="width: 30%;">
+                                                <span t-field="o.date_close"/>
+                                            </td>
+                                            
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                            <div class="col-xs-12">
+                                <table width="100%" style="font-size:20;width: 100%; text-align: left; margin-bottom: 3px;line-height: 200%;">
+                                    <tr>
+                                        <td width="20%" style="text-align: left; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black; border-bottom: 1px solid black; padding: 2px;">
+                                            <span style="margin-left: 5px;">Support Team</span>
+                                        </td>
+                                        <td width="80%" style="text-align: left; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black; border-bottom: 1px solid black; padding: 2px;">
+                                            <span style="margin-left: 5px;" t-field="o.support_team_id.team_id.name"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="20%" style="text-align: left; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black; border-bottom: 1px solid black; padding: 2px;">
+                                            <span style="margin-left: 5px;">Category</span>
+                                        </td>
+                                        <td width="80%" style="text-align: left; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black; border-bottom: 1px solid black; padding: 2px;">
+                                            <span style="margin-left: 5px;"  t-field="o.category.name"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="20%" style="text-align: left; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black; border-bottom: 1px solid black; padding: 2px;">
+                                             <span style="margin-left: 5px;">Priority</span>
+                                        </td>
+                                        <td width="80%" style="text-align: left; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black; border-bottom: 1px solid black; padding: 2px;">
+                                            <span style="margin-left: 5px;" t-field="o.priority"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="20%" style="text-align: left; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black; border-bottom: 1px solid black; padding: 2px;">
+                                            <span style="margin-left: 5px;">Project</span>
+                                        </td>
+                                        <td width="80%" style="text-align: left; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black; border-bottom: 1px solid black; padding: 2px;">
+                                            <span style="margin-left: 5px;" t-field="o.project_id.name"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="20%" style="text-align: left; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black; border-bottom: 1px solid black; padding: 2px;">
+                                            <span style="margin-left: 5px;">Task</span>
+                                        </td>
+                                        <td width="80%" style="border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black; border-bottom: 1px solid black; padding: 2px;">
+                                            <p style="margin-left: 5px;"><span t-field="o.task_ids.name"/></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="20%" style="text-align: left; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black; border-bottom: 1px solid black; padding: 2px;">
+                                            <span style="margin-left: 5px;">Analytic Account</span>
+                                        </td>
+                                        <td width="80%" style="border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black; border-bottom: 1px solid black; padding: 2px;">
+                                            <p style="margin-left: 5px;"><span t-field="o.analytic_id.name"/></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                            <div class="col-xs-12" style="margin-top: 25px;margin-bottom:30px;">
+                                <h3 style="margin-top: 30px; font-weight: bold;">
+                                    <span>Description</span>
+                                </h3>
+                                <span t-field="o.description"/>
+                            </div>
+                            
+                            <h2>Timesheet</h2><br/>
+                            <table class="table table-condensed">
+                                <thead>
+							        <tr>
+								        <th>Name</th>
+								        <th>Analytic Account</th>
+								        <th>Helpdesk Support</th>
+								        <th>Hours</th>
+							        </tr>
+						        </thead>  
+						        <tbody class="project_tbody">
+							    <t t-foreach="o.timesheet_ids" t-as="timesheet">
+							    <tr>
+								    <td>
+									    <span t-field="timesheet.name" />
+								    </td>
+						            <td>
+									    <span t-field="timesheet.name" />
+								    </td>
+								    <td>
+									    <span t-field="timesheet.name" />
+								    </td>
+								    <td>
+									    <span t-field="timesheet.name" />
+								    </td>
+							    </tr>
+							    </t>
+						</tbody>
+                            </table>
+                            
+                        </div>
+                    </t>
+                </div>    
+            </t>
+		</template>
+		
+        <template id="support_ticket_temp_id">
+                <t t-foreach="docs" t-as="o">
+                    <t t-call="bi_website_support_ticket.support_ticket_template_view" t-lang="o.user_id.lang"/>
+                </t>
+        </template>
+        
+		<report id="support_ticket_report_id"
+				string="Support Ticket"
+				model="support.ticket"
+				report_type="qweb-pdf"
+				file="bi_website_support_ticket.support_ticket_temp_id"
+				name="bi_website_support_ticket.support_ticket_temp_id"/>
+		
+	</data>
+</odoo>

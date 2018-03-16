@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+    <record id="view_document_image_kanban" model="ir.ui.view">
+        <field name="name">Hr Document Kanban</field>
+        <field name="model">hr.document.management</field>
+        <field name="arch" type="xml">
+            <kanban>
+                <field name="document" filename="name"/>
+                <field name="name"/>
+                <templates>
+                    <t t-name="kanban-box" style="width:250px;height:250px;">
+                        <div class="oe_kanban_vignette oe_semantic_html_override">
+                            <a t-if="! read_only_mode" type="delete" style="position: absolute; right: 0; padding: 4px; diplay: inline-block">X</a>
+                            <a type="open"><img t-att-src="kanban_image('document.management', 'document', record.id)" style="width:200px;height:200px;" class="oe_kanban_image"/></a>
+                            <div class="oe_kanban_details">
+                                <h4>
+                                    <a type="open">
+                                        <t t-if="record.name">
+                                            <field name="name"/>
+                                        </t>
+                                        <p/>
+                                    </a>
+                                </h4>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+    <record id="view_document_image_form" model="ir.ui.view">
+        <field name="name">HR Document Form</field>
+        <field name="model">hr.document.management</field>
+        <field name="arch" type="xml">
+            <form string="Document Image">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="document" filename="name" colspan="2"/>
+                            <field name="employee_id" colspan="2"/>
+                            <field name="name" colspan="2"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_document_image_tree" model="ir.ui.view">
+        <field name="name">ViewDocumentImageTree</field>
+        <field name="model">hr.document.management</field>
+        <field name="arch" type="xml">
+            <tree string="Documents">
+                <field name="name"/>
+                <field name="employee_id"/>
+                <field name="document" filename="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_document_form_inherit" model="ir.ui.view">
+        <field name="name">Hr Employee</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook" position="inside">
+                <page string="Documents" groups="hr.group_hr_manager">
+                    <field name="doc_ids" mode="kanban" nolabel="1"/>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+   <act_window name="Documents"
+       domain="[('employee_id', '=', active_id)]"
+       context="{'default_employee_id': active_id}"
+       res_model="hr.document.management"
+       view_type="form"
+       view_mode="kanban,form,tree,"
+       src_model="hr.employee"
+       id="act_hr_documents"
+   />
+
+</odoo>
