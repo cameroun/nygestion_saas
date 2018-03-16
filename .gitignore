@@ -1,0 +1,109 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Recipe buildout
+parts/
+bin/
+sandbox/
+etc/
+advanced_attachment/
+anytracker
+standalone-addons/
+dumps/
+openerp/
+server-tools/
+web/
+website-addons/
+website_noodoo/
+knowledge/
+anybox.recipe.odoo/
+community-addons/
+hr/
+partner_contact/
+access_addons/
+reporting_engine/
+
+.vscode/
+account_financial_tools/
+addons_steigend/
+backend_theme/
+oca_server_tools/
+perfomist_addons/backend_theme_v10/
+perfomist_addons/muk_dms/
+perfomist_addons/muk_dms_access/
+perfomist_addons/muk_dms_field/
+perfomist_addons/muk_dms_file/
+perfomist_addons/muk_web_client/
+perfomist_addons/muk_web_client_refresh/
+perfomist_addons/muk_web_preview/
+perfomist_addons/muk_web_preview_image/
+perfomist_addons/muk_web_preview_msoffice/
+perfomist_addons/odoo_web_login/
+perfomist_addons/web_responsive/
+perfomist_addons/x/
+performist_addons_oca/
+performist_addons_rachit/
+x_theme_rachit/
+ecommerce/
+hilarak_addons/
+misc_addons/
+odoo_web_login/
+saas/
+serpentcs_addons/
+testbox/
+website_addons/
