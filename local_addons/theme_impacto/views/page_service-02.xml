@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+<template name="Service 02" id="service-02">
+<t t-call="website.layout">
+<div class="page-wrapper oe_structure">
+  <section class="inner-intro">
+    <div class="container">
+      <div class="row intro-title small-intro">
+        <div class="col-md-12 text-center"><h1 class="title">Service Style 2</h1></div>
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-12 text-center mt-1">
+              <ul class="page-breadcrumb">
+                <li><a href="javascript:void(0)">Home</a></li>
+                <li><span>Service Style 2</span> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="p-0 services-left-right">
+    <div class="container">
+      <div class="row valign no-gutter">
+        <div class="col-md-6">
+          <img class="img-responsive" src="/theme_impacto/static/src/img/service/img-01.jpg" alt="" />
+        </div>
+        <div class="col-md-6" data-valign-overlay="middle">
+          <div class="padding-l-r">
+            <div class="feature icon-position-left mt-3 mb-1">
+              <div class="feature-icon" style="width: 50px">
+                <i class="fa fa-pencil theme-text" style="font-size: 35px" aria-hidden="true"></i>
+              </div>
+              <div class="feature-info" >
+                <h4 class="f-weight-500" style="line-height: 35px" >Design</h4>
+              </div>
+            </div>
+            It is a vital part of developing new products. At every stage of the process.
+            <ul class="list dot mt-2">
+              <li>Web Design</li>
+              <li>UI/UX Design</li>
+              <li>Identity Branding</li>
+              <li>Photography </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row valign no-gutter">
+        <div class="col-md-6 col-md-push-6">
+          <img class="img-responsive" src="/theme_impacto/static/src/img/service/img-02.jpg" alt="" />
+        </div>
+        <div class="col-md-6 col-md-pull-6" data-valign-overlay="middle">
+          <div class="padding-l-r">
+            <div class="feature icon-position-left mt-3 mb-1">
+              <div class="feature-icon" style="width: 50px">
+                <i class="fa fa-laptop theme-text" style="font-size: 35px" aria-hidden="true"></i>
+              </div>
+              <div class="feature-info" >
+                <h4 class="f-weight-500" style="line-height: 35px" >Development</h4>
+              </div>
+            </div>
+            It is a vital part of developing new products. At every stage of the process.
+            <ul class="list dot mt-2">
+              <li>Web Design</li>
+              <li>UI/UX Design</li>
+              <li>Identity Branding</li>
+              <li>Photography </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row valign no-gutter">
+        <div class="col-md-6">
+          <img class="img-responsive" src="/theme_impacto/static/src/img/service/img-03.jpg" alt="" />
+        </div>
+        <div class="col-md-6" data-valign-overlay="middle">
+          <div class="padding-l-r">
+            <div class="feature icon-position-left mt-3 mb-1">
+              <div class="feature-icon text-center" style="width: 50px">
+                <i class="fa fa-mobile theme-text" style="font-size: 35px" aria-hidden="true"></i>
+              </div>
+              <div class="feature-info" >
+                <h4 class="f-weight-500" style="line-height: 35px" >Mobile App</h4>
+              </div>
+            </div>
+            It is a vital part of developing new products. At every stage of the process.
+            <ul class="list dot mt-2">
+              <li>Web Design</li>
+              <li>UI/UX Design</li>
+              <li>Identity Branding</li>
+              <li>Photography </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row valign no-gutter">
+        <div class="col-md-6 col-md-push-6">
+          <img class="img-responsive" src="/theme_impacto/static/src/img/service/img-04.jpg" alt="" />
+        </div>
+        <div class="col-md-6 col-md-pull-6" data-valign-overlay="middle">
+          <div class="padding-l-r">
+            <div class="feature icon-position-left mt-3 mb-1">
+              <div class="feature-icon" style="width: 50px">
+                <i class="fa fa-line-chart theme-text" style="font-size: 35px" aria-hidden="true"></i>
+              </div>
+              <div class="feature-info" >
+                <h4 class="f-weight-500" style="line-height: 35px" >Marketing</h4>
+              </div>
+            </div>
+            It is a vital part of developing new products. At every stage of the process.
+            <ul class="list dot mt-2">
+              <li>Web Design</li>
+              <li>UI/UX Design</li>
+              <li>Identity Branding</li>
+              <li>Photography </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</div>
+</t>
+</template>
+<record id="service-02_record" model="website.page">
+        <field name="url">/page-service-02</field>
+        <field name="website_published">True</field>
+        <field name="view_id" ref="service-02"/>
+</record>
+</odoo>

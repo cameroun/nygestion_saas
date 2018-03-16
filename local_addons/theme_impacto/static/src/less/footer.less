@@ -1,0 +1,97 @@
+
+/*=============================================================*/
+/* Site Footer */
+/*============================================================*/
+.site-footer {color: #969696;}
+.site-footer .footer-top{padding: 50px 0;}
+.site-footer .footer-title{margin-bottom: 25px; letter-spacing: 0px; text-transform: uppercase;}
+.site-footer .about-text{font-size: 14px; line-height: 24px; margin-bottom: 20px;}
+.site-footer .about-text + .social-link{margin-left: -12px;}
+.site-footer .about-text + .social-link.border{margin-left: 0;}
+.site-footer .logo img{margin-bottom: 15px; width: 120px; vertical-align: middle;}
+.site-footer.footer4 .logo img{display: inline;}
+.site-footer h1{font-size: 24px;}
+.site-footer h2{font-size: 22px;}
+.site-footer h3{font-size: 20px;}
+.site-footer h4{font-size: 18px;}
+.site-footer h5{font-size: 16px;}
+.site-footer h6{font-size: 14px;}
+/*------------------------------*/
+/* Footer Social */
+/*------------------------------*/
+.social-link{list-style-type: none; padding: 0; margin: 0; display: inline-block; vertical-align: top;}
+.social-link li {display: inline-block; float: left; padding: 0; margin: 0;}
+.social-link li:last-child { margin-right:0px;}
+.social-link li a{display: inline-block; padding:0; width: 35px; text-align: center; color: #969696;}
+.social-link li a:hover{color: @as-theme; }
+
+/* Social Border */
+.social-link.border li{margin-right: 4px;}
+.social-link.border li a{display: inline-block; padding:0; width: 32px; height: 32px; line-height: 32px; border: 1px solid #cccccc; text-align: center; color: #969696; border-radius: 2px;}
+.social-link.border li a:hover{border-color: @as-theme; color: @as-theme;}
+
+
+
+/* Social Flat */
+.social-link.flat li{margin-right: 4px;}
+.social-link.flat li a{display: inline-block; padding:0; width: 32px; height: 32px; line-height: 32px; background: #323232; text-align: center; color: #ffffff; border-radius: 2px;}
+.social-link.flat li a:hover{background: @as-theme; color: #ffffff}
+
+/*------------------------------*/
+/* Footer Menu */
+/*------------------------------*/
+.footer-menu{list-style-type: none; padding: 0; margin: 0;}
+.footer-menu li{padding: 0; margin: 8px 0; color: #969696; } 
+.footer-menu li a{color: #969696; font-size: 14px;}
+
+/*------------------------------*/
+/* Footer Contact Info */
+/*------------------------------*/
+.contact-info{list-style-type: none; padding: 0; margin: 0;}
+.contact-info li { font-weight: normal; margin-bottom: 8px; line-height: 24px;}
+.contact-info li:last-child { margin-bottom: 0px; }
+.contact-info li i { display: table-cell; padding-right: 10px;   min-width: 24px; color: @as-theme;}
+.contact-info li span { display: table-cell;}
+
+/*==============================*/
+/* Copyright Section */
+/*==============================*/
+.site-footer .site-info{background: #f5f5f5; padding: 22px 0;}
+
+/* Menu Inline */
+.menu-inline li{display: inline; margin: 0 6px;}
+.menu-inline li:first-child{margin-left: 0px;}
+.menu-inline li:last-child{margin-right: 0px;}
+
+.site-footer.footer2  .site-info{ background: none; border-top: 1px solid #f5f5f5}
+.site-footer hr{margin:25px 0;}
+
+.site-footer .contact-add i{font-size: 30px; margin-bottom: 10px;}
+.site-footer .contact-add {font-size: 13px; margin-top: 40px;}
+.site-footer .contact-add h6{margin-bottom: 5px}
+.site-footer.footer4  .site-info{ background: none; border-top: 1px solid #f5f5f5}
+
+/*------------*/
+.site-footer.dark-bg .site-info {background: #22272b;}
+.site-footer.footer2.dark-bg  .site-info{background: none;}
+.site-footer.footer4.dark-bg  .site-info{background: none;}
+
+/*===========================================================================*/
+/*-------------- Footer Responsive ---------------*/
+/*===========================================================================*/
+.site-footer .footer-logo + .about-text{margin-top: 20px;}
+
+@media (max-width: 992px){
+	.site-footer .footer-title{margin-bottom: 10px;}
+	.site-footer .footer-top .row > [class*="col-md-"]{margin-bottom: 30px;}
+	.site-footer .footer-top .row > [class*="col-md-"]:last-child{margin-bottom: 0;}
+	.site-footer .footer-top .title-hide{display: none;}
+	.site-footer .footer-top .footer-menu li{display: block; padding: 0; margin: 4px 0; text-align: left;}
+	.site-footer .footer-top .footer-social{text-align: left; margin-left: -10px;}
+	.site-footer .site-info .footer-social{text-align: left; margin-top: 10px; margin-left: -10px;}
+	
+}
+@media (max-width: 767px){
+	.site-footer .site-info .footer-menu{text-align: left;}
+	.site-footer .site-info .footer-menu .link{padding: 0; margin: 0; margin-top: 5px;}
+}

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  
+        <template id="custom_navbar" name="Custom Header" customize_show="True" inherit_id="website.layout">
+            <xpath expr="//header" position="replace">
+                <header id="menu_odoo" style="display:none;">
+                    <div class="navbar navbar-default navbar-static-top">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                        data-target=".navbar-top-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="/" t-if="website" t-field="website.name">My Website</a>
+                            </div>
+                            <div class="collapse navbar-collapse navbar-top-collapse">
+                                <ul class="nav navbar-nav navbar-right" id="top_menu">
+                                    <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                        <t t-call="website.submenu"/>
+                                    </t>
+                                    <li class="divider" t-ignore="true" t-if="website.user_id != user_id"/>
+                                    <li class="dropdown" t-ignore="true" t-if="website.user_id != user_id">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            <b>
+                                                <span t-esc="(len(user_id.name)&gt;25) and (user_id.name[:23]+'...') or user_id.name"/>
+                                                <span class="caret"></span>
+                                            </b>
+                                        </a>
+                                        <ul class="dropdown-menu js_usermenu" role="menu">
+                                            <li id="o_logout">
+                                                <a t-attf-href="/web/session/logout?redirect=/" role="menuitem">Logout
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+               <!-- Start Navigation -->
+                <header class="header fixed clearfix">                    
+                   <div class="header-container container">
+                      <div class="header-top-panel">
+                        <div class="row">
+                           <div class="col-sm-12">
+                            <div class="info-panel">
+                              <ul class="list-inline">
+                                 <li t-ignore="true" >
+                                     <i class="fa fa-phone"></i>
+                                    <span t-field="res_company.phone"></span>
+                                </li>
+                                <li t-ignore="true">
+                                    <i class="fa fa-envelope"></i>
+                                    <span t-field="res_company.email"></span>
+                                </li>                                
+                                </ul>
+                            </div>
+                            <div class="login-header">
+                              <ul class="list-inline">
+                               <li><a href="/web/login" t-if="not(website.user_id != user_id)"><i class="fa fa-key"></i> Login</a></li>
+                              <li><a href="/my/home" t-if="website.user_id != user_id"><i class="fa fa-user"></i> My Account</a></li>
+                              <li><a t-attf-href="/web/session/logout?redirect=/" t-if="website.user_id != user_id"><i class="fa fa-sign-out"></i> Logout</a></li>
+                               </ul>
+                             </div>
+                              <div class="social-icons small color-hover">
+                                 <ul class="social-links clearfix hidden-xs">
+                                  <li class="facebook" t-if="website.social_facebook">
+                                     <a t-att-href="website.social_facebook" >
+                                        <i class="fa fa-facebook-square"/>
+                                    </a>
+                                  </li>
+                                   <li class="twitter"  t-if="website.social_twitter">
+                                    <a t-att-href="website.social_twitter">
+                                        <i class="fa fa-twitter"/>
+                                    </a>
+                                  </li>
+                                  <li class="linkedin" t-if="website.social_linkedin">
+                                    <a t-att-href="website.social_linkedin" >
+                                        <i class="fa fa-linkedin"/>
+                                    </a>
+                                  </li>
+                                  <li class="youtube" t-if="website.social_youtube">
+                                    <a t-att-href="website.social_youtube">
+                                        <i class="fa fa-youtube-play"/>
+                                    </a>
+                                  </li>
+                                  <li class="googleplus" t-if="website.social_googleplus">
+                                    <a t-att-href="website.social_googleplus" 
+                                       rel="publisher">
+                                        <i class="fa fa-google-plus-square"/>
+                                    </a>
+                                  </li>
+                                 </ul>
+                              </div>
+                           </div>
+                       </div>
+                    </div>
+
+                    <div class="header-wrap">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <div class="header-logos">
+                              <a class="logo" href="/">
+                                        <span itemprop="image" t-field="res_company.logo"
+                                              t-field-options='{"widget": "image","class":"logo_img"}'/>
+                                    </a>
+                           </div>
+                           <div class="header-buttons">
+                                 <div class="header-top-dropdown">                                    
+                                    <a href="#search-but"><i class="fa fa-search"></i></a>  
+                                    <div class="hm-search-box" id="search-box">
+                                      <form action='/shop' method="get">
+                                        <input type="text" name="search" placeholder="Search" class="search-input" t-att-value="search"/>
+                                        <button class="btn btn-default">Search <i class="fa fa-search"></i></button>
+                                         <button type="button" class="close">×</button>
+                                      </form>
+                                    </div>
+                                    <div class="btn-group dropdown">
+                                            <t t-set="website_sale_order" t-value="website.sale_get_order()"/>
+
+                                            <button type="button" class="dropdown-toggle" data-toggle="dropdown">
+                                                <i class="fa fa-shopping-cart"></i>
+                                                <span t-if="website_sale_order and website_sale_order.cart_quantity and website_sale_order.cart_quantity &gt; 0"
+                                                      class="my_cart_quantity label label-primary">
+                                                    <t t-esc="website_sale_order and website_sale_order.cart_quantity"></t>
+                                                </span>
+                                            </button>
+
+                                            <ul class="dropdown-menu dropdown-menu-right dropdown-animation cart"
+                                                id="shop-cart">
+                                                <li><t t-call="website_sale.cart_popover"/></li>
+                                            </ul>
+                                        </div>
+                                        <a  href="/web/login" t-if="not(website.user_id != user_id)"><i class="fa fa-key"></i></a>
+                                        <a   t-attf-href="/web/session/logout?redirect=/" t-if="website.user_id != user_id"><i class="fa fa-sign-out"></i></a>
+                                 </div>
+                              </div>
+                              <nav class="navbar navbar-default" role="navigation">
+                                            <div class="container-fluid">
+                                                <div class="navbar-header">
+                                                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                                            data-target="#navbar-collapse-1">
+                                                        <span class="sr-only">Toggle navigation</span>
+                                                        <span class="icon-bar"></span>
+                                                        <span class="icon-bar"></span>
+                                                        <span class="icon-bar"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                                                    <ul class="nav navbar-nav navbar-right">
+                                                        <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                                            <t t-call="website.submenu"/>
+                                                        </t>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </nav>
+
+                          </div>
+                        </div> 
+                     </div> 
+                </div>
+                </header>
+            </xpath>
+        </template>
+   
+</odoo>

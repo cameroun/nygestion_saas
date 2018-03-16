@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+<template name="Home Gym" id="home-gym" >
+<t t-call="website.layout">
+<div class="page-wrapper oe_structure">
+  <section class="as-animated-slider">
+    <div id="carousel-1" class="carousel slide banner" data-ride="carousel" data-arrow="none">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-1" data-slide-to="1"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div class="slide-item" style="background-image: url(/theme_impacto/static/src/img/gym/banner-01.jpg);">
+            <div class="slider-text">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 col-md-offset-3 text-center">
+                    <h3 class="text-uppercase white-text l-space-4 mb-0">Decide</h3>
+                    <h1 class="theme-text title-extra-large l-space-7 mb-0">Practice</h1>
+                    <h2 class="white-text title-medium">Succeed</h2>
+                    <p class="mt-4">Those who do not find time for exercise will have to find time for illness. We build unique and beautiful website.</p>
+                    <a href="#" class="btn btn-default btn-sm white">BECOME A MEMBER</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="slide-item" style="background-image: url(/theme_impacto/static/src/img/gym/banner-02.jpg);">
+            <div class="slider-text">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 col-md-offset-3 text-center">
+                    <h3 class="text-uppercase white-text l-space-4 mb-0">Decide</h3>
+                    <h1 class="theme-text title-extra-large l-space-7 mb-0">Practice</h1>
+                    <h2 class="white-text title-medium">Succeed</h2>
+                    <p class="mt-4">Those who do not find time for exercise will have to find time for illness. We build unique and beautiful website.</p>
+                    <a href="#" class="btn btn-default btn-sm white">BECOME A MEMBER</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-md" style="background-image: url('/theme_impacto/static/src/img/gym/bg-01.jpg'); background-size: cover; padding-bottom: 150px; ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="heading-block">
+            <div class="sub-heading">GET TO KNOW US</div>
+            <h2>A FEW WORDS ABOUT US</h2>
+          </div>
+          <p class="lead">We make websites are the number one ranked design and marketing team. We build unique and beautiful websites that will make you more successful.</p>
+          <ul class="list round mt-2 mb-3">
+            <li>We provide free initial consultation and support.</li>
+            <li>We work with some of the most successful businesses.</li>
+            <li>We work with some of the most successful businesses.</li>
+          </ul>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="feature icon-position-left icon-bg theme-feature">
+                <div class="feature-icon theme-text"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+                <div class="feature-info">
+                  <h5 class="title">Our Classes</h5>
+                  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="feature icon-position-left icon-bg theme-feature">
+                <div class="feature-icon theme-text"><i class="fa fa-users" aria-hidden="true"></i></div>
+                <div class="feature-info">
+                  <h5 class="title">Our Trainers</h5>
+                  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots</p>
+                </div>
+              </div>
+            </div>
+          </div>         
+          <div class="row" style="margin-top: 20px;">
+            <div class="col-md-6">
+              <div class="feature icon-position-left icon-bg theme-feature">
+                <div class="feature-icon theme-text"><i class="fa fa-sticky-note" aria-hidden="true"></i></div>
+                <div class="feature-info">
+                  <h5 class="title">Memberships</h5>
+                  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="feature icon-position-left icon-bg theme-feature">
+                <div class="feature-icon theme-text"><i class="fa fa-calendar-check-o" aria-hidden="true"></i></div>
+                <div class="feature-info">
+                  <h5 class="title">Our Timeline</h5>
+                  <p>LContrary to popular belief, Lorem Ipsum is not simply random text. It has roots</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-md" style="background-image: url('/theme_impacto/static/src/img/gym/bg-02.jpg'); background-size: cover; ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+          <div class="heading-block white-text">
+            <div class="sub-heading theme-text">OUR CLASSES</div>
+            <h2>LIMITLESS POSSIBILITIES CREATE</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row mt-4">
+        <div class="col-md-3">
+          <div class="photobox">
+            <div class="photobox-img">
+              <img src="/theme_impacto/static/src/img/gym/img-01.jpg" class="img-responsive" alt="" />
+            </div>
+            <div class="photobox-content pxy-2 text-center">
+              <h4>Strength training</h4>
+              <span class="theme-text">Every Mon, 07:00 AM to 08:00 AM</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="photobox">
+            <div class="photobox-img">
+              <img src="/theme_impacto/static/src/img/gym/img-02.jpg" class="img-responsive" alt="" />
+            </div>
+            <div class="photobox-content pxy-2 text-center">
+              <h4>Power yoga</h4>
+              <span class="theme-text">Every Mon, 07:00 AM to 08:00 AM</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="photobox">
+            <div class="photobox-img">
+              <img src="/theme_impacto/static/src/img/gym/img-03.jpg" class="img-responsive" alt="" />
+            </div>
+            <div class="photobox-content pxy-2 text-center">
+              <h4>Boxing workout</h4>
+              <span class="theme-text">Every Mon, 07:00 AM to 08:00 AM</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="photobox">
+            <div class="photobox-img">
+              <img src="/theme_impacto/static/src/img/gym/img-04.jpg" class="img-responsive" alt="" />
+            </div>
+            <div class="photobox-content pxy-2 text-center">
+              <h4>Pilates fitness</h4>
+              <span class="theme-text">Every Mon, 07:00 AM to 08:00 AM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-md">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2  text-center">
+          <div class="heading-block">
+            <div class="sub-heading">Team</div>
+            <h2>Our Creative Staff</h2>
+          </div>
+          <p class="mb-2 lead">We work to make your business start effectively working for you. Meet the financial and marketing specialists. These guys create a magic.</p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="team">
+            <div class="member-image clearfix">
+              <img class="img-responsive" src="/theme_impacto/static/src/img/gym/team-01.jpg" alt="" />
+            </div>
+            <div class="team-info text-center">
+              <h4 class="member-name">Antonio Creighton</h4>
+              <h6 class="member-position">Fitness Trainer</h6>
+              <div class="social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="team">
+            <div class="member-image clearfix">
+              <img class="img-responsive" src="/theme_impacto/static/src/img/gym/team-02.jpg" alt="" />
+            </div>
+            <div class="team-info text-center">
+              <h4 class="member-name">Antonio Creighton</h4>
+              <h6 class="member-position">Fitness Trainer</h6>
+              <div class="social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="team">
+            <div class="member-image clearfix">
+              <img class="img-responsive" src="/theme_impacto/static/src/img/gym/team-03.jpg" alt="" />
+            </div>
+            <div class="team-info text-center">
+              <h4 class="member-name">Antonio Creighton</h4>
+              <h6 class="member-position">Fitness Trainer</h6>
+              <div class="social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-md dark-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2  text-center">
+          <div class="heading-block">
+            <div class="sub-heading">Time Table</div>
+            <h2>Our Gym Schedule</h2>
+          </div>
+          <p class="mb-2 lead">Praesent ut ante congue, volutpat urna at, lacinia quam. Nulla non massa eget ante gravida tincidunt non eu quam. Proin in varius leo placerat mi vulputate suscipit</p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-12">
+          <div class="table-responsive">
+            <table class="table table-dark table-striped white-text">
+              <thead class="theme-bg">
+                <tr>
+                  <th></th>
+                  <th>Monday</th>
+                  <th>Tuesday</th>
+                  <th>Wednesday</th>
+                  <th>Thursday</th>
+                  <th>Friday</th>
+                  <th>Saturday</th>
+                  <th>Sunday</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>Yoga</th>
+                  <td>07:00 - 08:00</td>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                  <td>15:00 - 17:00</td>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                  <td>09:00 - 11:00</td>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Pilates</th>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                  <td>08:00 - 10:00</td>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                  <td>13:00 - 15:00</td>
+                  <td>10:00 - 12:00</td>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Crossfit</th>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                  <td>07:00 - 08:00</td>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                  <td>17:00 - 18:30</td>
+                  <td>11:00 - 13:00</td>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                  <td>11:00 - 13:00</td>
+                </tr>
+                <tr>
+                  <th>Cardio</th>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                  <td>07:00 - 08:00</td>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                  <td>15:00 - 17:00</td>
+                  <td>09:00 - 11:00</td>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Zumba</th>
+                  <td>06:00 - 09:00</td>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                  <td>11:00 - 14:00</td>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                  <td>07:00 - 08:00</td>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                  <td>09:00 - 12:00</td>
+                </tr>
+                <tr>
+                  <th>Boxing</th>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                  <td>07:00 - 08:00</td>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                  <td>15:00 - 17:00</td>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                  <td>09:00 - 11:00</td>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Straching</th>
+                  <td>11:00 - 14:00</td>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                  <td>16:00 - 19:00</td>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                  <td>10:00 - 12:00</td>
+                  <td>
+                    <i class="fa fa-minus"></i>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-md">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2  text-center">
+          <div class="heading-block">
+            <div class="sub-heading">OUR Product</div>
+            <h2>What We Focus On</h2>
+          </div>
+          <p class="mb-2 lead">We work to make your business start effectively working for you. Meet the financial and marketing specialists. These guys create a magic.</p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="feature text-center px-1">
+            <div class="feature-icon">
+              <img src="/theme_impacto/static/src/img/restaurant/icn-01.png" alt="" />
+            </div>
+            <div class="feature-info">
+              <h5 class="title theme-text">Organic grocery</h5>
+              <p>Sed faucibus odio dui, eget bibendum augue porta eu. Nulla facilisi. Sed pellentesque viverra metus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature text-center px-1">
+            <div class="feature-icon">
+              <img src="/theme_impacto/static/src/img/restaurant/icn-02.png" alt="" />
+            </div>
+            <div class="feature-info">
+              <h5 class="title theme-text">Private winery</h5>
+              <p>Sed faucibus odio dui, eget bibendum augue porta eu. Nulla facilisi. Sed pellentesque viverra metus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature text-center px-1">
+            <div class="feature-icon">
+              <img src="/theme_impacto/static/src/img/restaurant/icn-03.png" alt="" />
+            </div>
+            <div class="feature-info">
+              <h5 class="title theme-text">Classic recipes</h5>
+              <p>Sed faucibus odio dui, eget bibendum augue porta eu. Nulla facilisi. Sed pellentesque viverra metus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="dark-bg section-lg" style="background: url('/theme_impacto/static/src/img/gym/bg-03.jpg') no-repeat 0 0; background-size: cover;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 text-right col-md-offset-4">
+          <h2>FITNESS CLASSES THIS SUMMER.</h2>
+          <h3 class="f-weight-300">PAY NOW AND GET <span class="theme-text">35% DISCOUNT</span></h3>
+          <a href="#" class="btn btn-default btn-sm btn-outline white">BECOME A MEMBER</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+  $(window.document).ready(function(){
+    $("body").addClass("home-gym");
+  });
+</script>
+</div>
+</t>
+</template>
+<record id="home-gym_record" model="website.page">
+        <field name="url">/home-gym</field>
+        <field name="website_published">True</field>
+        <field name="view_id" ref="home-gym"/>
+</record>
+</odoo>

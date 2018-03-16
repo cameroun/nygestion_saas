@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+<template name="Home Restaurant" id="home-restaurant">
+<t t-call="website.layout">
+<div class="page-wrapper oe_structure">
+            <section class="as-animated-slider">
+              <div id="carousel-1" class="carousel slide indicators-right banner" data-ride="carousel" data-arrow="none">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-1" data-slide-to="1" ></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <div class="slide-item" style="background-image: url(/theme_impacto/static/src/img/restaurant/banner-01.jpg);">
+                      <div class="slider-text">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-10 col-md-offset-1 text-center">
+                              <div class="sub-heading white-text">Lorem ipsum dolor sit amet consectetur</div>
+                              <h1 class="white-text title-medium"><span class="theme-text title-medium">Make People Happy</span><br/>
+                              Have Some Fun and Be Number 1!</h1>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="slide-item" style="background-image: url(/theme_impacto/static/src/img/restaurant/banner-02.jpg);">
+                      <div class="slider-text">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-10 col-md-offset-1 text-center">
+                              <div class="sub-heading white-text">Lorem ipsum dolor sit amet consectetur</div>
+                              <h1 class="white-text title-medium"><span class="theme-text">Make People Happy</span><br/>
+                              Have Some Fun and Be Number 1!</h1>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-1" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                <a class="right carousel-control" href="#carousel-1" data-slide="next"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </section>
+            <section class="section-md pb-0">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="heading-block">
+                      <div class="sub-heading">About us</div>
+                      <h2>We Are The Best Quality And<br/>Traditional Restaurant</h2>
+                    </div>
+                    <p class="lead">We make websites are the number one ranked design and marketing team. We build unique and beautiful websites that will make you more successful.</p>
+                    <ul class="list round mt-2">
+                      <li>We provide free initial consultation and support.</li>
+                      <li>We work with some of the most successful businesses.</li>
+                      <li>We work with some of the most successful businesses.</li>
+                    </ul>
+                    <div class="row mt-4">
+                      <div class="col-md-6">
+                        <div class="feature icon-position-left">
+                          <div class="feature-icon theme-text"><i class="fa fa-coffee" aria-hidden="true"></i></div>
+                          <div class="feature-info">
+                            <h5 class="title">Our Mission</h5>
+                            <p>Lorem ipsum dolor sit amet,consectetur
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="feature icon-position-left">
+                          <div class="feature-icon theme-text"><i class="fa fa-beer" aria-hidden="true"></i></div>
+                          <div class="feature-info">
+                            <h5 class="title">our Vision</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <img class="img-responsive" src="/theme_impacto/static/src/img/restaurant/img-01.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="section-md dark-bg pos-r" style="background-image: url('/theme_impacto/static/src/img/restaurant/bg-01.jpg'); background-size: cover; padding-bottom: 150px; ">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2 text-center">
+                    <div class="heading-block">
+                      <div class="sub-heading">Maecenas pellentesque risus</div>
+                      <h2>Enjoy restaurant’s specialties</h2>
+                    </div>
+                    <p>We are creative and interactive business agency, we make creative projects. View some of the most successful projects. Passion, ideas, and ambition.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="p-0 grey-bg">
+              <div class="container box-top white-bg">
+                <div class="row row-eq-height ">
+                  <div class="col-md-3 bg-image" style="background-image: url('/theme_impacto/static/src/img/restaurant/img-1.jpg'); background-size: cover;" >
+                  </div>
+                  <div class="col-md-3 text-center">
+                    <div class="py-4 px-1">
+                      <h4>spaghetti</h4>
+                      <p>Fusce a tellus tellus. Praesent neque arcu, efficitur sit amet libero vulputate, dignissim.</p>
+                      <h5 class="lead theme-text mb-0 ">$16,45</h5>
+                    </div>
+                  </div>
+                  <div class="col-md-3 bg-image" style="background-image: url('/theme_impacto/static/src/img/restaurant/img-2.jpg'); background-size: cover;" >
+                  </div>
+                  <div class="col-md-3 text-center">
+                    <div class="py-4 px-1">
+                      <h4>proscuitto</h4>
+                      <p>Fusce a tellus tellus. Praesent neque arcu, efficitur sit amet libero vulputate, dignissim.</p>
+                      <h5 class="lead theme-text mb-0 ">$19,95</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="row row-eq-height ">
+                  <div class="col-md-3 bg-image col-md-push-3" style="background-image: url('/theme_impacto/static/src/img/restaurant/img-3.jpg'); background-size: cover;" >
+                  </div>
+                  <div class="col-md-3 text-center col-md-pull-3">
+                    <div class="py-4 px-1">
+                      <h4>spaghetti</h4>
+                      <p>Fusce a tellus tellus. Praesent neque arcu, efficitur sit amet libero vulputate, dignissim.</p>
+                      <h5 class="lead theme-text mb-0 ">$16,45</h5>
+                    </div>
+                  </div>
+                  
+                  <div class="col-md-3 bg-image col-md-push-3" style="background-image: url('/theme_impacto/static/src/img/restaurant/img-1.jpg'); background-size: cover;" >
+                  </div>
+                  <div class="col-md-3 text-center col-md-pull-3">
+                    <div class="py-4 px-1">
+                      <h4>proscuitto</h4>
+                      <p>Fusce a tellus tellus. Praesent neque arcu, efficitur sit amet libero vulputate, dignissim.</p>
+                      <h5 class="lead theme-text mb-0 ">$19,95</h5>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </section>
+            <section class="section-md grey-bg">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 text-center col-md-offset-2">
+                    <div class="heading-block">
+                      <div class="sub-heading">OUR MENU</div>
+                      <h2>Tasty And Good Price</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-md-6">
+                    <div class="menu-list ">
+                      <div class="item-left">
+                        <h5 class="title">Pine nut sbrisalona</h5>
+                        <div class="des">Layered with two fried eggs, roasted tomatoes, basil</div>
+                      </div>
+                      <div class="item-right theme-text">$25.0</div>
+                    </div>
+                    <div class="menu-list ">
+                      <div class="item-left">
+                        <h5 class="title">Lobster caponata</h5>
+                        <div class="des">Layered with two fried eggs, roasted tomatoes, basil</div>
+                      </div>
+                      <div class="item-right theme-text">$15.0</div>
+                    </div>
+                    <div class="menu-list ">
+                      <div class="item-left">
+                        <h5 class="title">Chocolate budino</h5>
+                        <div class="des">Layered with two fried eggs, roasted tomatoes, basil</div>
+                      </div>
+                      <div class="item-right theme-text">$10.0</div>
+                    </div>
+                    <div class="menu-list ">
+                      <div class="item-left">
+                        <h5 class="title">Charred octopus</h5>
+                        <div class="des">Layered with two fried eggs, roasted tomatoes, basil</div>
+                      </div>
+                      <div class="item-right theme-text">$30.0</div>
+                    </div>
+                    <div class="menu-list ">
+                      <div class="item-left">
+                        <h5 class="title">Fried Egg Sandwich</h5>
+                        <div class="des">Layered with two fried eggs, roasted tomatoes, basil</div>
+                      </div>
+                      <div class="item-right theme-text">$25.0</div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="menu-list ">
+                      <div class="item-left">
+                        <h5 class="title">Fried Egg Sandwich</h5>
+                        <div class="des">Layered with two fried eggs, roasted tomatoes, basil</div>
+                      </div>
+                      <div class="item-right theme-text">$22.0</div>
+                    </div>
+                    <div class="menu-list ">
+                      <div class="item-left">
+                        <h5 class="title">Potato gnocchi</h5>
+                        <div class="des">Layered with two fried eggs, roasted tomatoes, basil</div>
+                      </div>
+                      <div class="item-right theme-text">$25.0</div>
+                    </div>
+                    <div class="menu-list ">
+                      <div class="item-left">
+                        <h5 class="title">Pork ribollita</h5>
+                        <div class="des">Layered with two fried eggs, roasted tomatoes, basil</div>
+                      </div>
+                      <div class="item-right theme-text">$15.0</div>
+                    </div>
+                    <div class="menu-list ">
+                      <div class="item-left">
+                        <h5 class="title">Livorno style caccuchino</h5>
+                        <div class="des">Layered with two fried eggs, roasted tomatoes, basil</div>
+                      </div>
+                      <div class="item-right theme-text">$10.0</div>
+                    </div>
+                    <div class="menu-list ">
+                      <div class="item-left">
+                        <h5 class="title">Baulletti</h5>
+                        <div class="des">Layered with two fried eggs, roasted tomatoes, basil</div>
+                      </div>
+                      <div class="item-right theme-text">$25.0</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="section-md">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2  text-center">
+                    <div class="heading-block">
+                      <div class="sub-heading">OUR SERVICE</div>
+                      <h2>What We Focus On</h2>
+                    </div>
+                    <p class="mb-2 lead">We work to make your business start effectively working for you. Meet the financial and marketing specialists. These guys create a magic.</p>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-md-4">
+                    <div class="feature text-center px-1">
+                      <div class="feature-icon">
+                        <img src="/theme_impacto/static/src/img/restaurant/icn-01.png" alt="" />
+                      </div>
+                      <div class="feature-info">
+                        <h5 class="title theme-text">Organic grocery</h5>
+                        <p>Sed faucibus odio dui, eget bibendum augue porta eu. Nulla facilisi. Sed pellentesque viverra metus.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="feature text-center px-1">
+                      <div class="feature-icon">
+                        <img src="/theme_impacto/static/src/img/restaurant/icn-02.png" alt="" />
+                      </div>
+                      <div class="feature-info">
+                        <h5 class="title theme-text">Private winery</h5>
+                        <p>Sed faucibus odio dui, eget bibendum augue porta eu. Nulla facilisi. Sed pellentesque viverra metus.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="feature text-center px-1">
+                      <div class="feature-icon">
+                        <img src="/theme_impacto/static/src/img/restaurant/icn-03.png" alt="" />
+                      </div>
+                      <div class="feature-info">
+                        <h5 class="title theme-text">Classic recipes</h5>
+                        <p>Sed faucibus odio dui, eget bibendum augue porta eu. Nulla facilisi. Sed pellentesque viverra metus.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="section-lg dark-bg" style="background-image: url('/theme_impacto/static/src/img/restaurant/bg-01.jpg'); background-size: cover;  ">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="heading-block">
+                      <div class="sub-heading">Team</div>
+                      <h2>Why Choose Us?</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <p class="mb-2 lead">We design, build and support websites and apps for clients worldwide. We make your business stand out. Interested? Let's chat.</p>
+                    <a href="#" class="btn btn-default btn-sm btn-outline white mb-2">Read More <i class="fa fa-arrow-circle-right"></i></a>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-md-6 mb-2">
+                        <div class="counter brd-style text-center">
+                          <div class="counter-info ">
+                            <span class="timer" data-to="700" data-speed="1000">700</span>
+                            <label>Hours Of Work</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="counter brd-style text-center">
+                          <div class="counter-info">
+                            <span class="timer" data-to="250" data-speed="1000">250</span>
+                            <label>Awords Wininng</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="pb-0 pt-1">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="col-md-12">
+                      <div id="team-carousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                          <li data-target="#team-carousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#team-carousel" data-slide-to="1" class=""></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                          <div class="item active">
+                            <div class="row valign">
+                              <div class="col-md-4 col-md-offset-1" data-valign-overlay="middle">
+                                <img class="img-responsive" src="/theme_impacto/static/src/img/restaurant/img-01.png" alt="" />
+                              </div>
+                              <div class="col-md-6" data-valign-overlay="middle">
+                                <div class="testimonials" style="margin-bottom: 20px;">
+                                  <i class="fa fa-quote-left round" aria-hidden="true"></i>
+                                  <h3>There are a lot of great things</h3>
+                                  <div class="author-description">"The countries Vokalia and Consonantia,there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics,a large language ocean."</div>
+                                  <span class="author-name">- John Doe </span>
+                                  <label>Company CEO</label>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="row valign">
+                              <div class="col-md-4 col-md-offset-1" data-valign-overlay="middle">
+                                <img class="img-responsive" src="/theme_impacto/static/src/img/restaurant/img-01.png" alt="" />
+                              </div>
+                              <div class="col-md-6" data-valign-overlay="middle">
+                                <div class="testimonials" style="margin-bottom: 20px;">
+                                  <i class="fa fa-quote-left round" aria-hidden="true"></i>
+                                  <h3>There are a lot of great things</h3>
+                                  <div class="author-description">"The countries Vokalia and Consonantia,there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics,a large language ocean."</div>
+                                  <span class="author-name">- John Doe </span>
+                                  <label>Company CEO</label>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <script>
+  $(window.document).ready(function(){
+    $("body").addClass("home-restaurant");
+  });
+</script>
+          </div>
+</t>
+</template>
+<record id="home-restaurant_record" model="website.page">
+        <field name="url">/home-restaurant</field>
+        <field name="website_published">True</field>
+        <field name="view_id" ref="home-restaurant"/>
+</record>
+</odoo>

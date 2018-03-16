@@ -1,0 +1,72 @@
+@media screen and (min-width: 1200px){
+	body header .header-container.container .row{margin: 0 auto; width: 1170px;}
+	body header .header-top-panel .row > div{padding-left: 0; padding-right: 0;}
+	body header .header-wrap{width: 1170px; margin: 0 auto;}
+	body header .header-buttons{border: none}
+}
+body header .info-panel{padding-right: 0;}
+body header .login-header{border-left: none; padding-left: 0;}
+body header .header-logos{float: none; text-align: center;}
+body header .header-logos img{display: inline;}
+body header .navbar-default .container-fluid,.navbar-default .navbar-collapse{padding: 0}
+body header .header-buttons{padding-bottom: 0}
+body header{position: relative;}
+body header:before{content: " "; position: absolute; left: 0; bottom: 0; width: 100%; height: 60px; border-top: 1px solid #e7e7e7;  }
+
+body header .header-wrap {    background: transparent;    position: relative;    text-align: center;}
+body header .navbar-default {    float: none;    display: inline-block;    clear: both;}
+body header .header-buttons {    padding-bottom: 0;    float: none;    position: absolute;   right: 0;    top: 5px;}
+body header .header-top-panel {     position: relative;     height: 5px;     border: none;}
+body header .header-top-panel .info-panel{position: absolute; bottom: -60px; z-index: 5}
+body header .login-header,body header .social-icons{display: none;}
+body header .header-buttons button, 
+body header .header-buttons a,
+body header.header .info-panel a i, 
+body .header-top-panel .info-panel li i{display: inline-block;    width: 40px;    height: 40px;    line-height: 40px;    text-align: center;    border: 1px solid #e6e6e6;    margin-left: 5px;    -webkit-border-radius: 50%;    -moz-border-radius: 50%;    border-radius: 50%;    padding: 0;}
+body header.header .info-panel li span{margin-left: 10px;}
+body header.header .info-panel a i{margin-right: 10px;}
+body header .header-buttons .sec-login{display: block;}
+
+/*===========================================================================*/
+/*-------------- Header Responsive ---------------*/
+/*===========================================================================*/
+@media (max-width: 992px){
+    body header .navbar-default .navbar-nav > li > a{padding: 15px 10px;}
+    body header .header-top-panel .info-panel li{padding: 0;}
+    body header .header-top-panel .info-panel li > a{font-size: 0;}
+    body header .header-top-panel .info-panel li > a i{font-size: 12px;}
+    body header .header-buttons{right: 15px;}
+}
+
+@media (max-width: 767px){  	
+  	
+  	body header .header-top-panel .info-panel{position: absolute; bottom: -55px; z-index: 5; right: 15px;}
+  	body header .header-buttons {left: 15px; right: auto; top: 70px; padding: 0; border: none;}
+  	body header .header-logos {float: left; text-align: left;}
+
+  	body header .navbar-default{width: 100%; padding: 0;}
+  	body header .navbar-default .navbar-toggle{border-radius: 0;}
+  	body header .navbar-default .navbar-collapse{padding: 0; margin: 0; position: absolute; left: 0; width: 100%; text-align: left; background: #ffffff; -webkit-box-shadow: 0 10px 15px rgba(0,0,0,0.1); -ms-box-shadow: 0 10px 15px rgba(0,0,0,0.1); box-shadow: 0 10px 15px rgba(0,0,0,0.1); z-index: 999;}
+  	body header .navbar-default .navbar-nav{padding: 5px 15px;}
+  	body header .navbar-default .navbar-nav > li{border-bottom: 1px solid #e8e8e8;}
+  	body header .navbar-default .navbar-nav > li:last-child{border-bottom: none;}
+  	body header .navbar-default .navbar-nav > li > a{padding: 10px 0px; position: relative;}
+  	body header .navbar-default .navbar-nav > li > a .caret{position: absolute; right: 3px; top: 18px;}
+
+  	body header .navbar-default .navbar-nav > .open > a, 
+  	body header .navbar-default .navbar-nav > .open > a:focus, 
+  	body header .navbar-default .navbar-nav > .open > a:hover,
+  	body header .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  	body header .navbar-default .navbar-nav .dropdown-menu > li.active > a{background: none;}
+
+  	body header .navbar-default .navbar-nav .dropdown-menu{padding: 5px 15px; background: rgba(0,0,0,0.02);}
+  	body header .navbar-default .navbar-nav .dropdown-menu > li{border-bottom: 1px solid #e8e8e8;}
+  	body header .navbar-default .navbar-nav .dropdown-menu > li:last-child{border-bottom: none;}
+  	body header .navbar-default .navbar-nav .dropdown-menu > li > a{padding: 8px 0px;}
+
+}
+
+@media (max-width: 479px){
+  	body .header-logos img {height: 30px;}
+    body header.header .info-panel li span{display: none;}
+}

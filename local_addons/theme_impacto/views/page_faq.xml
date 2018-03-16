@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+<template name="FAQ" id="faq">
+<t t-call="website.layout">
+<div class="page-wrapper oe_structure">
+	<section class="inner-intro small-intro grey-bg">
+		<div class="container">
+			<div class="row intro-title">
+				<div class="col-md-12"><h2 class="title">Frequently Asked Questions</h2></div>
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-12 mt-1">
+							<ul class="page-breadcrumb">
+								<li><a href="javascript:void(0)">Home</a></li>
+								<li><span>Faq</span> </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section-md">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="heading-block text-center">
+						<div class="sub-heading">FAQ</div>
+						<h2 class="title">General Terms and Conditions </h2>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-2">
+				<div class="col-md-12">
+					<div class="panel-group accordion" id="accordion3" role="tablist" aria-multiselectable="true">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading3-1">
+								<h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordion3" href="#collapse3-1" aria-expanded="true" class=""><i class="icon-check icons"></i>01. Many desktop publishing packages </a> </h4>
+							</div>
+							<div id="collapse3-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1" aria-expanded="true" style="">
+								<div class="panel-body"><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+								<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+								<ul class="list line">
+									<li>Beautiful and easy to understand UI, professional animations</li>
+									<li>Theme advantages are pixel perfect design   clear code delivered</li>
+									<li>Present your services with flexible, convenient and multipurpose</li>
+									<li>Unlimited power and customization possibilities</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="heading3-2">
+							<h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3" href="#collapse3-2" aria-expanded="false"><i class="icon-check icons"></i>02. The standard Lorem Ipsum passage </a> </h4>
+						</div>
+						<div id="collapse3-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3-2" aria-expanded="false">
+							<div class="panel-body"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="heading3-3">
+							<h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3" href="#collapse3-3" aria-expanded="false"><i class="icon-check icons"></i>03. Written by Cicero in 45 BC </a> </h4>
+						</div>
+						<div id="collapse3-3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3" aria-expanded="false" >
+							<div class="panel-body"> <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+							<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="heading3-4">
+							<h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3" href="#collapse3-4" aria-expanded="false"><i class="icon-check icons"></i>04. What do you mean by item and end product?</a> </h4>
+						</div>
+						<div id="collapse3-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4" aria-expanded="false" >
+							<div class="panel-body"> <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+							<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="heading3-5">
+							<h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3" href="#collapse3-5" aria-expanded="false"><i class="icon-check icons"></i>05. What are some examples of permitted end products?</a> </h4>
+						</div>
+						<div id="collapse3-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3" aria-expanded="false" >
+							<div class="panel-body"> <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+							<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+</div>
+</t>
+</template>
+<record id="faq_record" model="website.page">
+        <field name="url">/page-faq</field>
+        <field name="website_published">True</field>
+        <field name="view_id" ref="faq"/>
+</record>
+</odoo>

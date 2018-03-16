@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+
+<t t-name="theme_impacto.edit_html_modal">
+    <div class="modal" contenteditable="False" contentEditable="false" backdrop="false" tabindex="1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="z-index:2001">
+        <div class="modal-dialog">
+            <div id="s_media_block_modal" class="modal-content">
+                <div class="modal-body" contenteditable="false">
+                        <form class="form-horizontal container-fluid" role="form">
+                            <div class="col-sm-12 form-group">
+                                     <textarea class="form-control" rows="3" placeholder="Add HTML" id="html_data"></textarea>
+                            </div>
+                        </form>
+                </div>
+                <div class="modal-footer">
+                    <button id="cancel" data-dismiss="modal" class="btn btn-primary">Cancel</button>
+                    <button id="sub_data" data-dismiss="modal" class="btn btn-danger">Apply</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</t>
+
+</templates>
+

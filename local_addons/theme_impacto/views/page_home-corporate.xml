@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+<template name="Home Corporate" id="home-corporate">
+<t t-call="website.layout">
+<div class="page-wrapper oe_structure">
+  <section class="as-animated-slider">
+    <div id="carousel-1" class="carousel slide text-center banner indicators-right" data-ride="carousel" data-arrow="none">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-1" data-slide-to="1"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div class="slide-item" style="background-image: url(/theme_impacto/static/src/img/corporate/banner-01.jpg);">
+            <div class="slider-text">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-10 col-sm-offset-1">
+                    <div class="sub-heading white-text text-uppercase lead l-space-2">We’r Awesome</div>
+                    <h1 class="white-text title-large">Branding &amp; consulting Solution for client</h1>
+                    <a href="#" class="btn btn-default btn-sm btn-outline white mt-3">Read More <i class="fa fa-arrow-circle-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="slide-item" style="background-image: url(/theme_impacto/static/src/img/corporate/banner-02.jpg);">
+            <div class="slider-text">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-10 col-sm-offset-1">
+                    <div class="sub-heading white-text text-uppercase lead l-space-2">We’r Awesome</div>
+                    <h1 class="white-text title-large">Branding &amp; consulting Solution for client</h1>
+                    <a href="#" class="btn btn-default btn-sm btn-outline white mt-3">Read More <i class="fa fa-arrow-circle-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-md">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="heading-block">
+            <h2 class="title">Your Brand Is How Your Customers  Business.</h2>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <p class="lead">Design must reflect the practical and aesthetic in business but above all Design must reflect the practical and aesthetic in business but above all... good design must primarily serve people.</p>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-4 ">
+          <div class="feature pxy-5 radius-4 text-center border-on-light">
+            <div class="feature-icon theme-text">
+              <i class="fa fa-paint-brush" aria-hidden="true"></i>
+            </div>
+            <div class="feature-info">
+              <h5 class="title">DESIGN PROCESS</h5>
+              <p>It is a vital part of developing new products, helping you avoid expensive mistakes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature pxy-5 radius-4 text-center border-on-light">
+            <div class="feature-icon theme-text">
+              <i class="fa fa-briefcase" aria-hidden="true"></i>
+            </div>
+            <div class="feature-info">
+              <h5 class="title">DIGITAL ASSETS</h5>
+              <p>Encompasses many skills and disciplines in the production and service of websites.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 ">
+          <div class="feature pxy-5 radius-4 text-center border-on-light">
+            <div class="feature-icon theme-text">
+              <i class="fa fa-line-chart" aria-hidden="true"></i>
+            </div>
+            <div class="feature-info">
+              <h5 class="title">MARKET BEHAVIORS</h5>
+              <p>Testing is the name given to software testing that focuses on web applications.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-md p-0 pos-r">
+    <div class="container-fluid">
+      <div class="row row-eq-height">
+        <div class="col-md-6 bg-image" style="background-image:url(/theme_impacto/static/src/img/corporate/bg-01.jpg); background-size: cover">
+        </div>
+        <div class="col-md-6 theme-bg">
+          <div class="py-7 padding-l-r">
+            <div class="heading-block">
+              <div class="sub-heading">OUR SERVICES</div>
+              <h2 class="title">We provide wide range of <br/> web &amp; business services.</h2>
+            </div>
+            <p class="lead">We make websites are the number one ranked design, build and marketing team. We build custom, unique, creative and beautiful websites that will make you more successful.</p>
+            <div class="row mt-4">
+              <div class="col-md-6 pr-2">
+                <div class="feature">
+                  <div class="feature-icon theme-text"><i class="fa fa-briefcase" aria-hidden="true"></i></div>
+                  <div class="feature-info">
+                    <h5>Business Consulting</h5>
+                    <p>Lorem ipsum dolor sit amet,consec tetur adipisicing elit,sed do eiusmo    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 pr-2">
+                <div class="feature">
+                  <div class="feature-icon theme-text"><i class="fa fa-line-chart" aria-hidden="true"></i></div>
+                  <div class="feature-info">
+                    <h5>SEO &amp; SMM services</h5>
+                    <p>Lorem ipsum dolor sit amet,consec tetur adipisicing elit,sed do eiusmod
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-3">
+              <a href="#" class="btn btn-default btn-outline white">Ream more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-md p-0 pos-r grey-bg">
+    <div class="container-fluid">
+      <div class="row row-eq-height">
+        <div class="col-md-6">
+          <div class="py-7 padding-l-r">
+            <div class="heading-block">
+              <div class="sub-heading">OUR SKILL</div>
+              <h2 class="title">A single place to share and discover visual content that tells a story.</h2>
+            </div>
+            <p class="lead">Nisi suscipit fermentum nisl duis commodo cum ornare rutrum imperdiet blandit lobortis, felis aliquam curae; habitasse luctus condimentum integer, cum vel. Euismod sociosqu morbi nulla malesuada sem nunc consectetuer proin rhoncus id.</p>
+            <div class="skill mt-3">
+              <div class="skill-bar">
+                <div class="progress-bar" data-percent="50" data-delay="0" data-type="%">
+                  <div class="progress-title">General Consulting</div>
+                </div>
+              </div>
+              <div class="skill-bar">
+                <div class="progress-bar" data-percent="70" data-delay="0" data-type="%">
+                  <div class="progress-title">Construction Management</div>
+                </div>
+              </div>
+              <div class="skill-bar">
+                <div class="progress-bar" data-percent="85" data-delay="0" data-type="%">
+                  <div class="progress-title">Design &amp; Build</div>
+                </div>
+              </div>
+              <div class="skill-bar">
+                <div class="progress-bar" data-percent="95" data-delay="0" data-type="%">
+                  <div class="progress-title">Special Projects</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 bg-image" style="background-image:url(/theme_impacto/static/src/img/corporate/bg-02.jpg); background-size: cover">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-md">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2  text-center">
+          <div class="heading-block">
+            <div class="sub-heading">Team</div>
+            <h2>Our Creative Staff</h2>
+          </div>
+          <p class="mb-2 lead">We work to make your business start effectively working for you. Meet the financial and marketing specialists. These guys create a magic.</p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="team text-center">
+            <div class="member-image">
+              <img class="img-responsive" src="/theme_impacto/static/src/img/corporate/team-01.jpg" alt="" />
+            </div>
+            <div class="team-info">
+              <h4 class="member-name l-space-1">Antonio Creighton</h4>
+              <h6 class="member-position">CREATIVE DIRECTOR</h6>
+              <div class="social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="team text-center">
+            <div class="member-image">
+              <img class="img-responsive" src="/theme_impacto/static/src/img/corporate/team-02.jpg" alt="" />
+            </div>
+            <div class="team-info">
+              <h4 class="member-name l-space-1">Samanta Jonson</h4>
+              <h6 class="member-position">PARTNER &amp; CEO</h6>
+              <div class="social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="team text-center">
+            <div class="member-image">
+              <img class="img-responsive" src="/theme_impacto/static/src/img/corporate/team-03.jpg" alt="" />
+            </div>
+            <div class="team-info">
+              <h4 class="member-name l-space-1">Frederick Smith</h4>
+              <h6 class="member-position">DIGITAL DIRECTOR</h6>
+              <div class="social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-md dark-bg">
+    <div class="container">
+      <div class="row">
+        <!-- Align center -->
+        <div class="col-md-3">
+          <div class="counter text-center">
+            <div class="counter-icon">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+            </div>
+            <div class="counter-info">
+              <span class="timer" data-to="700" data-speed="1000">700</span>
+              <label>Hours Of Work</label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="counter text-center">
+            <div class="counter-icon">
+              <i class="fa fa-trophy" aria-hidden="true"></i>
+            </div>
+            <div class="counter-info">
+              <span class="timer" data-to="250" data-speed="1000">250</span>
+              <label>Awords Wininng</label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="counter text-center">
+            <div class="counter-icon">
+              <i class="fa fa-briefcase" aria-hidden="true"></i>
+            </div>
+            <div class="counter-info">
+              <span class="timer" data-to="400" data-speed="1000">400</span>
+              <label>Completed Projects</label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="counter text-center">
+            <div class="counter-icon">
+              <i class="fa fa-smile-o"></i>
+            </div>
+            <div class="counter-info">
+              <span class="timer" data-to="355" data-speed="1000">355</span>
+              <label>Happy Clients</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="isotope no-padding columns-4 popup-gallery">
+            <div class="grid-item">
+              <div class="portfolio-item">
+                <img src="/theme_impacto/static/src/img/gallery/gallery-1.jpg" alt="Design" />
+                <div class="portfolio-overlay">
+                  <h4><a href="#">Creative Digital Solutions</a></h4>
+                  <span class="theme-text">BRANDING</span>
+                </div>
+                <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/gallery/gallery-1.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div class="portfolio-item">
+                <img src="/theme_impacto/static/src/img/gallery/gallery-2.jpg" alt="Design" />
+                <div class="portfolio-overlay">
+                  <h4><a href="#">App Development</a></h4>
+                  <span class="theme-text">BRANDING</span>
+                </div>
+                <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/gallery/gallery-2.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div class="portfolio-item">
+                <img src="/theme_impacto/static/src/img/gallery/gallery-3.jpg" alt="Design" />
+                <div class="portfolio-overlay">
+                  <h4><a href="#">Portrait Printing</a></h4>
+                  <span class="theme-text">BRANDING</span>
+                </div>
+                <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/gallery/gallery-3.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div class="portfolio-item">
+                <img src="/theme_impacto/static/src/img/gallery/gallery-4.jpg" alt="Design" />
+                <div class="portfolio-overlay">
+                  <h4><a href="#">Office Stationery</a></h4>
+                  <span class="theme-text">BRANDING</span>
+                </div>
+                <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/gallery/gallery-4.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div class="portfolio-item">
+                <img src="/theme_impacto/static/src/img/gallery/gallery-5.jpg" alt="Design" />
+                <div class="portfolio-overlay">
+                  <h4><a href="#">Booklet Printing</a></h4>
+                  <span class="theme-text">BRANDING</span>
+                </div>
+                <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/gallery/gallery-5.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div class="portfolio-item">
+                <img src="/theme_impacto/static/src/img/gallery/gallery-6.jpg" alt="Design" />
+                <div class="portfolio-overlay">
+                  <h4><a href="#">Business Arrangements </a></h4>
+                  <span class="theme-text">BRANDING</span>
+                </div>
+                <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/gallery/gallery-6.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div class="portfolio-item">
+                <img src="/theme_impacto/static/src/img/gallery/gallery-7.jpg" alt="Design" />
+                <div class="portfolio-overlay">
+                  <h4><a href="#">Embroidered Packaging</a></h4>
+                  <span class="theme-text">BRANDING</span>
+                </div>
+                <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/gallery/gallery-7.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div class="portfolio-item">
+                <img src="/theme_impacto/static/src/img/gallery/gallery-8.jpg" alt="Design" />
+                <div class="portfolio-overlay">
+                  <h4><a href="#">Business Cards</a></h4>
+                  <span class="theme-text">BRANDING</span>
+                </div>
+                <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/gallery/gallery-8.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-md">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2  text-center">
+          <div class="heading-block">
+            <div class="sub-heading">OUR CLEINTS</div>
+            <h2>WHAT THEY’RE SAYING</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="col-md-12">
+          <div id="team-carousel-5" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="testimonials text-center">
+                      <i class="fa fa-quote-left round" aria-hidden="true"></i>
+                      <div class="author-description f-weight-300">Your customer support is the best I have experienced with any theme I have purchased. You have a theme that far exceeds all others. Thanks for providing such a fantastic theme, all your efforts are greatly appreciated on our end.</div>
+                      <div class="author-img my-2"><img class="img-responsive img-circle center-block" src="/theme_impacto/static/src/img/testimonials/image1.jpg" alt="" /></div>
+                      <span class="author-name">- John Doe </span><br/>
+                      <label>Company CEO</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item active">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="testimonials text-center">
+                      <i class="fa fa-quote-left round" aria-hidden="true"></i>
+                      <div class="author-description f-weight-300">Your customer support is the best I have experienced with any theme I have purchased. You have a theme that far exceeds all others. Thanks for providing such a fantastic theme, all your efforts are greatly appreciated on our end.</div>
+                      <div class="author-img my-2"><img class="img-responsive img-circle center-block" src="/theme_impacto/static/src/img/testimonials/image2.jpg" alt="" /></div>
+                      <span class="author-name">- John Doe </span><br/>
+                      <label>Company CEO</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#team-carousel-5" data-slide="prev">
+              <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+            </a>
+            <a class="right carousel-control" href="#team-carousel-5" data-slide="next">
+              <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-7">
+        <div class="col-md-12">
+          <hr/>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-2"><img class="img-responsive" src="/theme_impacto/static/src/img/clients/dark-logo1.png" alt="" /></div>
+        <div class="col-md-2"><img class="img-responsive" src="/theme_impacto/static/src/img/clients/dark-logo2.png" alt="" /></div>
+        <div class="col-md-2"><img class="img-responsive" src="/theme_impacto/static/src/img/clients/dark-logo3.png" alt="" /></div>
+        <div class="col-md-2"><img class="img-responsive" src="/theme_impacto/static/src/img/clients/dark-logo4.png" alt="" /></div>
+        <div class="col-md-2"><img class="img-responsive" src="/theme_impacto/static/src/img/clients/dark-logo5.png" alt="" /></div>
+        <div class="col-md-2"><img class="img-responsive" src="/theme_impacto/static/src/img/clients/dark-logo1.png" alt="" /></div>
+      </div>
+    </div>
+  </section>
+  <script>
+  $(window.document).ready(function(){
+    $("body").addClass("home-corporate");
+  });
+</script>
+</div>
+</t>
+</template>
+<record id="home-corporate_record" model="website.page">
+        <field name="url">/home-corporate</field>
+        <field name="website_published">True</field>
+        <field name="view_id" ref="home-corporate"/>
+</record>
+</odoo>

@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+<template id="about01" name="About" >
+  <section class="section-md">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="heading-block">
+              <div class="sub-heading">WHO WE ARE</div>
+              <h2 class="title">We create brand new <br/> corporate identities</h2>
+            </div>
+            <p class="lead">We make websites are the number one ranked design and marketing team. We build unique and beautiful websites that will make you more successful.</p>
+            <ul class="list round mt-2">
+              <li>We provide free initial consultation and support.</li>
+              <li>We work with some of the most successful businesses.</li>
+            </ul>
+            <a href="#" class="btn  btn-default mt-1">Read More</a>
+          </div>
+          <div class="col-md-6 col-md-offset-1">
+            <img class="img-responsive img-shadow" src="/theme_impacto/static/src/img/agency/img-01.jpg" alt="" />
+          </div>
+        </div>
+        <div class="row mt-7">
+          <div class="col-md-12">
+            <hr/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mt-4">
+            <div class="feature">
+              <div class="feature-info">
+                <h5><span class="theme-text">01.</span> Management</h5>
+                <p>It is a vital part of developing new products. At every stage of the process, research can help you identify key issues and avoid mistakes.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="feature">
+              <div class="feature-info">
+                <h5><span class="theme-text">02.</span> Development</h5>
+                <p>The process of economic and social that is based on complex cultural and environmental factors and their interactions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="feature">
+              <div class="feature-info">
+                <h5><span class="theme-text">03.</span> Fast support</h5>
+                <p>Complete testing of a web-based system before going life can help address issues before the system is revealed to the public.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+</template>
+
+<template id="about02" name="About 2" >
+  <section class="section-md">
+    <div class="container">
+      <div class="row no-gutter">
+        <div class="col-md-8 col-md-offset-2  text-center">
+          <div class="heading-block">
+            <div class="sub-heading">WHO WE ARE</div>
+            <h2>We create brand new corporate identities</h2>
+          </div>
+          <p class="lead">We make websites are the number one ranked design and marketing team. We build unique and beautiful websites that will make you more successful.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 mt-2 mb-4">
+          <img class="img-responsive center-block" src="/theme_impacto/static/src/img/service/img-05.png" alt="" />
+        </div>
+      </div>
+      <div class="row">
+      <div class="col-md-4 mt-4">
+        <div class="feature">
+          <div class="feature-info">
+            <h5><span class="theme-text">01.</span> Management</h5>
+            <p>It is a vital part of developing new products. At every stage of the process, research can help you identify key issues and avoid mistakes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-4">
+        <div class="feature">
+          <div class="feature-info">
+            <h5><span class="theme-text">02.</span> Development</h5>
+            <p>The process of economic and social that is based on complex cultural and environmental factors and their interactions.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-4">
+        <div class="feature">
+          <div class="feature-info">
+            <h5><span class="theme-text">03.</span> Fast support</h5>
+            <p>Complete testing of a web-based system before going life can help address issues before the system is revealed to the public.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+</template>
+
+<template id="about03" name="About 3" >
+  <section class="section-md">
+    <div class="container">
+      <div class="row valign">
+        <div class="col-md-6">
+          <img class="img-responsive" src="/theme_impacto/static/src/img/about/img-05.jpg" alt="" />
+        </div>
+        <div class="col-md-5 col-md-offset-1" data-valign-overlay="middle">
+          <div class="heading-block">
+            <div class="sub-heading">ABOUT US</div>
+            <h2 class="title">We create things people love.</h2>
+          </div>
+          <p class="lead">We make websites are the number one ranked design and marketing team. We build unique and beautiful websites that will make you more successful.</p>
+          <div class="row">
+            <div class="col-md-6">
+              <ul class="list round ">
+                <li>Web Design</li>
+                <li>UI/UX Design</li>
+                <li>Identity Branding</li>
+                <li>Photography </li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul class="list round ">
+                <li>Web Design</li>
+                <li>UI/UX Design</li>
+                <li>Identity Branding</li>
+                <li>Photography </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+
+<template id="about04" name="About 04" >
+  <section class="section-md p-0 pos-r">
+    <div class="container-fluid">
+      <div class="row row-eq-height">
+        <div class="col-md-6 bg-image" style="background-image:url(/theme_impacto/static/src/img/corporate/bg-01.jpg); background-size: cover">
+        </div>
+        <div class="col-md-6 theme-bg">
+          <div class="py-7 padding-l-r">
+            <div class="heading-block">
+              <div class="sub-heading">OUR SERVICES</div>
+              <h2 class="title">We provide wide range of <br/> web &amp; business services.</h2>
+            </div>
+            <p class="lead">We make websites are the number one ranked design, build and marketing team. We build custom, unique, creative and beautiful websites that will make you more successful.</p>
+            <div class="row mt-4">
+              <div class="col-md-6 pr-2">
+                <div class="feature">
+                  <div class="feature-icon theme-text"><i class="fa fa-briefcase" aria-hidden="true"></i></div>
+                  <div class="feature-info">
+                    <h5>Business Consulting</h5>
+                    <p>Lorem ipsum dolor sit amet,consec tetur adipisicing elit,sed do eiusmo    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 pr-2">
+                <div class="feature">
+                  <div class="feature-icon theme-text"><i class="fa fa-line-chart" aria-hidden="true"></i></div>
+                  <div class="feature-info">
+                    <h5>SEO &amp; SMM services</h5>
+                    <p>Lorem ipsum dolor sit amet,consec tetur adipisicing elit,sed do eiusmod
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-3">
+              <a href="#" class="btn btn-default btn-outline white">Ream more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<template id="service01" name="Service 01" >
+  <section class="section-md">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+          <div class="heading-block mb-4">
+            <div class="sub-heading">We're Impacto Agency</div>
+            <h2>We Make Creative Solutions</h2>
+          </div>
+          <p>We are creative and interactive business agency, we make creative projects. View some of the most successful projects. Passion, ideas, and ambition.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="feature icon-position-left">
+            <div class="feature-icon theme-text text-center"><i class="fa fa-pencil" aria-hidden="true"></i></div>
+            <div class="feature-info">
+              <h5>Website Design</h5>
+              <p>Web design encompasses many different skills and disciplines in the production of websites.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature icon-position-left">
+            <div class="feature-icon theme-text"><i class="fa fa-headphones" aria-hidden="true"></i></div>
+            <div class="feature-info">
+              <h5>Customer Support</h5>
+              <p>It is a range of customer services to assist customers in making cost effective and correct use of a product.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature icon-position-left">
+            <div class="feature-icon theme-text"><i class="fa fa-laptop" aria-hidden="true"></i></div>
+            <div class="feature-info">
+              <h5>Development</h5>
+              <p>The process of economic and social transformation that is based on complex cultural factors.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-4">
+          <div class="feature icon-position-left">
+            <div class="feature-icon theme-text"><i class="fa fa-line-chart" aria-hidden="true"></i></div>
+            <div class="feature-info">
+              <h5>Online Marketing</h5>
+              <p>Web design encompasses many different skills and disciplines in the production of websites.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature icon-position-left">
+            <div class="feature-icon theme-text"><i class="fa fa-file-video-o" aria-hidden="true"></i></div>
+            <div class="feature-info">
+              <h5>Video Production</h5>
+              <p>It is a range of customer services to assist customers in making cost effective and correct use of a product.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature icon-position-left">
+            <div class="feature-icon text-center theme-text"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div>
+            <div class="feature-info">
+              <h5>Style &amp; Identity</h5>
+              <p>The process of economic and social transformation that is based on complex cultural factors.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<template id="service02" name="service02" >
+  <section class="section-md">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="heading-block text-center">
+            <div class="sub-heading">About us</div>
+            <h2>Allow Us To Introduce Ourselves</h2>
+          </div>
+          <p class="lead text-center">We make websites are the number one ranked design and marketing team. We build unique and beautiful websites that will make you more successful.</p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-4 text-center">
+          <div class="feature ">
+            <div class="feature-icon theme-text"><i class="fa fa-users" aria-hidden="true"></i></div>
+            <div class="feature-info">
+              <h5 class="title">We are responsible</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature text-center">
+            <div class="feature-icon theme-text"><i class="fa fa-money" aria-hidden="true"></i></div>
+            <div class="feature-info">
+              <h5 class="title">Reasonable prices</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature text-center">
+            <div class="feature-icon theme-text"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
+            <div class="feature-info">
+              <h5 class="title">Great Team Support</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<template id="team01" name="Team 01" >
+  <section class="section-md">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2  text-center">
+          <div class="heading-block">
+            <div class="sub-heading">Team</div>
+            <h2>Our Creative Staff</h2>
+          </div>
+          <p class="mb-2 lead">We work to make your business start effectively working for you. Meet the financial and marketing specialists. These guys create a magic.</p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="team text-center">
+            <div class="member-image">
+              <img class="img-responsive" src="/theme_impacto/static/src/img/corporate/team-01.jpg" alt="" />
+            </div>
+            <div class="team-info">
+              <h4 class="member-name l-space-1">Antonio Creighton</h4>
+              <h6 class="member-position">CREATIVE DIRECTOR</h6>
+              <div class="social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="team text-center">
+            <div class="member-image">
+              <img class="img-responsive" src="/theme_impacto/static/src/img/corporate/team-02.jpg" alt="" />
+            </div>
+            <div class="team-info">
+              <h4 class="member-name l-space-1">Samanta Jonson</h4>
+              <h6 class="member-position">PARTNER &amp; CEO</h6>
+              <div class="social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="team text-center">
+            <div class="member-image">
+              <img class="img-responsive" src="/theme_impacto/static/src/img/corporate/team-03.jpg" alt="" />
+            </div>
+            <div class="team-info">
+              <h4 class="member-name l-space-1">Frederick Smith</h4>
+              <h6 class="member-position">DIGITAL DIRECTOR</h6>
+              <div class="social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<template id="team02" name="Team 02" >
+  <section class="section-md">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2  text-center">
+          <div class="heading-block">
+            <div class="sub-heading">Our Team</div>
+            <h2>The best team available</h2>
+          </div>
+          <p class="mb-2 lead">Lorem ipsum dolor s it amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-6">
+          <div class="team style4">
+            <div class="member-image clearfix">
+              <img class="img-responsive" src="/theme_impacto/static/src/img/medical/member1.jpg" alt="" />
+            </div>
+            <div class="team-info">
+              <h6 class="member-position">Head of Department</h6>
+              <h4 class="member-name">Dr. Micheal Jorden</h4>
+              <p><strong>Speciality:</strong> Cardiologist<br />
+              <strong>Degrees:</strong> M.B.B.S</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 ">
+          <div class="team style4">
+            <div class="member-image clearfix">
+              <img class="img-responsive" src="/theme_impacto/static/src/img/medical/member2.jpg" alt="" />
+            </div>
+            <div class="team-info">
+              <h6 class="member-position">Head of Department</h6>
+              <h4 class="member-name">Antonio Creighton</h4>
+              <p><strong>Speciality:</strong> Pediatrician<br />
+              <strong>Degrees:</strong> M.B.B.S</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-1">
+        <div class="col-md-6">
+          <div class="team style4">
+            <div class="member-image clearfix">
+              <img class="img-responsive" src="/theme_impacto/static/src/img/medical/member3.jpg" alt="" />
+            </div>
+            <div class="team-info">
+              <h6 class="member-position">Head of Department</h6>
+              <h4 class="member-name">Antonio Creighton</h4>
+              <p><strong>Speciality:</strong> Cardiologist<br />
+              <strong>Degrees:</strong> M.B.B.S</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 ">
+          <div class="team style4">
+            <div class="member-image clearfix">
+              <img class="img-responsive" src="/theme_impacto/static/src/img/medical/member4.jpg" alt="" />
+            </div>
+            <div class="team-info">
+              <h6 class="member-position">Head of Department</h6>
+              <h4 class="member-name">Antonio Creighton</h4>
+              <p><strong>Speciality:</strong> Rehabilitation Therapy<br />
+              <strong>Degrees:</strong> M.B.B.S</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<template id="card01" name="Card 01" >
+  <section class="section-md">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 text-center col-md-offset-2">
+          <div class="heading-block">
+            <div class="sub-heading theme-text">WHAT WE DO</div>
+            <h2>We are delivering beautiful digital</h2>
+          </div>
+          <p>We are creative and interactive business agency, we make creative projects. View some of the most successful projects. Passion, ideas, and ambition.</p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-4 text-center">
+          <div class="photobox style2">
+            <div class="photobox-img">
+              <img src="/theme_impacto/static/src/img/creative-bussiness/img-01.jpg" class="img-responsive" alt="" />
+            </div>
+            <div class="photobox-content">
+              <p>600+ We created web design</p>
+              <h4>Design and Development</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="photobox style2">
+            <div class="photobox-img">
+              <img src="/theme_impacto/static/src/img/creative-bussiness/img-02.jpg" class="img-responsive" alt="" />
+            </div>
+            <div class="photobox-content">
+              <p>475+ We completed marketing</p>
+              <h4>Social Media Marketing</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="photobox style2">
+            <div class="photobox-img">
+              <img src="/theme_impacto/static/src/img/creative-bussiness/img-03.jpg" class="img-responsive" alt="" />
+            </div>
+            <div class="photobox-content">
+              <p>475+ We created mobile app</p>
+              <h4>Mobile App Development</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<template id="card02" name="Card 02" >
+   <section class="p-0">
+    <div class="container">
+      <div class="row row-eq-height ">
+        <div class="col-md-3 bg-image" style="background-image: url('/theme_impacto/static/src/img/restaurant/img-1.jpg'); background-size: cover;" >
+        </div>
+        <div class="col-md-3 text-center">
+          <div class="py-4 px-1">
+            <h4>spaghetti</h4>
+            <p>Fusce a tellus tellus. Praesent neque arcu, efficitur sit amet libero vulputate, dignissim.</p>
+            <h5 class="lead theme-text mb-0 ">$16,45</h5>
+          </div>
+        </div>
+        <div class="col-md-3 bg-image" style="background-image: url('/theme_impacto/static/src/img/restaurant/img-2.jpg'); background-size: cover;" >
+        </div>
+        <div class="col-md-3 text-center">
+          <div class="py-4 px-1">
+            <h4>proscuitto</h4>
+            <p>Fusce a tellus tellus. Praesent neque arcu, efficitur sit amet libero vulputate, dignissim.</p>
+            <h5 class="lead theme-text mb-0 ">$19,95</h5>
+          </div>
+        </div>
+      </div>
+      <div class="row row-eq-height ">
+        <div class="col-md-3 text-center">
+          <div class="py-4 px-1">
+            <h4>spaghetti</h4>
+            <p>Fusce a tellus tellus. Praesent neque arcu, efficitur sit amet libero vulputate, dignissim.</p>
+            <h5 class="lead theme-text mb-0 ">$16,45</h5>
+          </div>
+        </div>
+        <div class="col-md-3 bg-image" style="background-image: url('/theme_impacto/static/src/img/restaurant/img-3.jpg'); background-size: cover;" >
+        </div>
+        <div class="col-md-3 text-center">
+          <div class="py-4 px-1">
+            <h4>proscuitto</h4>
+            <p>Fusce a tellus tellus. Praesent neque arcu, efficitur sit amet libero vulputate, dignissim.</p>
+            <h5 class="lead theme-text mb-0 ">$19,95</h5>
+          </div>
+        </div>
+        <div class="col-md-3 bg-image" style="background-image: url('/theme_impacto/static/src/img/restaurant/img-1.jpg'); background-size: cover;" >
+        </div>
+      </div>
+    </div>
+   </section>
+</template>
+
+<template id="pricing01" name="Pricing 01" >
+<section class="section-md">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2  text-center">
+        <div class="heading-block">
+          <div class="sub-heading">Our Price</div>
+          <h2>The best team available</h2>
+        </div>
+        <p class="mb-2 lead">Lorem ipsum dolor s it amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+      </div>
+    </div>
+    <div class="row">
+          <div class="col-md-4">
+            <div class="pricing-table pricing-style2 basic">
+              <label>Basic</label>
+              <header>
+                <h4 class="title">Free</h4>
+                <span>Sed do eiusmod</span>
+              </header>
+              <a href="#" class="btn btn-sm btn-default animated btn-outline full-radius">Purchase Now <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+              <div class="table-body table-icon"><ul>
+                <li>Lorem Ipsum <i class="fa fa-check"></i></li>
+                <li>Dolor sit Amet <i class="fa fa-check"></i></li>
+                <li>Consectetur Adipisicing  <i class="fa fa-check"></i></li>
+                <li>Eiusmod Tempor <i class="fa fa-check"></i></li>
+                <li>incididunt ut labore <i class="fa fa-check"></i></li>
+                <li>Lorem Ipsum <i class="fa fa-check"></i></li>
+                <li>Dolor sit Amet <i class="fa fa-check"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      <div class="col-md-4">
+          <div class="pricing-table pricing-style2 standard">
+            <label>Standard</label>
+            <header>
+              <h4 class="title">$150<span>/Per month</span></h4>
+              <span>Sed do eiusmod</span>
+            </header>
+            <a href="#" class="btn btn-sm btn-default animated btn-outline full-radius">Purchase Now <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+            <div class="table-body table-icon"><ul>
+              <li>Lorem Ipsum <i class="fa fa-check"></i></li>
+              <li>Dolor sit Amet <i class="fa fa-check"></i></li>
+              <li>Consectetur Adipisicing  <i class="fa fa-check"></i></li>
+              <li>Eiusmod Tempor <i class="fa fa-check"></i></li>
+              <li>incididunt ut labore <i class="fa fa-check"></i></li>
+              <li>Lorem Ipsum <i class="fa fa-check"></i></li>
+              <li>Dolor sit Amet <i class="fa fa-check"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    <div class="col-md-4">
+          <div class="pricing-table pricing-style2 premium">
+            <label>Premium</label>
+            <header>
+              <h4 class="title">$250<span>/Per month</span></h4>
+              <span>Sed do eiusmod</span>
+            </header>
+            <a href="#" class="btn btn-sm btn-default animated btn-outline full-radius">Purchase Now <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+            <div class="table-body table-icon"><ul>
+              <li>Lorem Ipsum <i class="fa fa-check"></i></li>
+              <li>Dolor sit Amet <i class="fa fa-check"></i></li>
+              <li>Consectetur Adipisicing  <i class="fa fa-check"></i></li>
+              <li>Eiusmod Tempor <i class="fa fa-check"></i></li>
+              <li>incididunt ut labore <i class="fa fa-check"></i></li>
+              <li>Lorem Ipsum <i class="fa fa-check"></i></li>
+              <li>Dolor sit Amet <i class="fa fa-check"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+   </div>
+  </div>
+ </section>
+</template>
+
+<template id="pricing02" name="Pricing 02" >
+<section class="section-md pricing-section">
+    <div class="container">
+      <div class="row valign">
+        <div class="col-md-4" data-valign-overlay="middle">
+          <div class="heading-block">
+            <div class="sub-heading theme-text">OUR PRICING</div>
+            <h2 >Not any hidden<br/>
+            charge, Choose you<br/>
+            pricing plan</h2>
+          </div>
+          <p class=" lead">We have differe type of pricing table to choose with
+          your need with resonable price.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="pricing-table pricing-style2 standard theme-bg">
+            <label>Standard</label>
+            <header>
+              <h4 class="title">$150<span>/Per month</span></h4>
+              <span>Sed do eiusmod</span>
+            </header>
+            <a href="#" class="btn btn-sm btn-default animated btn-outline full-radius white">Purchase Now <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+            <div class="table-body table-icon"><ul>
+              <li>Lorem Ipsum <i class="fa fa-check"></i></li>
+              <li>Dolor sit Amet <i class="fa fa-check"></i></li>
+              <li>Consectetur Adipisicing  <i class="fa fa-check"></i></li>
+              <li>Eiusmod Tempor <i class="fa fa-check"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="pricing-table pricing-style2 premium white-bg">
+          <label>Premium</label>
+          <header>
+            <h4 class="title dark-text">$250<span>/Per month</span></h4>
+            <span>Sed do eiusmod</span>
+          </header>
+          <a href="#" class="btn btn-sm btn-default animated btn-outline full-radius">Purchase Now <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+          <div class="table-body table-icon"><ul>
+            <li>Lorem Ipsum <i class="fa fa-check"></i></li>
+            <li>Dolor sit Amet <i class="fa fa-check"></i></li>
+            <li>Consectetur Adipisicing  <i class="fa fa-check"></i></li>
+            <li>Eiusmod Tempor <i class="fa fa-check"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+</template>
+
+<template id="shopbanner01" name="Shop Banner 01" >
+  <section class="shop-banner-section full-width">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="shop-banner shop-bnr size-l">
+                    <div class="shop-banner-image zoom" style="background-image: url(/theme_impacto/static/src/img/furniture/shop-banner-02.jpg); background-position: center center;"></div>
+                    <div class="shop-banner-inner align-m">
+                        <label class="shop-lable size-sm lable-light text-uppercase">Furniture Design</label>
+                        <h3 class="title-size-lg text-light f-weight-700">New <span class="f-weight-100">Collection</span></h3>
+                        <a class="link fill f-weight-700" href="#">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="shop-banner shop-bnr size-l">
+                    <div class="shop-banner-image zoom" style="background-image: url(/theme_impacto/static/src/img/furniture/shop-banner-01.jpg); background-position: center center;"></div>
+                    <div class="shop-banner-inner align-t">
+                        <label class="shop-lable size-sm lable-light text-uppercase">SOFA Design</label>
+                        <h3 class="title-size-lg text-light f-weight-700">New <span class="f-weight-100">Collection</span></h3>
+                        <a class="link fill f-weight-700" href="#">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="shop-banner shop-bnr">
+                    <div class="shop-banner-image zoom" style="background-image: url(/theme_impacto/static/src/img/furniture/shop-banner-03.jpg); background-position: center center;"></div>
+                    <div class="shop-banner-inner align-t text-right">
+                        <label class="shop-lable size-sm lable-light text-uppercase">Chair</label>
+                        <h3 class="f-weight-700">New <span class="f-weight-100">Collection</span></h3>
+                        <a class="link link-lg f-weight-800" href="#">$.29</a>
+                    </div>
+                </div>
+                <div class="shop-banner shop-bnr border-light">
+                    <div class="shop-banner-image" style="background: #333;"></div>
+                    <div class="shop-banner-inner text-center align-m">
+                        <label class="shop-lable lable-dark l-space-3 f-weight-600">SPECIAL SALE</label>
+                        <h3 class="title-size-lg text-light f-weight-700" style="margin-bottom: 0;">SALE</h3>
+                        <h3 class="title-size-lg text-light l-space-6 f-weight-700" style="margin-bottom: 0;">50%</h3>
+                        <label class="shop-lable text-light l-space-3 size-xs f-weight-600" style="margin-bottom: 0;">OFF EVERYTHING</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+</template>
+
+<template id="shopbanner02" name="Shop Banner 02" >
+  <section class="shop-banner-section full-width p-0">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="shop-banner shop-bnr size-l">
+                        <div class="shop-banner-image zoom" style="background-image: url(/theme_impacto/static/src/img/shop/shop-banner-01.jpg); background-position: center center;"></div>
+                        <div class="shop-banner-inner text-left align-b">
+                            <a href="#">
+                                <label class="shop-lable lable-dark size-md f-weight-700">#accessories</label>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="shop-banner shop-bnr">
+                        <div class="shop-banner-image zoom" style="background-image: url(/theme_impacto/static/src/img/shop/shop-banner-04.jpg); background-position: center center;"></div>
+                        <div class="shop-banner-inner align-b">
+                            <a href="#">
+                                <label class="shop-lable lable-dark size-sm f-weight-700">#chair color decor</label>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="shop-banner shop-bnr border-light">
+                        <div class="shop-banner-image" style="background: #323232;"></div>
+                        <div class="shop-banner-inner text-center align-m">
+                            <h3 class="title-size-md text-light f-weight-700" style="margin-bottom: 0;">Spring Looks</h3>
+                            <a class="link link-light link-md f-weight-800" href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="shop-banner shop-bnr size-l">
+                        <div class="shop-banner-image zoom" style="background-image: url(/theme_impacto/static/src/img/shop/shop-banner-05.jpg); background-position: center center;"></div>
+                        <div class="shop-banner-inner text-left align-b">
+                            <a href="#">
+                                <label class="shop-lable lable-dark size-md f-weight-700">#accessories</label>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="shop-banner shop-bnr">
+                        <div class="shop-banner-image zoom" style="background-image: url(/theme_impacto/static/src/img/shop/shop-banner-03.jpg); background-position: center center;"></div>
+                        <div class="shop-banner-inner align-b">
+                            <a href="#">
+                                <label class="shop-lable lable-dark size-sm f-weight-700">#chair color decor</label>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="shop-banner shop-bnr border">
+                        <div class="shop-banner-image" style="background: #ffffff;"></div>
+                        <div class="shop-banner-inner text-center align-m">
+                            <label class="shop-lable lable-grey l-space-3 f-weight-500">SPECIAL SALE</label>
+                            <h3 class="title-size-lg text-dark f-weight-700" style="margin-bottom: 0;">SALE</h3>
+                            <h3 class="title-size-lg text-dark l-space-6 f-weight-700" style="margin-bottom: 0;">50%</h3>
+                            <label class="shop-lable text-dark l-space-3 size-xs f-weight-600" style="margin-bottom: 0;">OFF EVERYTHING</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </section>
+</template>
+
+ <!-- Feature Snippets -->
+<template id="countersnp" name="Counter" >
+  <section class="section-sm">
+    <div class="container">
+      <div class="row">
+        <!-- Align center -->
+        <div class="col-md-3">
+          <div class="counter text-center">
+            <div class="counter-info">
+              <span class="timer" data-to="700" data-speed="1000">700</span>
+              <label>Hours Of Work</label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="counter text-center">
+            <div class="counter-info">
+              <span class="timer" data-to="250" data-speed="1000">250</span>
+              <label>Awords Wininng</label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="counter text-center">
+            <div class="counter-info">
+              <span class="timer" data-to="400" data-speed="1000">400</span>
+              <label>Completed Projects</label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="counter text-center">
+            <div class="counter-info">
+              <span class="timer" data-to="355" data-speed="1000">355</span>
+              <label>Happy Clients</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<template id="skill" name="Skill" >
+  <section class="section-md">
+    <div class="container">
+      <div class="row"> 
+        <div class="col-md-6 pr-5">
+          <div class="heading-block">
+            <div class="sub-heading">Abuot Us</div>
+            <h2>We make creative projects for awesome clients</h2>
+          </div>
+          <p class="mb-2 lead">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.</p>
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti  dolores.</p>
+        </div> 
+        <div class="col-md-6">
+          <div class="skill">
+            <div class="skill-bar">
+              <div class="progress-bar" data-percent="96" data-delay="0" data-type="%">
+                <div class="progress-title">General Consulting</div>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="progress-bar" data-percent="80" data-delay="0" data-type="%">
+                <div class="progress-title">Construction Management</div>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="progress-bar" data-percent="60" data-delay="0" data-type="%">
+                <div class="progress-title">Design &amp; Build</div>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="progress-bar" data-percent="40" data-delay="0" data-type="%">
+                <div class="progress-title">Special Projects</div>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </section>
+</template>
+
+<template id="testimonial01" name="Testimonial 01" >
+  <section class="section-md">
+    <div class="container"  >
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <div id="team-carousel-5" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="testimonials text-center">
+                      <i class="fa fa-quote-left round" aria-hidden="true"></i>
+                      <div class="author-description f-weight-300">Your customer support is the best I have experienced with any theme I have purchased. You have a theme that far exceeds all others. Thanks for providing such a fantastic theme, all your efforts are greatly appreciated on our end.</div>
+                      <div class="author-img my-2"><img class="img-responsive img-circle center-block" src="/theme_impacto/static/src/img/testimonials/image1.jpg" alt="" /></div>
+                      <span class="author-name">- John Doe </span><br/>
+                      <label>Company CEO</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item active">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="testimonials text-center">
+                      <i class="fa fa-quote-left round" aria-hidden="true"></i>
+                      <div class="author-description f-weight-300">Your customer support is the best I have experienced with any theme I have purchased. You have a theme that far exceeds all others. Thanks for providing such a fantastic theme, all your efforts are greatly appreciated on our end.</div>
+                      <div class="author-img my-2"><img class="img-responsive img-circle center-block" src="/theme_impacto/static/src/img/testimonials/image2.jpg" alt="" /></div>
+                      <span class="author-name">- John Doe </span><br/>
+                      <label>Company CEO</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#team-carousel-5" data-slide="prev">
+              <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+            </a>
+            <a class="right carousel-control" href="#team-carousel-5" data-slide="next">
+              <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+</template>
+
+<template id="testimonial02" name="Testimonial 02" >
+<section class="section-md grey-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2  text-center">
+        <div class="heading-block">
+          <div class="sub-heading">Our Client</div>
+          <h2>What They are Saying</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container"  >
+    <div class="row mt-4">
+      <div class="col-md-12">
+        <div id="team-carousel-4" class="carousel slide inds-bottom" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#team-carousel-4" data-slide-to="0" class="active"></li>
+            <li data-target="#team-carousel-4" data-slide-to="1"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="col-md-4">
+                <div class="testimonials mt-6 style-5">
+                  <div class="author-info pull-top  text-center">
+                    <div class="author-img"><img class="img-responsive" src="/theme_impacto/static/src/img/testimonials/image1.jpg" alt="" /></div>
+                    <span class="author-name">John Doe</span>
+                    <span class="author-title">Company CEO</span>
+                  </div>
+                  <div class="author-description">
+                    <i class="fa fa-quote-left pull-left" aria-hidden="true"></i>
+                    <p class="black-text big-f text-center">Great theme maker. I wish they would create more themes.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="testimonials mt-6 style-5">
+                  <div class="author-info pull-top  text-center">
+                    <div class="author-img"><img class="img-responsive" src="/theme_impacto/static/src/img/testimonials/image2.jpg" alt="" /></div>
+                    <span class="author-name">John Doe</span>
+                    <span class="author-title">Company CEO</span>
+                  </div>
+                  <div class="author-description">
+                    <i class="fa fa-quote-left pull-left" aria-hidden="true"></i>
+                    <p class="black-text big-f text-center">Great theme maker. I wish they would create more themes.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="testimonials mt-6 style-5">
+                  <div class="author-info pull-top  text-center">
+                    <div class="author-img"><img class="img-responsive" src="/theme_impacto/static/src/img/testimonials/image3.jpg" alt="" /></div>
+                    <span class="author-name">John Doe</span>
+                    <span class="author-title">Company CEO</span>
+                  </div>
+                  <div class="author-description">
+                    <i class="fa fa-quote-left pull-left" aria-hidden="true"></i>
+                    <p class="black-text big-f text-center">Great theme maker. I wish they would create more themes.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-md-4">
+                <div class="testimonials mt-6 style-5">
+                  <div class="author-info pull-top  text-center">
+                    <div class="author-img"><img class="img-responsive" src="/theme_impacto/static/src/img/testimonials/image1.jpg" alt="" /></div>
+                    <span class="author-name">John Doe</span>
+                    <span class="author-title">Company CEO</span>
+                  </div>
+                  <div class="author-description">
+                    <i class="fa fa-quote-left pull-left" aria-hidden="true"></i>
+                    <p class="black-text big-f text-center">Great theme maker. I wish they would create more themes.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="testimonials mt-6 style-5">
+                  <div class="author-info pull-top  text-center">
+                    <div class="author-img"><img class="img-responsive" src="/theme_impacto/static/src/img/testimonials/image2.jpg" alt="" /></div>
+                    <span class="author-name">John Doe</span>
+                    <span class="author-title">Company CEO</span>
+                  </div>
+                  <div class="author-description">
+                    <i class="fa fa-quote-left pull-left" aria-hidden="true"></i>
+                    <p class="black-text big-f text-center">Great theme maker. I wish they would create more themes.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="testimonials mt-6 style-5">
+                  <div class="author-info pull-top  text-center">
+                    <div class="author-img"><img class="img-responsive" src="/theme_impacto/static/src/img/testimonials/image3.jpg" alt="" /></div>
+                    <span class="author-name">John Doe</span>
+                    <span class="author-title">Company CEO</span>
+                  </div>
+                  <div class="author-description">
+                    <i class="fa fa-quote-left pull-left" aria-hidden="true"></i>
+                    <p class="black-text big-f text-center">Great theme maker. I wish they would create more themes.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</template>
+
+<template id="banner01" name="Banner" >
+  <section class="as-animated-slider">
+      <div id="carousel-1" class="carousel slide text-center banner indicators-right" data-ride="carousel" data-arrow="none">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-1" data-slide-to="1"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="slide-item" style="background-image: url(/theme_impacto/static/src/img/bussiness/banner-01.jpg);">
+              <div class="slider-text">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6 col-sm-offset-3">
+                      <h1 class="white-text title-extra-large">Business</h1>
+                      <p class="white-text mb-3"> Donec vel sagittis neque, sit amet porttitor ex. Phasellus metus sem, efficitur eu accumsan eu aliquam id ligula.  </p>
+                      <a href="#" class="btn btn-default btn-sm btn-outline white">Read More <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="slide-item" style="background-image: url(/theme_impacto/static/src/img/bussiness/banner-02.jpg);">
+              <div class="slider-text">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6 col-sm-offset-3">
+                      <h1 class="white-text title-extra-large">Success</h1>
+                      <p class="white-text mb-3"> Donec vel sagittis neque, sit amet porttitor ex. Phasellus metus sem, efficitur eu accumsan eu aliquam id ligula.  </p>
+                      <a href="#" class="btn btn-default btn-sm btn-outline white">Read More <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</template>
+
+ <!-- Custom -->
+<template id="custom_snippet_embed" name="HTMl Block" >
+      <section class="custom-snippet-embed section-md">
+          <p>Embed HTML here</p>           
+      </section>
+</template>
+
+ <!-- Snippet's Body -->
+<template id="s_latest_posts" name="Posts List">
+  <section class="s_latest_posts section-md grey-bg">
+      <div class="container">
+          <div class="row">
+          <div class="col-md-8 col-md-offset-2  text-center mb-4">
+            <div class="heading-block">
+              <div class="sub-heading">BLOG POSTS</div>
+              <h2>Our Last News</h2>
+            </div>
+            <p class="mb-2 lead">Enterprises seeking a digital edge transform processes, business models and the best customer experience by exploiting digital connections.</p>
+          </div>
+        </div>
+          <div class="js_get_posts" data-loading="true" data-template="theme_impacto.media_list_template"/>
+      </div>
+  </section>
+</template>
+
+    <!-- Latest posts's Template -->
+<template id="media_list_template">
+  <t t-if="not posts">
+      <t t-call="theme_impacto.no_blog_posts"/>
+  </t>
+  <t t-foreach="posts" t-as="p">
+      <t t-set="properties" t-value="json.loads(p.cover_properties)"/>
+      <div class="post media media_list_template">
+          <div class="post-img" >
+              <a t-att-href="'/blog/%s/post/%s' % (p.blog_id.id, p.id)">
+                  <t t-call="website_blog.blog_cover">
+                      <t t-set="cover_properties" t-value="properties"/>
+                      <t t-set="additionnal_classes" t-value="'media-object loading_container thumb'"/>
+                  </t>
+              </a>
+          </div>
+          <div class="post-body"> 
+               <h4 class="media-heading" t-field="p.name"/>
+              <div class="description" t-field="p.subtitle"/>
+              <a class="link" t-att-href="'/blog/%s/post/%s' % (p.blog_id.id, p.id)"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+             </div>
+      </div>
+  </t>
+</template>
+
+    <!-- No post here, template -->
+<template id="no_blog_posts">
+  <div class="container readable">
+      <div class="alert alert-warning alert-dismissible text-center" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&#215;</span>
+          </button>
+          <h3>No posts here...</h3>
+          <p>Please, be sure that your posts are not in draft state</p>
+      </div>
+  </div>
+</template>
+
+<!-- ======== LATEST POSTS BIG PICTURES  ========  -->
+
+    <!-- Snippet's Body -->
+<template id="s_latest_posts_big_picture" name="Post Overlay">
+  <section class="s_latest_posts_big_picture">
+      <div class="js_get_posts" data-loading="true" data-posts_limit="4" data-template="theme_impacto.s_latest_posts_big_picture_template"/>
+  </section>
+</template>
+
+<template id="s_latest_posts_big_picture_template">
+  <t t-if="not posts">
+    <t t-call="theme_impacto.no_blog_posts"/>
+  </t>
+  <t t-foreach="posts" t-as="p">
+    <t t-set="properties" t-value="json.loads(p.cover_properties)"/>
+    <figure class="loading_container">
+        <div class="content">
+            <t t-call="website_blog.blog_cover">
+                <t t-set="cover_properties" t-value="properties"/>
+                <t t-set="additionnal_classes" t-value="'thumb'"/>
+            </t>
+            <figcaption>
+                <!-- <span t-field="p.write_date"/> by <span t-field="p.author_id"/> -->
+                <h4 t-field="p.name"/>
+                 <p t-field="p.subtitle"/>
+                <a  class="link" t-att-href="'/blog/%s/post/%s' % (p.blog_id.id, p.id)"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+            </figcaption>
+        </div>
+    </figure>
+  </t>
+</template>
+
+ <template id="data_slider_snippet" name="Product Slider">
+    <section class="oe_snippet_body o_data_slider section-md" data-options="false" >
+        <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3 text-center">
+                  <div class="heading-block mb-4">
+                    <h2>Our Product</h2>
+                  </div>
+              </div>
+           </div>
+         </div>
+         <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center add-product">
+              </div>
+            </div>
+        </div>
+    </section>
+</template>  
+
+ <template id="data_slider_snippet2" name="Product List">
+  <section class="oe_snippet_body o_data_slider section-md" data-options="false" data-fullview="true" >
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+              <div class="heading-block mb-4">
+                <h2>Our Product</h2>
+              </div>
+          </div>
+       </div>
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center add-product">
+          </div>
+        </div>
+    </div>
+  </section>
+</template> 
+
+<template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
+  <xpath expr="//div[@id='snippet_structure']/div[contains(@class, 'o_panel_body')]/t" position="before">
+      <t t-snippet="theme_impacto.about01"
+      t-thumbnail="/theme_impacto/static/src/img/snippets/structure/01.jpg"/>
+      <t t-snippet="theme_impacto.about02"
+      t-thumbnail="/theme_impacto/static/src/img/snippets/structure/02.jpg"/>
+      <t t-snippet="theme_impacto.about03"
+      t-thumbnail="/theme_impacto/static/src/img/snippets/structure/03.jpg"/>
+      <t t-snippet="theme_impacto.about04"
+      t-thumbnail="/theme_impacto/static/src/img/snippets/structure/04.jpg"/>
+      <t t-snippet="theme_impacto.service01"
+      t-thumbnail="/theme_impacto/static/src/img/snippets/structure/05.jpg"/>
+      <t t-snippet="theme_impacto.service02"
+      t-thumbnail="/theme_impacto/static/src/img/snippets/structure/10.jpg"/>
+      <t t-snippet="theme_impacto.team01"
+      t-thumbnail="/theme_impacto/static/src/img/snippets/structure/06.jpg"/>
+      <t t-snippet="theme_impacto.team02"
+      t-thumbnail="/theme_impacto/static/src/img/snippets/structure/07.jpg"/>
+      <t t-snippet="theme_impacto.card01"
+      t-thumbnail="/theme_impacto/static/src/img/snippets/structure/08.jpg"/>
+      <t t-snippet="theme_impacto.card02"
+      t-thumbnail="/theme_impacto/static/src/img/snippets/structure/09.jpg"/>
+      <t t-snippet="theme_impacto.pricing01"
+      t-thumbnail="/theme_impacto/static/src/img/snippets/structure/11.jpg"/>
+      <t t-snippet="theme_impacto.pricing02"
+      t-thumbnail="/theme_impacto/static/src/img/snippets/structure/12.jpg"/>
+      <t t-snippet="theme_impacto.shopbanner01"
+      t-thumbnail="/theme_impacto/static/src/img/snippets/structure/13.jpg"/>
+      <t t-snippet="theme_impacto.shopbanner02"
+      t-thumbnail="/theme_impacto/static/src/img/snippets/structure/14.jpg"/>
+  </xpath>
+  <xpath expr="//div[@id='snippet_feature']/div[contains(@class, 'o_panel_body')]/t" position="before">
+    <t t-snippet="theme_impacto.countersnp"
+      t-thumbnail="/theme_impacto/static/src/img/snippets/feature/01.jpg"/>
+    <t t-snippet="theme_impacto.skill"
+      t-thumbnail="/theme_impacto/static/src/img/snippets/feature/02.jpg"/>
+     <t t-snippet="theme_impacto.testimonial01"
+      t-thumbnail="/theme_impacto/static/src/img/snippets/feature/03.jpg"/>
+    <t t-snippet="theme_impacto.testimonial02"
+      t-thumbnail="/theme_impacto/static/src/img/snippets/feature/04.jpg"/>
+    <t t-snippet="theme_impacto.banner01"
+      t-thumbnail="/theme_impacto/static/src/img/snippets/feature/05.jpg"/>
+  </xpath>
+  <xpath expr="//div[@id='snippet_effect']/div[contains(@class, 'o_panel_body')]/t" position="before">
+    <t t-snippet="theme_impacto.custom_snippet_embed"
+         t-thumbnail="/theme_impacto/static/src/img/snippets/effect/01.jpg"/>
+      <t t-snippet="theme_impacto.s_latest_posts"
+         t-thumbnail="/theme_impacto/static/src/img/snippets/effect/02.jpg"/>
+      <t t-snippet="theme_impacto.s_latest_posts_big_picture"
+         t-thumbnail="/theme_impacto/static/src/img/snippets/effect/03.jpg"/>
+       <t t-snippet="theme_impacto.data_slider_snippet"
+        t-thumbnail="/theme_impacto/static/src/img/snippets/effect/04.jpg"/>
+     <t t-snippet="theme_impacto.data_slider_snippet2"
+        t-thumbnail="/theme_impacto/static/src/img/snippets/effect/05.jpg"/> 
+  </xpath>
+</template>
+
+
+</odoo>

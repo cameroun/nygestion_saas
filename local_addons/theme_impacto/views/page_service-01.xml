@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+<template name="Service 01" id="service-01">
+<t t-call="website.layout">
+<div class="page-wrapper oe_structure">
+  <section class="inner-intro dark-bg" style="background-image: url('/theme_impacto/static/src/img/bg/bg-01.jpg'); background-size: cover;">
+            <div class="container">
+              <div class="row intro-title">
+                <div class="col-md-12 text-center"><h1 class="title text-white">Service Style 1</h1></div>
+                <div class="col-md-12">
+                  <div class="row">
+                    <div class="col-md-12 text-center mt-1">
+                      <ul class="page-breadcrumb">
+                        <li><a href="javascript:void(0)">Home</a></li>
+                        <li><span>Service Style 1</span> </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section-sm">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 text-center col-md-offset-2">
+                  <div class="heading-block">
+                    <div class="sub-heading">OUR SERVICES</div>
+                    <h2>Make Your Beautiful Sites</h2>
+                  </div>
+                </div>               
+              </div>             
+              <div class="row mt-3">
+                <div class="col-md-4">
+                  <img class="img-responsive" src="/theme_impacto/static/src/img/service/img-01.jpg" alt="" />
+                  <div class="feature icon-position-left mt-3 mb-1">
+                      <div class="feature-icon" style="width: 50px">
+                          <i class="fa fa-pencil theme-text" style="font-size: 35px" aria-hidden="true"></i>
+                      </div>
+                      <div class="feature-info" >
+                         <h4 class="f-weight-500" style="line-height: 35px" >Design</h4>
+                      </div>
+                  </div>
+                  It is a vital part of developing new products. At every stage of the process.
+                  <ul class="list dot mt-2" style="margin-bottom: 10px;">
+                    <li>Web Design</li>
+                    <li>UI/UX Design</li>
+                    <li>Identity Branding</li>
+                    <li>Photography </li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <img class="img-responsive" src="/theme_impacto/static/src/img/service/img-02.jpg" alt="" />
+                  <div class="feature icon-position-left mt-3 mb-1">
+                      <div class="feature-icon" style="width: 50px">
+                          <i class="fa fa-laptop theme-text" style="font-size: 35px" aria-hidden="true"></i>
+                      </div>
+                      <div class="feature-info" >
+                         <h4 class="f-weight-500" style="line-height: 35px" >Development</h4>
+                      </div>
+                  </div>
+                  It is a vital part of developing new products. At every stage of the process.
+                  <ul class="list dot mt-2" style="margin-bottom: 10px;">
+                    <li>Web Design</li>
+                    <li>UI/UX Design</li>
+                    <li>Identity Branding</li>
+                    <li>Photography </li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <img class="img-responsive" src="/theme_impacto/static/src/img/service/img-03.jpg" alt="" />
+                  <div class="feature icon-position-left mt-3 mb-1">
+                      <div class="feature-icon" style="width: 50px">
+                          <i class="fa fa-line-chart theme-text" style="font-size: 35px" aria-hidden="true"></i>
+                      </div>
+                      <div class="feature-info" >
+                         <h4 class="f-weight-500" style="line-height: 35px" >Marketing</h4>
+                      </div>
+                  </div>
+                  It is a vital part of developing new products. At every stage of the process.
+                  <ul class="list dot mt-2" style="margin-bottom: 10px;">
+                    <li>Web Design</li>
+                    <li>UI/UX Design</li>
+                    <li>Identity Branding</li>
+                    <li>Photography </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section-md dark-bg pos-r" style="background-image: url('/theme_impacto/static/src/img/about/bg-01.jpg'); background-size: cover;">
+            <div class="container">
+              <div class="row valign">
+                <!-- Accordion Shadow color-->
+                <div class="col-md-7"  data-valign-overlay="middle">
+                  <div class="heading-block">
+                    <div class="sub-heading">Pricing</div>
+                    <h2>Motivated by the desire to achieve</h2>
+                  </div>
+                  <p class="mb-2 lead">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.We work to make your business start effectively working for you. Meet the financial and marketing specialists. These guys create a magic.</p>
+                  <a href="#" class="btn btn-default">Ream more</a>
+                </div>
+
+                <div class="col-md-1">
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="pricing-table pricing-style2 standard white-bg">
+                      <label>Standard</label>
+                      <header>
+                        <h4 class="title">$150<span>/Per month</span></h4>
+                        <span>Sed do eiusmod</span>
+                      </header>
+                      <a href="#" class="btn btn-sm btn-default btn-outline ">Purchase Now</a>
+                      <div class="table-body table-icon"><ul>
+                        <li>Lorem Ipsum <i class="fa fa-check"></i></li>
+                        <li>Dolor sit Amet <i class="fa fa-check"></i></li>
+                        <li>Consectetur Adipisicing  <i class="fa fa-check"></i></li>
+                        <li>Eiusmod Tempor <i class="fa fa-check"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                          
+              </div>
+            </div>
+          </section>
+         <section class="section-md">
+            <div class="container">
+              <div class="row no-gutter">
+                <div class="col-md-8 col-md-offset-2  text-center mb-4">
+                  <div class="heading-block">
+                    <div class="sub-heading">Process</div>
+                    <h2>Three Steps for Completement</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 text-center">
+                   <div class="feature-step new-style">
+                      <div class="feature-icon">
+                         <i class="fa fa-pencil" aria-hidden="true"></i>
+                         <span class="number">2</span>
+                      </div>
+                      <div class="feature-info">
+                         <h5>Design</h5>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod</p>
+                      </div>
+                   </div>
+                </div>
+                <div class="col-md-4 text-center">
+                   <div class="feature-step new-style">
+                      <div class="feature-icon">
+                         <i class="fa fa-laptop" aria-hidden="true"></i>
+                         <span class="number">2</span>
+                      </div>
+                      <div class="feature-info">
+                         <h5>Development</h5>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod</p>
+                      </div>
+                   </div>
+                </div>
+                <div class="col-md-4 text-center">
+                   <div class="feature-step new-style last-child">
+                      <div class="feature-icon">
+                         <i class="fa fa-search" aria-hidden="true"></i>
+                         <span class="number">3</span>
+                      </div>
+                      <div class="feature-info">
+                         <h5>Product Testing</h5>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod</p>
+                      </div>
+                   </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+</div>
+</t>
+</template>
+<record id="service-01_record" model="website.page">
+        <field name="url">/page-service-01</field>
+        <field name="website_published">True</field>
+        <field name="view_id" ref="service-01"/>
+</record>
+</odoo>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+<template name="Home Shop" id="home-shop">
+<t t-call="website.layout">
+<div class="page-wrapper oe_structure">
+  <section class="as-animated-slider">
+        <div id="carousel-1" class="carousel slide  banner indicators-right" data-ride="carousel" data-arrow="none">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-1" data-slide-to="1" class=""></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="slide-item" style="background-image: url(/theme_impacto/static/src/img/shop/banner-01.jpg);">
+                        <div class="slider-text">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="shop-banner p-0">
+                                            <label class="shop-lable lable-dark size-xs text-uppercase l-space-6">New Collection</label>
+                                            <p class="text-dark  l-space-6">FREE SHIPPING FOR ORDERS OVERS $199 </p>
+                                            <h1 class="title-extra-large text-uppercase l-space-10">SALE</h1>
+                                            <a class="link   link-md f-weight-800" href="#">Shop Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slide-item" style="background-image: url(/theme_impacto/static/src/img/shop/banner-02.jpg);">
+                        <div class="slider-text">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="shop-banner p-0">
+                                            <label class="shop-lable lable-dark size-xs text-uppercase l-space-6">New Collection</label>
+                                            <p class="text-dark  l-space-6">FREE SHIPPING FOR ORDERS OVERS $199 </p>
+                                            <h1 class="title-extra-large text-uppercase l-space-10">SALE</h1>
+                                            <a class="link   link-md f-weight-800" href="#">Shop Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-sm info-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="shop-info">
+                        <div class="info-icon" style="color: #a5d2e4;"><i class="fa fa-mobile" aria-hidden="true"></i></div>
+                        <div class="info-text">
+                            <h5 class="title">Free Shipping</h5>
+                            <p>All Order Over 40$</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="shop-info">
+                        <div class="info-icon" style="color: #a5d2e4;"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                        <div class="info-text">
+                            <h5 class="title">Secure Payments</h5>
+                            <p>100% Secure Payments</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="shop-info">
+                        <div class="info-icon" style="color: #a5d2e4;"><i class="fa fa-clock-o" aria-hidden="true"></i></div>
+                        <div class="info-text">
+                            <h5 class="title">Support Customer</h5>
+                            <p>Support 24 x 7</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="shop-info last">
+                        <div class="info-icon" style="color: #a5d2e4;"><i class="fa fa-user" aria-hidden="true"></i></div>
+                        <div class="info-text">
+                            <h5 class="title">Customer Reviews</h5>
+                            <p>Support 24 x 7</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="shop-banner-section full-width p-0">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="shop-banner shop-bnr size-l">
+                        <div class="shop-banner-image zoom" style="background-image: url(/theme_impacto/static/src/img/shop/shop-banner-01.jpg); background-position: center center;"></div>
+                        <div class="shop-banner-inner text-left align-b">
+                            <a href="#">
+                                <label class="shop-lable lable-dark size-md f-weight-700">#accessories</label>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="shop-banner shop-bnr">
+                        <div class="shop-banner-image zoom" style="background-image: url(/theme_impacto/static/src/img/shop/shop-banner-04.jpg); background-position: center center;"></div>
+                        <div class="shop-banner-inner align-b">
+                            <a href="#">
+                                <label class="shop-lable lable-dark size-sm f-weight-700">#chair color decor</label>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="shop-banner shop-bnr border-light">
+                        <div class="shop-banner-image" style="background: #323232;"></div>
+                        <div class="shop-banner-inner text-center align-m">
+                            <h3 class="title-size-md text-light f-weight-700" style="margin-bottom: 0;">Spring Looks</h3>
+                            <a class="link link-light link-md f-weight-800" href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="shop-banner shop-bnr size-l">
+                        <div class="shop-banner-image zoom" style="background-image: url(/theme_impacto/static/src/img/shop/shop-banner-05.jpg); background-position: center center;"></div>
+                        <div class="shop-banner-inner text-left align-b">
+                            <a href="#">
+                                <label class="shop-lable lable-dark size-md f-weight-700">#accessories</label>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="shop-banner shop-bnr">
+                        <div class="shop-banner-image zoom" style="background-image: url(/theme_impacto/static/src/img/shop/shop-banner-03.jpg); background-position: center center;"></div>
+                        <div class="shop-banner-inner align-b">
+                            <a href="#">
+                                <label class="shop-lable lable-dark size-sm f-weight-700">#chair color decor</label>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="shop-banner shop-bnr border">
+                        <div class="shop-banner-image" style="background: #ffffff;"></div>
+                        <div class="shop-banner-inner text-center align-m">
+                            <label class="shop-lable lable-grey l-space-3 f-weight-500">SPECIAL SALE</label>
+                            <h3 class="title-size-lg text-dark f-weight-700" style="margin-bottom: 0;">SALE</h3>
+                            <h3 class="title-size-lg text-dark l-space-6 f-weight-700" style="margin-bottom: 0;">50%</h3>
+                            <label class="shop-lable text-dark l-space-3 size-xs f-weight-600" style="margin-bottom: 0;">OFF EVERYTHING</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-sm" style="background-image: url('/theme_impacto/static/src/img/shop/fashion-bg1.jpg'); background-position: center center; background-size: cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-left">
+                    <div class="shop-banner">
+                        <div class="shop-banner-inner align-m">
+                            <label class="shop-lable l-space-7 size-xs f-weight-600 text-uppercase">E-Commerce Fashion Site</label>
+                            <h3 class="title-size-md f-weight-700" style="line-height: 1.3em;">Up To 40% Off Final Sale Items</h3>
+                            <a class="link link-lg f-weight-800" href="#">Shop Now</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section> 
+    <section class="section-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"><img class="img-responsive" src="/theme_impacto/static/src/img/shop/bottom-banner.jpg" alt="" /></div>
+            </div>
+        </div>
+    </section>
+<script>
+  $(window.document).ready(function(){
+    $("body").addClass("home-shop");
+  });
+</script>
+</div>
+</t>
+</template>
+<record id="home-shop_record" model="website.page">
+        <field name="url">/home-shop</field>
+        <field name="website_published">True</field>
+        <field name="view_id" ref="home-shop"/>
+</record>
+</odoo>

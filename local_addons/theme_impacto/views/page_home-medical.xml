@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+<template name="Home Medical" id="home-medical" >
+<t t-call="website.layout">
+<div class="page-wrapper oe_structure">
+            <section class="as-animated-slider">
+              <div id="carousel-1" class="carousel slide banner" data-ride="carousel" data-arrow="none">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-1" data-slide-to="1" class=""></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <div class="slide-item"  style="background-image: url(/theme_impacto/static/src/img/medical/banner-01.jpg);">
+                      <div class="slider-text">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <span class="sub-heading fill-bg title-medium theme-text">Excellence</span>
+                              <h1 class="title-large">Every Patient. Every Time.</h1>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="slide-item" style="background-image: url(/theme_impacto/static/src/img/medical/banner-02.jpg);">
+                      <div class="slider-text">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-6 col-md-offset-6 text-right">
+                              <span class="sub-heading fill-bg title-medium theme-text">Excellence</span>
+                              <h1 class="title-large">Every Patient. Every Time.</h1>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="p-0">
+              <div class="container box-top white-bg box-shadow">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="feature pxy-5">
+                      <div class="feature-icon theme-text">
+                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                      </div>
+                      <div class="feature-info">
+                        <h5 class="title">Primary Care</h5>
+                        <p>It is a vital part of developing new products, helping you avoid expensive mistakes.</p>
+                        <a href="#" class="btn btn-sm btn-default btn-outline mt-2">Know more</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 dark-bg">
+                    <div class="feature pxy-5">
+                      <div class="feature-icon theme-text">
+                        <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                      </div>
+                      <div class="feature-info">
+                        <h5 class="title">Advanced Tools</h5>
+                        <p>Encompasses many skills and disciplines in the production and service of websites.</p>
+                        <a href="#" class="btn btn-sm btn-default btn-outline mt-2">Know more</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 theme-bg">
+                    <div class="feature pxy-5">
+                      <div class="feature-icon white-text">
+                        <i class="fa fa-medkit" aria-hidden="true"></i>
+                      </div>
+                      <div class="feature-info">
+                        <h5 class="title">Online Appointment</h5>
+                        <p>Testing is the name given to software testing that focuses on web applications.</p>
+                        <a href="#" class="btn btn-sm btn-default btn-outline white mt-2">Know more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="section-md">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="heading-block">
+                      <div class="sub-heading">ABOUT US</div>
+                      <h2>Achieving better health care one patient at a time.</h2>
+                    </div>
+                    <p class="lead">Typical ad agency clients include businesses and corporations, non-profit organizations and private agencies.</p>
+                    <p>Lorem ipsum dolor s it amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ipsum dolor sit amet, consectetur elit adipisicing elitLorem ipsum dolor s it ametr</p>
+                    <div class="mt-3" style="margin-bottom: 30px;">
+                      <a href="#" class="btn btn-default">Ream more</a>
+                      <a href="#" class="btn btn-default  btn-outline ml-2">Know more</a>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mt-1">
+                    <img class="img-responsive img-shadow" style="width: 100%" src="/theme_impacto/static/src/img/medical/img-01.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="section-sm dark-bg pos-r" style="background: url('/theme_impacto/static/src/img/medical/bg-02.jpg') no-repeat 0 0; background-size: cover;">
+              <div class="container">
+                <div class="row">
+                  <!-- Align center -->
+                  <div class="col-md-3">
+                    <div class="counter text-center brd-style">
+                      <div class="counter-icon">
+                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                      </div>
+                      <div class="counter-info">
+                        <span class="timer" data-to="700" data-speed="1000">700</span>
+                        <label>Hours Of Work</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="counter text-center brd-style">
+                      <div class="counter-icon">
+                        <i class="fa fa-trophy" aria-hidden="true"></i>
+                      </div>
+                      <div class="counter-info">
+                        <span class="timer" data-to="250" data-speed="1000">250</span>
+                        <label>Awords Wininng</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="counter text-center brd-style">
+                      <div class="counter-icon">
+                        <i class="fa fa-briefcase" aria-hidden="true"></i>
+                      </div>
+                      <div class="counter-info">
+                        <span class="timer" data-to="400" data-speed="1000">400</span>
+                        <label>Completed Projects</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="counter text-center brd-style">
+                      <div class="counter-icon">
+                        <i class="fa fa-smile-o" aria-hidden="true"></i>
+                      </div>
+                      <div class="counter-info">
+                        <span class="timer" data-to="355" data-speed="1000">355</span>
+                        <label>Happy Clients</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="section-md" >
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2 text-center">
+                    <div class="heading-block">
+                      <div class="sub-heading">Our Service</div>
+                      <h2>Bringing Loving Care to Health Care.</h2>
+                      <p class="mb-2 lead">Lorem ipsum dolor s it amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4 text-center">
+                    <div class="photobox style2">
+                      <div class="photobox-img">
+                        <img src="/theme_impacto/static/src/img/medical/img-02.jpg" class="img-responsive" alt="" />
+                      </div>
+                      <div class="photobox-content">
+                        <p>For your whitest teeths</p>
+                        <h4>Dentist</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 text-center">
+                    <div class="photobox style2">
+                      <div class="photobox-img">
+                        <img src="/theme_impacto/static/src/img/medical/img-03.jpg" class="img-responsive" alt="" />
+                      </div>
+                      <div class="photobox-content">
+                        <p>Got a New eye?</p>
+                        <h4>Ophthalmology</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 text-center">
+                    <div class="photobox style2">
+                      <div class="photobox-img">
+                        <img src="/theme_impacto/static/src/img/medical/img-04.jpg" class="img-responsive" alt="" />
+                      </div>
+                      <div class="photobox-content">
+                        <p>Neck or back pain?</p>
+                        <h4>Chiropractor</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="section-md dark-bg pos-r section-lg" style="background: url('/theme_impacto/static/src/img/medical/bg-01.jpg') no-repeat 0 0; background-size: cover; padding-bottom: 150px;">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 col-md-offset-3  text-center">
+                    <div class="heading-block">
+                      <div class="sub-heading">Why us</div>
+                      <h2>Building a Healthy Community One Individual at a Time.</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="section-md pt-0">
+              <div class="container box-top box-shadow">
+                <div class="row no-gutter">
+                  <div class="col-md-4 white-bg">
+                    <div class="feature pxy-5 text-center">
+                      <div class="feature-icon theme-text">
+                        <i class="fa fa-user-md" aria-hidden="true"></i>
+                      </div>
+                      <div class="feature-info">
+                        <h5 class="title">Experienced Team</h5>
+                        <p>It is a vital part of developing new products, helping you avoid expensive mistakes.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 grey-bg">
+                    <div class="feature pxy-5 text-center">
+                      <div class="feature-icon theme-text">
+                        <i class="fa fa-medkit" aria-hidden="true"></i>
+                      </div>
+                      <div class="feature-info">
+                        <h5 class="title">Primary Care</h5>
+                        <p>Encompasses many skills and disciplines in the production and service of websites.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 white-bg">
+                    <div class="feature pxy-5 text-center">
+                      <div class="feature-icon theme-text">
+                        <i class="fa fa-stethoscope" aria-hidden="true"></i>
+                      </div>
+                      <div class="feature-info">
+                        <h5 class="title">Academic Research</h5>
+                        <p>Testing is the name given to software testing that focuses on web applications.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="section-md pt-0">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="heading-block">
+                      <div class="sub-heading">FAQ</div>
+                      <h2>Not just better healthcare, but a better healthcare experience.</h2>
+                    </div>
+                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great.</p>
+                    <div class="mt-3">
+                      <a href="#" class="btn btn-default">Ream more</a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="panel-group accordion bottom-border" id="accordion3" role="tablist" aria-multiselectable="true">
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading3-1">
+                          <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordion3" href="#collapse3-1"><i class="icon-check icons"></i> Many desktop publishing packages </a> </h4>
+                        </div>
+                        <div id="collapse3-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+                          <div class="panel-body"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading3-2">
+                          <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3" href="#collapse3-2"><i class="icon-check icons"></i> The standard Lorem Ipsum passage </a> </h4>
+                        </div>
+                        <div id="collapse3-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3-2">
+                          <div class="panel-body"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading3-3">
+                          <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3" href="#collapse3-3"><i class="icon-check icons"></i> Written by Cicero in 45 BC </a> </h4>
+                        </div>
+                        <div id="collapse3-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                          <div class="panel-body"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="section-md dark-bg pos-r" style="background: url('/theme_impacto/static/src/img/medical/bg-03.jpg') no-repeat 0 0; background-size: cover;">
+              <div class="container">
+                
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2  text-center">
+                    <a class="video mb-2 popup-youtube" title="Video" href="http://www.youtube.com/watch?v=7HKoqNJtMTQ">
+                      <img src="/theme_impacto/static/src/img/icon-play-white.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 col-md-offset-3  text-center">
+                    <div class="heading-block">
+                      <h2>Caring for the growing need of <br/> our community.</h2>
+                      <p>Lorem ipsum dolor s it amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="section-md">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2  text-center">
+                    <div class="heading-block">
+                      <div class="sub-heading">Our Team</div>
+                      <h2>The best team available</h2>
+                    </div>
+                    <p class="mb-2 lead">Lorem ipsum dolor s it amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-md-6">
+                    <div class="team style4">
+                      <div class="member-image clearfix">
+                        <img class="img-responsive" src="/theme_impacto/static/src/img/medical/member1.jpg" alt="" />
+                      </div>
+                      <div class="team-info">
+                        <h6 class="member-position">Head of Department</h6>
+                        <h4 class="member-name">Dr. Micheal Jorden</h4>
+                        <p><strong>Speciality:</strong> Cardiologist<br />
+                        <strong>Degrees:</strong> M.B.B.S</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ">
+                    <div class="team style4">
+                      <div class="member-image clearfix">
+                        <img class="img-responsive" src="/theme_impacto/static/src/img/medical/member2.jpg" alt="" />
+                      </div>
+                      <div class="team-info">
+                        <h6 class="member-position">Head of Department</h6>
+                        <h4 class="member-name">Antonio Creighton</h4>
+                        <p><strong>Speciality:</strong> Pediatrician<br />
+                        <strong>Degrees:</strong> M.B.B.S</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-1">
+                  <div class="col-md-6">
+                    <div class="team style4">
+                      <div class="member-image clearfix">
+                        <img class="img-responsive" src="/theme_impacto/static/src/img/medical/member3.jpg" alt="" />
+                      </div>
+                      <div class="team-info">
+                        <h6 class="member-position">Head of Department</h6>
+                        <h4 class="member-name">Antonio Creighton</h4>
+                        <p><strong>Speciality:</strong> Cardiologist<br />
+                        <strong>Degrees:</strong> M.B.B.S</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ">
+                    <div class="team style4">
+                      <div class="member-image clearfix">
+                        <img class="img-responsive" src="/theme_impacto/static/src/img/medical/member4.jpg" alt="" />
+                      </div>
+                      <div class="team-info">
+                        <h6 class="member-position">Head of Department</h6>
+                        <h4 class="member-name">Antonio Creighton</h4>
+                        <p><strong>Speciality:</strong> Rehabilitation Therapy<br />
+                        <strong>Degrees:</strong> M.B.B.S</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+<script>
+  $(window.document).ready(function(){
+    $("body").addClass("home-medical");
+  });
+</script>
+          </div>
+</t>
+</template>
+<record id="home-medical_record" model="website.page">
+        <field name="url">/home-medical</field>
+        <field name="website_published">True</field>
+        <field name="view_id" ref="home-medical"/>
+</record>
+</odoo>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+<template name="Home Shop Furniture" id="home-shop-furniture">
+
+<t t-call="website.layout">
+<div class="page-wrapper oe_structure">
+  <section class="shop-banner-section full-width">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="shop-banner shop-bnr size-l">
+                        <div class="shop-banner-image zoom" style="background-image: url(/theme_impacto/static/src/img/furniture/shop-banner-02.jpg); background-position: center center;"></div>
+                        <div class="shop-banner-inner align-m">
+                            <label class="shop-lable size-sm lable-light text-uppercase">Furniture Design</label>
+                            <h3 class="title-size-lg text-light f-weight-700">New <span class="f-weight-100">Collection</span></h3>
+                            <a class="link fill f-weight-700" href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="shop-banner shop-bnr size-l">
+                        <div class="shop-banner-image zoom" style="background-image: url(/theme_impacto/static/src/img/furniture/shop-banner-01.jpg); background-position: center center;"></div>
+                        <div class="shop-banner-inner align-t">
+                            <label class="shop-lable size-sm lable-light text-uppercase">SOFA Design</label>
+                            <h3 class="title-size-lg text-light f-weight-700">New <span class="f-weight-100">Collection</span></h3>
+                            <a class="link fill f-weight-700" href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="shop-banner shop-bnr">
+                        <div class="shop-banner-image zoom" style="background-image: url(/theme_impacto/static/src/img/furniture/shop-banner-03.jpg); background-position: center center;"></div>
+                        <div class="shop-banner-inner align-t text-right">
+                            <label class="shop-lable size-sm lable-light text-uppercase">Chair</label>
+                            <h3 class="f-weight-700">New <span class="f-weight-100">Collection</span></h3>
+                            <a class="link link-lg f-weight-800" href="#">$.29</a>
+                        </div>
+                    </div>
+                    <div class="shop-banner shop-bnr border-light">
+                        <div class="shop-banner-image" style="background: #333;"></div>
+                        <div class="shop-banner-inner text-center align-m">
+                            <label class="shop-lable lable-dark l-space-3 f-weight-600">SPECIAL SALE</label>
+                            <h3 class="title-size-lg text-light f-weight-700" style="margin-bottom: 0;">SALE</h3>
+                            <h3 class="title-size-lg text-light l-space-6 f-weight-700" style="margin-bottom: 0;">50%</h3>
+                            <label class="shop-lable text-light l-space-3 size-xs f-weight-600" style="margin-bottom: 0;">OFF EVERYTHING</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="info-section section-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="shop-info shop-info-3 text-center">
+                        <div class="info-icon" style="color: #fc947d;"><i class="fa fa-mobile" aria-hidden="true"></i></div>
+                        <div class="info-text">
+                            <h4 class="title">Free Shipping</h4>
+                            <p>All Order Over 40$</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="shop-info shop-info-3 text-center">
+                        <div class="info-icon" style="color: #78d1dd;"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                        <div class="info-text">
+                            <h4 class="title">Secure Payments</h4>
+                            <p>100% Secure Payments</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="shop-info shop-info-3 text-center last">
+                        <div class="info-icon" style="color: #7988cb;"><i class="fa fa-clock-o" aria-hidden="true"></i></div>
+                        <div class="info-text">
+                            <h4 class="title">Support Customer</h4>
+                            <p>Support 24 x 7</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr/>
+<script>
+  $(window.document).ready(function(){
+    $("body").addClass("home-shop-furniture");
+  });
+</script>
+</div>
+</t>
+</template>
+ <record id="home-shop-furniture_record" model="website.page">
+        <field name="url">/home-shop-furniture</field>
+        <field name="website_published">True</field>
+        <field name="view_id" ref="home-shop-furniture"/>
+    </record>
+</odoo>

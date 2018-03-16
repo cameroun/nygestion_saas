@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    
+        <template id="event_title_page_layout" inherit_id="website_event.layout">
+            <xpath expr="//div[@id='wrap']//div[@id='event_menu']/ol[1]" position="replace">
+            </xpath>
+
+            <xpath expr="//div[@id='wrap']/div" position="before">
+                <section class="inner-intro dark-bg" style="background-image: url('/theme_impacto/static/src/img/bg/bg-01.jpg'); background-size: cover;">
+                    <div class="container">
+                      <div class="row intro-title">
+                        <div class="col-md-12 text-center"><h1 class="title text-white">Our Events</h1></div>
+                        <div class="col-md-12">
+                          <div class="row">
+                            <div class="col-md-12 text-center mt-1">
+                              <ul class="page-breadcrumb">
+                                <li><a href="/event">All Events</a></li>
+                                <li t-if="event.event_type_id">
+                                  <a t-attf-href="/event?type=#{event.event_type_id.id}" t-esc="event.event_type_id.name"/>
+                              </li>
+                              <li t-if="event.country_id">
+                                 <a t-attf-href="/event?country=#{event.country_id.id}" t-esc="event.country_id.name"/>
+                              </li>
+                              <li class="active">
+                                 <span t-field="event.name"/>
+                              </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>              
+            </xpath>
+        </template>
+
+        <template id="event_title_page" inherit_id="website_event.index">
+            <xpath expr="//div[@id='wrap']//div[@class='container']" position="inside">
+                <div class="row mt8">
+                    <div class="col-sm-7">
+                        <t t-call="website.pager" >
+                            <t t-set="classname">pull-right</t>
+                        </t>
+                    </div>
+                </div>
+            </xpath>
+            <xpath expr="//div[@id='wrap']/div[@class='oe_structure']" position="before">
+                <section class="inner-intro dark-bg" style="background-image: url('/theme_impacto/static/src/img/bg/bg-01.jpg'); background-size: cover;">
+                    <div class="container">
+                      <div class="row intro-title">
+                        <div class="col-md-12 text-center"><h1 class="title text-white">Our Events</h1></div>
+                        <div class="col-md-12">
+                          <div class="row">
+                            <div class="col-md-12 text-center mt-1">
+                              <ul class="page-breadcrumb">
+                                <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
+                                <li class="active">Events</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+            </xpath>
+
+            <xpath expr="//div[@id='wrap']//div[@class='row mt8']" position="replace">
+            </xpath>
+
+
+
+            <xpath expr="//ul[@class='media-list']" position="replace">
+                <t t-foreach="event_ids" t-as="event" class="media">
+                    <div class="event-list">
+                        <h4 class="media-heading">
+                            <a itemprop="url" t-att-class="event.state == 'done' and 'text-success'"
+                               t-attf-href="/event/#{ slug(event) }/#{(not event.menu_id) and 'register' or ''}">
+                                <span itemprop="name" t-field="event.name"></span>
+                            </a>
+                            <small t-if="event.is_participating" class="label label-info">Participating</small>
+                            <small t-if="not event.address_id" class="label label-info">Online</small>
+                            <small t-if="not event.website_published" class="label label-danger">unpublished</small>
+                        </h4> 
+                         <p class="desc">
+                                            <i class="fa fa-clock-o"></i>
+                                         From <span  t-field="event.date_begin" t-field-options='{"format": "EEE"}'/>, <span  t-field="event.date_begin" t-field-options='{"format": "dd-MM-yyyy"}'> </span>
+                                         Till <span  t-field="event.date_end" t-field-options='{"format": "EEE"}'/>, <span t-field="event.date_end" t-field-options='{"format": "dd-MM-yyyy"}'> </span>
+                                         <br></br>
+                                         <t t-if="event.organizer_id">
+                                             Organized by: <span t-field="event.organizer_id"> </span>
+                                         </t>
+
+                                     </p>
+                            <!--
+                                 <div class="info">
+                                     <p class="desc">
+                                         <span t-field="event.short_description"> </span>
+                                     </p>
+                                    <ul>
+                                        <li t-if="event.website" style="width:50%;"><a t-attf-href="#{event.website}"><span class="fa fa-globe"></span> Website</a></li>
+                                        <li t-if="event.info" style="width:50%;"><a t-attf-href="#{event.info}"><span class="fa fa-info-circle"></span> info</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="social-icons border color-hover" t-if="event.facebook or event.twitter or event.googleplus">
+                                    <ul>
+                                        <li t-if="event.facebook" class="facebook-event" ><a t-attf-href="#{event.facebook}"><span class="fa fa-facebook"></span></a></li>
+                                        <li t-if="event.twitter" class="twitter-event" ><a t-attf-href="#{event.twitter}"><span class="fa fa-twitter"></span></a></li>
+                                        <li t-if="event.googleplus" class="google-plus-event" ><a t-attf-href="#{event.googleplus}"><span class="fa fa-google-plus"></span></a></li>
+                                    </ul>
+                                </div>
+                            -->
+
+                    </div>
+                </t>
+            </xpath>
+        </template>
+
+
+        <template id="website_event.event_left_column" customize_show="True" inherit_id="website_event.index" name="Filters">
+            <xpath expr="//div[@id='middle_column']" position="attributes">
+                <attribute name="class">col-md-6</attribute>
+            </xpath>
+            <xpath expr="//div[@id='middle_column']" position="before">
+                <div class="col-md-3 event-nav css_noprint" id="left_column">
+                    <ul class="nav nav-pills nav-stacked">
+                        <t t-foreach="dates" t-as="date">
+                            <li t-att-class="searches.get('date') == date[0] and 'active' or ''" t-if="date[3] or (date[0] in ('old','all'))">
+                                <a t-attf-href="/event?{{ keep_query('country', 'type', date=date[0]) }}"><t t-esc="date[1]"/>
+                                    <span t-if="date[3]" class="badge pull-right"><t t-esc="date[3]"/></span>
+                                </a>
+                            </li>
+                        </t>
+                    </ul>
+                </div>
+            </xpath>
+        </template>
+
+</odoo>
+

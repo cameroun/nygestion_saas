@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+<template id="custom_aboutus" inherit_id="website.aboutus" name="About Us">
+<xpath expr="//div[@id='wrap']" position="replace">
+<div class="page-wrapper oe_structure">
+  <section class="inner-intro dark-bg" style="background-image: url('/theme_impacto/static/src/img/bg/bg-01.jpg'); background-size: cover;">
+    <div class="container">
+      <div class="row intro-title">
+        <div class="col-md-12 text-center"><h1 class="title text-white">About Us Style 1</h1></div>
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-12 text-center mt-1">
+              <ul class="page-breadcrumb">
+                <li><a href="javascript:void(0)">Home</a></li>
+                <li><span>About Us Style 1</span> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-md">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="heading-block">
+            <div class="sub-heading">WHO WE ARE</div>
+            <h2 class="title">Enterprises seeking a digital edge transform processes and the customer experience.</h2>
+          </div>
+          <p class="lead">We make websites are the number one ranked design and marketing team. We build unique and beautiful websites that will make you more successful.</p>
+          <a href="#" class="btn btn-default mt-1">Read More</a>
+        </div>
+        <div class="col-md-6">
+          <img class="img-responsive img-shadow" src="/theme_impacto/static/src/img/about/img-01.jpg" alt="" />
+        </div>
+      </div>
+      <div class="row mt-7">
+        <div class="col-md-12">
+          <hr/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mt-4">
+          <div class="feature icon-position-left">
+            <div class="feature-icon">
+              <i class="fa fa-pencil theme-text" aria-hidden="true"></i>
+            </div>
+            <div class="feature-info">
+              <h5 class="solid-weight">Design &amp; Creative</h5>
+              <p>It is a vital part of developing new products. At every stage of the process research can help you.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-4">
+          <div class="feature icon-position-left">
+            <div class="feature-icon text-center theme-text">
+              <i class="fa fa-mobile" aria-hidden="true"></i>
+            </div>
+            <div class="feature-info">
+              <h5 class="solid-weight">Mobile Development</h5>
+              <p>It is a vital part of developing new products. At every stage of the process research can help you.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-4">
+          <div class="feature icon-position-left">
+            <div class="feature-icon theme-text">
+              <i class="fa fa-laptop" aria-hidden="true"></i>
+            </div>
+            <div class="feature-info">
+              <h5 class="solid-weight">Web Design</h5>
+              <p>It is a vital part of developing new products. At every stage of the process research can help you.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-sm theme-bg white-text">
+    <div class="container">
+      <div class="row">
+        <!-- Align center -->
+        <div class="col-md-3">
+          <div class="counter text-center">
+            <div class="counter-icon">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+            </div>
+            <div class="counter-info">
+              <span class="timer" data-to="700" data-speed="1000">700</span>
+              <label>Hours Of Work</label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="counter text-center">
+            <div class="counter-icon">
+              <i class="fa fa-trophy" aria-hidden="true"></i>
+            </div>
+            <div class="counter-info">
+              <span class="timer" data-to="250" data-speed="1000">250</span>
+              <label>Awords Wininng</label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="counter text-center">
+            <div class="counter-icon">
+              <i class="fa fa-briefcase" aria-hidden="true"></i>
+            </div>
+            <div class="counter-info">
+              <span class="timer" data-to="400" data-speed="1000">400</span>
+              <label>Completed Projects</label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="counter text-center">
+            <div class="counter-icon">
+              <i class="fa fa-smile-o"></i>
+            </div>
+            <div class="counter-info">
+              <span class="timer" data-to="355" data-speed="1000">355</span>
+              <label>Happy Clients</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-md pb-0">
+    <div class="container">
+      <div class="row no-gutter">
+        <div class="col-md-8 col-md-offset-2  text-center mb-4">
+          <div class="heading-block">
+            <div class="sub-heading">Team</div>
+            <h2>Our Creative Staff</h2>
+          </div>
+          <p class="mb-2 lead">We work to make your business start effectively working for you. Meet the financial and marketing specialists. These guys create a magic.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row no-gutter">
+        <div class="col-md-3">
+          <div class="team style3 no-radius text-center">
+            <div class="member-image">
+              <img class="img-responsive" src="/theme_impacto/static/src/img/team/team-01.jpg" alt="" />
+            </div>
+            <div class="team-info">
+              <h4 class="member-name l-space-1">Antonio Creighton</h4>
+              <h6 class="member-position">CREATIVE DIRECTOR</h6>
+              <div class="social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="team style3 no-radius text-center">
+            <div class="member-image">
+              <img class="img-responsive" src="/theme_impacto/static/src/img/team/team-02.jpg" alt="" />
+            </div>
+            <div class="team-info">
+              <h4 class="member-name l-space-1">Samanta Jonson</h4>
+              <h6 class="member-position">PARTNER &amp; CEO</h6>
+              <div class="social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="team style3 no-radius text-center">
+            <div class="member-image">
+              <img class="img-responsive" src="/theme_impacto/static/src/img/team/team-03.jpg" alt="" />
+            </div>
+            <div class="team-info">
+              <h4 class="member-name l-space-1">Frederick Smith</h4>
+              <h6 class="member-position">DIGITAL DIRECTOR</h6>
+              <div class="social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="team style3 no-radius text-center">
+            <div class="member-image">
+              <img class="img-responsive" src="/theme_impacto/static/src/img/team/team-04.jpg" alt="" />
+            </div>
+            <div class="team-info">
+              <h4 class="member-name l-space-1">Antonio Creighton</h4>
+              <h6 class="member-position">CREATIVE DIRECTOR</h6>
+              <div class="social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-md">
+    <div class="container">
+      <div class="row">
+        <!-- Accordion Shadow color-->
+        <div class="col-md-6 pr-5">
+          <div class="heading-block">
+            <div class="sub-heading">Abuot Us</div>
+            <h2>We make creative projects for awesome clients</h2>
+          </div>
+          <p class="mb-2 lead">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.</p>
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti  dolores.</p>
+        </div>
+        
+        <!-- Accordion border -->
+        <div class="col-md-6">
+          <div class="skill">
+            <div class="skill-bar">
+              <div class="progress-bar" data-percent="96" data-delay="0" data-type="%">
+                <div class="progress-title">General Consulting</div>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="progress-bar" data-percent="80" data-delay="0" data-type="%">
+                <div class="progress-title">Construction Management</div>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="progress-bar" data-percent="60" data-delay="0" data-type="%">
+                <div class="progress-title">Design &amp; Build</div>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="progress-bar" data-percent="40" data-delay="0" data-type="%">
+                <div class="progress-title">Special Projects</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Accordion border -->
+      </div>
+    </div>
+  </section>
+</div>
+</xpath>
+</template>
+
+</odoo>

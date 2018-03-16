@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+	
+	<template name="Portfolio" id="our_work">
+		   <t t-call="website.layout">
+			   <div class="page-wrapper oe_structure">
+					<section class="inner-intro dark-bg text-center" style="background-image: url('/theme_impacto/static/src/img/bg/bg-01.jpg'); background-size: cover;">
+                    <div class="container">
+                      <div class="row intro-title">
+							<div class="col-md-12"><h2 class="title">Our Work</h2></div>
+							<div class="col-md-12">
+								<div class="row">
+									<div class="col-md-12 mt-1">
+										<ul class="page-breadcrumb">
+											<li><a href="javascript:void(0)">Home</a></li>
+											<li><span>Our Work</span> </li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+                    </div>
+                  </section> 
+	               <section class="section-md">   
+		               <div class="container">
+		                <div class="row">
+		                  <div class="col-md-8 text-center col-md-offset-2">
+		                    <div class="heading-block">
+		                      <div class="sub-heading">OUR WORKS</div>
+		                      <h2>Case Studies</h2>
+		                    </div>
+		                    <p class="mb-4">View some of the most successful projects and more by our specialists presented in this gallery. We work to make your business start effectively working for you.</p>
+		                  </div>
+		                </div>
+		                <div class="row">
+		                  <div class="col-md-12">
+		                    <div class="isotope columns-3 popup-gallery">
+		                      <div class="grid-item">
+		                        <div class="portfolio-item">
+		                          <img src="/theme_impacto/static/src/img/gallery/gallery-1.jpg" alt="Design" />
+		                          <div class="portfolio-overlay">
+		                            <h4><a href="#">Creative Digital Solutions</a></h4>
+		                            <span class="theme-text">BRANDING</span>
+		                          </div>
+		                          <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/gallery/gallery-1.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+		                        </div>
+		                      </div>
+		                      <div class="grid-item">
+		                        <div class="portfolio-item">
+		                          <img src="/theme_impacto/static/src/img/gallery/gallery-2.jpg" alt="Design" />
+		                          <div class="portfolio-overlay">
+		                            <h4><a href="#">App Development</a></h4>
+		                            <span class="theme-text">BRANDING</span>
+		                          </div>
+		                          <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/gallery/gallery-2.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+		                        </div>
+		                      </div>
+		                      <div class="grid-item">
+		                        <div class="portfolio-item">
+		                          <img src="/theme_impacto/static/src/img/gallery/gallery-3.jpg" alt="Design" />
+		                          <div class="portfolio-overlay">
+		                            <h4><a href="#">Portrait Printing</a></h4>
+		                            <span class="theme-text">BRANDING</span>
+		                          </div>
+		                          <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/gallery/gallery-3.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+		                        </div>
+		                      </div>
+		                      <div class="grid-item">
+		                        <div class="portfolio-item">
+		                          <img src="/theme_impacto/static/src/img/gallery/gallery-4.jpg" alt="Design" />
+		                          <div class="portfolio-overlay">
+		                            <h4><a href="#">Office Stationery</a></h4>
+		                            <span class="theme-text">BRANDING</span>
+		                          </div>
+		                          <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/gallery/gallery-4.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+		                        </div>
+		                      </div>
+		                      <div class="grid-item">
+		                        <div class="portfolio-item">
+		                          <img src="/theme_impacto/static/src/img/gallery/gallery-5.jpg" alt="Design" />
+		                          <div class="portfolio-overlay">
+		                            <h4><a href="#">Booklet Printing</a></h4>
+		                            <span class="theme-text">BRANDING</span>
+		                          </div>
+		                          <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/gallery/gallery-5.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+		                        </div>
+		                      </div>
+		                      <div class="grid-item">
+		                        <div class="portfolio-item">
+		                          <img src="/theme_impacto/static/src/img/gallery/gallery-6.jpg" alt="Design" />
+		                          <div class="portfolio-overlay">
+		                            <h4><a href="#">Business Arrangements </a></h4>
+		                            <span class="theme-text">BRANDING</span>
+		                          </div>
+		                          <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/gallery/gallery-6.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+		                        </div>
+		                      </div>
+		                    </div>
+		                  </div>
+		                </div>
+		              </div>
+	             	</section>
+			   </div>
+		   </t>
+		</template>
+	<record id="our_work_record" model="website.page">
+        <field name="url">/page-portfolio</field>
+        <field name="website_published">True</field>
+        <field name="view_id" ref="our_work"/>
+</record>
+</odoo>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+<template name="Home App" id="home-app">
+<t t-call="website.layout">
+<div class="page-wrapper oe_structure">
+  <section class="as-animated-slider">
+    <div id="carousel-1" class="carousel slide banner" data-ride="carousel" data-arrow="none">
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div class="slide-item" style="background-image: url(/theme_impacto/static/src/img/app/banner-01.jpg); background-size: cover;">
+            <div class="slid-text">
+              <div class="container">
+                <div class="row valign">
+                  <div class="col-md-6" data-valign-overlay="middle">
+                    <div class="sub-heading">#1 Cleaning App</div>
+                    <h1 class="title-medium">Great Features With Best Cleaner.</h1>
+                    <p class="dark-text lead">No need for a Wi-Fi network or mobile data plan. The choice of OVER 1 billion users.</p>
+                    <a href="#" class="btn btn-default btn-outline">Buy Now</a>
+                    <a href="#" class="btn btn-default ml-2">Buy Now</a>
+                  </div>
+                  <div class="col-md-6 text-right">
+                    <img src="/theme_impacto/static/src/img/app/img-01.png" class="img-responsive" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-md feature-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 text-center col-md-offset-2">
+          <div class="heading-block">
+            <div class="sub-heading">Featurs</div>
+            <h2>Powerful  Core of the apps</h2>
+          </div>
+          <p class="lead">Design must reflect the practical and aesthetic in business but above all Design must reflect the practical and aesthetic in business but above all... good design.</p>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-4 ">
+          <div class="feature pxy-5 radius-4 text-center box-shadow-2">
+            <div class="feature-icon theme-text">
+              <i class="fa fa-shield" aria-hidden="true"></i>
+            </div>
+            <div class="feature-info">
+              <h5 class="title">Security</h5>
+              <p>It is a vital part of developing new products, helping you avoid expensive mistakes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature pxy-5 radius-4 text-center box-shadow-2">
+            <div class="feature-icon theme-text">
+              <i class="fa fa-database" aria-hidden="true"></i>
+            </div>
+            <div class="feature-info">
+              <h5 class="title">Data Analysis</h5>
+              <p>Encompasses many skills and disciplines in the production and service of websites.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 ">
+          <div class="feature pxy-5 radius-4 text-center box-shadow-2">
+            <div class="feature-icon theme-text">
+              <i class="fa fa-commenting-o" aria-hidden="true"></i>
+            </div>
+            <div class="feature-info">
+              <h5 class="title">Live Chat</h5>
+              <p>Testing is the name given to software testing that focuses on web applications.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="theme-bg section-md p-0">
+    <div class="container">
+      <div class="row valign">
+        <div class="col-md-5 text-center">
+          <img src="/theme_impacto/static/src/img/app/img-02.png" class="img-responsive" alt="" />
+        </div>
+        <div class="col-md-5 col-md-offset-2" data-valign-overlay="middle">
+          <div class="heading-block">
+            <div class="sub-heading">About App</div>
+            <h2 class="title">Boost up your phone in<br/>just one click!</h2>
+          </div>
+          <p class="lead">No need for a Wi-Fi network or mobile data plan.<br/> The choice of OVER 1 billion users.</p>
+          <ul class="list line mt-2 white-text" style="margin-bottm: 20px;">
+            <li>Auto clean mood with super minimize option</li>
+            <li>We work with some of the most successful businesses.</li>
+            <li>Auto clean mood with super minimize option</li>
+            <li>Auto clean mood with super minimize option</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-md interface-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 text-center col-md-offset-2">
+          <div class="heading-block">
+            <div class="sub-heading theme-text">Screenshot</div>
+            <h2>Awesome interface</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid text-center mt-4">
+      <div class="row">
+        <div class="col-md-3 text-center">
+          <img src="/theme_impacto/static/src/img/app/apps-1.png" class="img-responsive box-shadow-2 center-block"  alt="" />
+        </div>
+        <div class="col-md-3 text-center">
+          <img src="/theme_impacto/static/src/img/app/apps-2.png" class="img-responsive box-shadow-2 center-block" alt="" />
+        </div>
+        <div class="col-md-3 text-center">
+          <img src="/theme_impacto/static/src/img/app/apps-3.png" class="img-responsive box-shadow-2 center-block" alt="" />
+        </div>
+        <div class="col-md-3 text-center">
+          <img src="/theme_impacto/static/src/img/app/apps-4.png" class="img-responsive box-shadow-2 center-block" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="dark-bg section-lg text-center" style="background-image: url(/theme_impacto/static/src/img/app/bg-01.jpg); background-size: cover">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="sub-heading">Watch Video</div>
+          <h1 class="white-text title-medium">We’re a <span class="alt-font f-weight-300">digital studio</span> that believe<br/>
+          in the power of great ideas.</h1>
+          <a class="video mb-2 popup-youtube" title="Video" href="http://www.youtube.com/watch?v=7HKoqNJtMTQ">
+            <img src="/theme_impacto/static/src/img/icon-play-white.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-md pricing-section">
+    <div class="container">
+      <div class="row valign">
+        <div class="col-md-4" data-valign-overlay="middle">
+          <div class="heading-block">
+            <div class="sub-heading theme-text">OUR PRICING</div>
+            <h2 >Not any hidden<br/>
+            charge, Choose you<br/>
+            pricing plan</h2>
+          </div>
+          <p class=" lead">We have differe type of pricing table to choose with
+          your need with resonable price.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="pricing-table pricing-style2 standard theme-bg">
+            <label>Standard</label>
+            <header>
+              <h4 class="title">$150<span>/Per month</span></h4>
+              <span>Sed do eiusmod</span>
+            </header>
+            <a href="#" class="btn btn-sm btn-default animated btn-outline full-radius white">Purchase Now <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+            <div class="table-body table-icon"><ul>
+              <li>Lorem Ipsum <i class="fa fa-check"></i></li>
+              <li>Dolor sit Amet <i class="fa fa-check"></i></li>
+              <li>Consectetur Adipisicing  <i class="fa fa-check"></i></li>
+              <li>Eiusmod Tempor <i class="fa fa-check"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="pricing-table pricing-style2 premium white-bg">
+          <label>Premium</label>
+          <header>
+            <h4 class="title dark-text">$250<span>/Per month</span></h4>
+            <span>Sed do eiusmod</span>
+          </header>
+          <a href="#" class="btn btn-sm btn-default animated btn-outline full-radius">Purchase Now <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+          <div class="table-body table-icon"><ul>
+            <li>Lorem Ipsum <i class="fa fa-check"></i></li>
+            <li>Dolor sit Amet <i class="fa fa-check"></i></li>
+            <li>Consectetur Adipisicing  <i class="fa fa-check"></i></li>
+            <li>Eiusmod Tempor <i class="fa fa-check"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<section class="section-md grey-bg">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div id="team-carousel-5" class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <div class="testimonials text-center">
+                  <i class="fa fa-quote-left round" aria-hidden="true"></i>
+                  <div class="author-description f-weight-300">Your customer support is the best I have experienced with any theme I have purchased. You have a theme that far exceeds all others. Thanks for providing such a fantastic theme, all your efforts are greatly appreciated on our end.</div>
+                  <div class="author-img my-2"><img class="img-responsive img-circle center-block" src="/theme_impacto/static/src/img/testimonials/image1.jpg" alt="" /></div>
+                  <span class="author-name">- John Doe </span><br/>
+                  <label>Company CEO</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <div class="testimonials text-center">
+                  <i class="fa fa-quote-left round" aria-hidden="true"></i>
+                  <div class="author-description f-weight-300">Your customer support is the best I have experienced with any theme I have purchased. You have a theme that far exceeds all others. Thanks for providing such a fantastic theme, all your efforts are greatly appreciated on our end.</div>
+                  <div class="author-img my-2"><img class="img-responsive img-circle center-block" src="/theme_impacto/static/src/img/testimonials/image2.jpg" alt="" /></div>
+                  <span class="author-name">- John Doe </span><br/>
+                  <label>Company CEO</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#team-carousel-5" data-slide="prev">
+          <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+        </a>
+        <a class="right carousel-control" href="#team-carousel-5" data-slide="next">
+          <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<script>
+  $(window.document).ready(function(){
+    $("body").addClass("home-app");
+  });
+</script>
+</div>
+</t>
+</template>
+
+<record id="home-app_record" model="website.page">
+        <field name="url">/home-app</field>
+        <field name="website_published">True</field>
+        <field name="view_id" ref="home-app"/>
+</record>
+</odoo>

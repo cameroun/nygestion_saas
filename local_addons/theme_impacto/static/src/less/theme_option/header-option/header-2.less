@@ -1,0 +1,54 @@
+body header .header-top-panel{background: #f7f7f7;  border: none}
+body header .header-top-panel a{color: #969696}
+body header .header-top-panel a i{color: #969696}
+body header .header-wrap{background: #fff}
+
+
+@media (min-width: 1200px){
+	body header .header-container.container .row{margin: 0 auto; width: 1170px;}
+	body header .header-top-panel .row > div{padding-left: 0; padding-right: 0;}
+	body header .header-wrap{width: 1170px; margin: 0 auto;}
+}
+
+/*===========================================================================*/
+/*-------------- Header Responsive ---------------*/
+/*===========================================================================*/
+@media (max-width: 992px){
+	body header .navbar-default{display: block; width: 100%; float: left; border-top: 1px solid #e7e7e7; padding: 0;}
+    body header .navbar-default .container-fluid{padding: 0; margin: 0;}
+    body header .navbar-default  .navbar-header{padding: 5px 0;}
+    body header .navbar-default .navbar-collapse{padding: 0; margin: 0;}
+    body header .navbar-default .navbar-right{float: none !important;}
+    body header .navbar-default .navbar-nav > li > a{padding: 15px 10px;}
+}
+
+@media (max-width: 767px){
+    body header .info-panel {padding-right: 10px;}
+  	body header .login-header{padding-left:  0px;}
+  	body header .header-buttons{padding-left: 10px;}
+  	body header .header-buttons button, body header .header-buttons a{padding: 10px 8px;}
+  	
+  	body header .navbar-default .navbar-toggle{border-radius: 0;}
+  	body header .navbar-default .navbar-collapse{padding: 0; margin: 0; position: absolute; left: 0; width: 100%; background: #ffffff; -webkit-box-shadow: 0 10px 15px rgba(0,0,0,0.1); -ms-box-shadow: 0 10px 15px rgba(0,0,0,0.1); box-shadow: 0 10px 15px rgba(0,0,0,0.1); z-index: 999;}
+  	body header .navbar-default .navbar-nav{padding: 5px 15px;}
+  	body header .navbar-default .navbar-nav > li{border-bottom: 1px solid #e8e8e8;}
+  	body header .navbar-default .navbar-nav > li:last-child{border-bottom: none;}
+  	body header .navbar-default .navbar-nav > li > a{padding: 10px 0px; position: relative;}
+  	body header .navbar-default .navbar-nav > li > a .caret{position: absolute; right: 3px; top: 18px;}
+
+  	body header .navbar-default .navbar-nav > .open > a, 
+  	body header .navbar-default .navbar-nav > .open > a:focus, 
+  	body header .navbar-default .navbar-nav > .open > a:hover,
+  	body header .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  	body header .navbar-default .navbar-nav .dropdown-menu > li.active > a{background: none;}
+
+  	body header .navbar-default .navbar-nav .dropdown-menu{padding: 5px 15px; background: rgba(0,0,0,0.02);}
+  	body header .navbar-default .navbar-nav .dropdown-menu > li{border-bottom: 1px solid #e8e8e8;}
+  	body header .navbar-default .navbar-nav .dropdown-menu > li:last-child{border-bottom: none;}
+  	body header .navbar-default .navbar-nav .dropdown-menu > li > a{padding: 8px 0px;}
+
+}
+
+@media (max-width: 479px){
+  	.header-logos img {height: 30px;}
+}

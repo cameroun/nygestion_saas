@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+		<template id="custom_contactus_form" inherit_id="website_crm.contactus_form" name="Custom Contact Form">
+
+            <xpath expr="//div[@id='wrap']/div" position="before">
+                <section class="inner-intro small-intro grey-bg mb-3">
+                    <div class="container">
+                      <div class="row intro-title">
+                        <div class="col-md-12"><h2 class="title">Contact us</h2></div>
+                        <div class="col-md-12">
+                          <div class="row">
+                            <div class="col-md-12 mt-1">
+                              <ul class="page-breadcrumb">
+                                <li><a href="javascript:void(0)">Home</a></li>
+                                <li><span>Contact Us</span> </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>              
+            </xpath>
+
+            <xpath expr="//form" position="replace">
+                <!-- FORM -->
+                <div class="form-block center-block" style="margin-bottom: 40px;">
+                    <!-- FORM -->
+                    <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                    <form action="/website_form/" method="post" data-model_name="crm.lead" data-success_page="/page/website_crm.contactus_thanks"  class="s_website_form white-row" role="form" enctype="multipart/form-data" style="margin-top:30px;">
+                        <div class="row">
+                            <div class="col-md-4" >
+                             <div class="form-group has-feedback form-field o_website_form_required_custom">                                
+                                    <input type="text" placeholder="Your Name" class="form-control o_website_form_input" name="contact_name"
+                                           t-att-value="request.params.get('contact_name', '')"
+                                           required=""/>
+                                    <i class="fa fa-pencil form-control-feedback"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-4" >
+                            <div class="form-group has-feedback form-field" >                                
+                                    <input type="text" class="form-control o_website_form_input" placeholder="e.g. (+32).81.81.37.00"
+                                           name="phone" t-att-value="request.params.get('phone', '')"/>
+                                    <i class="fa fa-mobile form-control-feedback"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                            <div class="form-group has-feedback form-field o_website_form_required_custom">
+                                    <input type="email" placeholder="Email" class="form-control o_website_form_input" name="email_from" required=""
+                                           t-att-value="request.params.get('email_from', '')"/>
+                                    <i class="fa fa-envelope form-control-feedback"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6" >
+                            <div class="form-group has-feedback form-field o_website_form_required_custom" >
+                                
+                                    <input type="text" placeholder="Your Company" class="form-control o_website_form_input" name="partner_name" required=""
+                                            t-att-value="request.params.get('partner_name', '')"/>
+                                    <i class="fa fa-building form-control-feedback"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-6" >
+                            <div class="form-group has-feedback form-field o_website_form_required">                                
+                                    <input type="text" placeholder="Subject" class="form-control o_website_form_input" name="name" required=""
+                                            t-att-value="request.params.get('name', '')"/>
+                                    <i class="fa fa-comment form-control-feedback"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group has-feedback form-field o_website_form_required_custom">
+                                <div class="col-md-12" >
+                                    <textarea class="form-control o_website_form_input" placeholder="Your Question" rows="2" name="description" required="">
+                                        <t t-esc="request.params.get('description', '')"/>
+                                    </textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group">
+                                <div class="col-md-8 mt-1" style="text-align: left;">
+                                    <button class="btn  btn-default  o_website_form_send">Send</button>
+                                    <span id="o_website_form_result"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div><!-- /FORM -->
+            </xpath>
+
+            <xpath expr="//div[@class='col-md-4 mb32']" position="replace">
+                <div class="col-md-4">
+                     
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="heading-block">
+                              <div class="sub-heading">Get in touch</div>
+                              <h3 class="title">Contacts</h3>
+                            </div>
+                        </div>
+                               <div class="col-md-12">
+                                  <div class="contact-add2 mb-1"> 
+                                   <div class="text-left">
+                                       <i class="fa fa-map-marker"></i>
+                                        <h6 class="footer-title">Address</h6>
+                                       <span t-field="res_company.street"/> <span t-field="res_company.city"/> 
+                                      </div>
+                                  </div>                              
+                                  <div class="contact-add2 mb-1"> 
+                                   <div class="text-left">
+                                      <i class="fa fa-phone"></i>
+                                      <h6 class="footer-title">Call Us</h6>
+                                     <span t-field="res_company.phone"></span>
+                                    </div>
+                                  </div>                               
+                                  <div class="contact-add2 mb-1"> 
+                                    <div class="text-left">
+                                      <i class="fa fa-envelope-o"></i>
+                                      <h6 class="footer-title">Email Us</h6>
+                                      <span t-field="res_company.email"></span>
+                                   </div>
+                                  </div>
+                               </div>
+                            </div>
+                </div>
+            </xpath>
+        </template>
+
+         
+
+        <template id="custom_contactus_delete" inherit_id="website.contactus" name="Custom Contact Us">
+            <xpath expr="//div[@class='col-md-8']/div[@class='oe_structure']" position="replace">
+               <div class="heading-block">
+                      <div class="sub-heading">Get in touch</div>
+                      <h3 class="title">Say Hello</h3>
+                    </div>
+            </xpath>
+
+           <xpath expr="//h1" position="replace"></xpath> 
+        </template>
+    </data>
+</openerp>

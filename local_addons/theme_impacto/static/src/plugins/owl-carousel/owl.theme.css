@@ -1,0 +1,47 @@
+/*************************************
+        Owl-carousel      
+**************************************/ 
+.owl-carousel .owl-item img { width: auto; }
+.owl-carousel .owl-nav { display: block; position: absolute; text-indent: inherit; top: 45%; transform: translateY(-50%); -webkit-transform: translateY(-50%); -o-transform: translateY(-50%); -ms-transform: translateY(-50%); -moz-transform: translateY(-50%); left: 0; width: 100%; cursor: pointer; z-index: 999;}
+
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next{display: block; position: absolute; text-indent: inherit; width: auto; cursor: pointer; transition:all 0.2s ease-in-out; -webkit-transition:all 0.2s ease-in-out; -o-transition:all 0.2s ease-in-out; -moz-transition:all 0.2s ease-in-out; -ms-transition:all 0.2s ease-in-out; opacity:0;
+  -webkit-transform: scale(1.7);
+  -moz-transform: scale(1.7);
+  -ms-transform: scale(1.7);
+  -o-transform: scale(1.7);
+  transform: scale(1.7);    
+}
+.owl-carousel:hover .owl-nav .owl-prev,
+.owl-carousel:hover .owl-nav .owl-next{
+-webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.owl-carousel .owl-nav .owl-prev{left:0px;}
+.owl-carousel .owl-nav .owl-next{right:0px;}
+.owl-carousel:hover .owl-nav .owl-prev,
+.owl-carousel:hover .owl-nav .owl-next{opacity:1;}
+
+.owl-carousel .owl-nav i{font-size: 18px; width:35px; height:35px; border-radius: 50%; line-height:35px; padding-left:2px; display: inline-block; color:#555555; background:#ffffff; border:1px solid #dddddd; font-weight:normal; text-align: center; -webkit-transition:all 0.2s ease-in-out; -moz-transition:all 0.2s ease-in-out; transition:all 0.2s ease-in-out; position:relative;}
+.owl-carousel .owl-nav .owl-prev i{left:10px; -webkit-transition:all 0.2s ease-in-out; -moz-transition:all 0.2s ease-in-out; transition:all 0.2s ease-in-out; position:relative;}
+.owl-carousel .owl-nav .owl-next i{right:10px; -webkit-transition:all 0.2s ease-in-out; -moz-transition:all 0.2s ease-in-out; transition:all 0.2s ease-in-out; position:relative;}
+
+.owl-carousel .owl-nav .owl-prev:hover i{left:0px;}
+.owl-carousel .owl-nav .owl-next:hover i{right:0px;}
+.owl-carousel:hover .owl-nav .owl-prev,
+.owl-carousel:hover .owl-nav .owl-next{opacity:1;} 
+
+.owl-carousel.light-arrow .owl-nav i{border-color: #fff; color: #fff}
+.owl-carousel.light-arrow .owl-nav i:hover{background:#fff; color:#333;  }
+
+/* Dots */ 
+.owl-carousel .owl-controls .owl-dot { display: inline-block; margin-top: 10px; }
+.owl-carousel .owl-dots { display: inline-block; position: absolute; bottom:-35px; text-indent: inherit; width: 100%; cursor: pointer; text-align: center; }
+.owl-carousel.owl-theme .owl-dots .owl-dot span { background:rgba(0,0,0,0.3); border-radius: 30px; display: inline-block; width:5px; height:5px; margin: 0px 3px; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -o-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; -ms-transition:all 0.5s ease-in-out; cursor: pointer; }
+.dark-bg .owl-carousel.owl-theme .owl-dots .owl-dot span{background:#ffffff;}
+.owl-carousel.owl-theme .owl-dots .owl-dot:hover span{background:rgba(0,0,0,0.8);}
+.owl-carousel.owl-theme .owl-dots .owl-dot.active span{background:rgba(0,0,0,0.8);}

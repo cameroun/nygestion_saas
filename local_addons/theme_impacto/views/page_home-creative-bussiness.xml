@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+<template name="Home Creative Bussiness" id="home-creative-bussiness" >
+<t t-call="website.layout">
+<div class="page-wrapper oe_structure">
+  <section class="as-animated-slider">
+    <div id="carousel-1" class="carousel slide text-center banner indicators-right" data-ride="carousel" data-arrow="none">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-1" data-slide-to="1"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div class="slide-item" style="background-image: url(/theme_impacto/static/src/img/creative-bussiness/banner-01.jpg);">
+            <div class="slider-text">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <a class="video mb-2 popup-youtube" title="Video" href="http://www.youtube.com/watch?v=7HKoqNJtMTQ">
+                      <img src="/theme_impacto/static/src/img/icon-play-white.png" alt="" />
+                    </a>
+                    <h1 class="white-text title-medium">We’re a <span class="alt-font theme-text">digital studio</span> that believe<br/>
+                    in the power of great ideas.</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="slide-item" style="background-image: url(/theme_impacto/static/src/img/creative-bussiness/banner-02.jpg);">
+            <div class="slider-text">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <span class="sub-heading mb-2 white-text">A Totally New Way to Grow your Business.</span>
+                    <h1 class="white-text title-medium">We <span class="alt-font f-weight-300">Create</span> Digital Products<br/>
+                    That Make People’s <span class="theme-text">Lives Easier.</span></h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-md">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 text-center col-md-offset-2">
+          <div class="heading-block">
+            <div class="sub-heading theme-text">WHAT WE DO</div>
+            <h2>We are delivering beautiful digital</h2>
+          </div>
+          <p>We are creative and interactive business agency, we make creative projects. View some of the most successful projects. Passion, ideas, and ambition.</p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-4 text-center">
+          <div class="photobox style2">
+            <div class="photobox-img">
+              <img src="/theme_impacto/static/src/img/creative-bussiness/img-01.jpg" class="img-responsive" alt="" />
+            </div>
+            <div class="photobox-content">
+              <p>600+ We created web design</p>
+              <h4>Design and Development</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="photobox style2">
+            <div class="photobox-img">
+              <img src="/theme_impacto/static/src/img/creative-bussiness/img-02.jpg" class="img-responsive" alt="" />
+            </div>
+            <div class="photobox-content">
+              <p>475+ We completed marketing</p>
+              <h4>Social Media Marketing</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="photobox style2">
+            <div class="photobox-img">
+              <img src="/theme_impacto/static/src/img/creative-bussiness/img-03.jpg" class="img-responsive" alt="" />
+            </div>
+            <div class="photobox-content">
+              <p>475+ We created mobile app</p>
+              <h4>Mobile App Development</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-md dark-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center" style="margin-bottom: 30px;">
+          <div class="heading-block mb-4">
+            <div class="sub-heading">We're Impacto Agency</div>
+            <h2>We Make Creative Solutions</h2>
+          </div>
+          <p>We are creative and interactive business agency, we make creative projects. View some of the most successful projects. Passion, ideas, and ambition.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="feature icon-position-left">
+            <div class="feature-icon theme-text text-center"><i class="fa fa-pencil" aria-hidden="true"></i></div>
+            <div class="feature-info">
+              <h5>Website Design</h5>
+              <p>Web design encompasses many different skills and disciplines in the production of websites.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature icon-position-left">
+            <div class="feature-icon theme-text"><i class="fa fa-headphones" aria-hidden="true"></i></div>
+            <div class="feature-info">
+              <h5>Customer Support</h5>
+              <p>It is a range of customer services to assist customers in making cost effective and correct use of a product.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature icon-position-left">
+            <div class="feature-icon theme-text"><i class="fa fa-laptop" aria-hidden="true"></i></div>
+            <div class="feature-info">
+              <h5>Development</h5>
+              <p>The process of economic and social transformation that is based on complex cultural factors.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-4">
+          <div class="feature icon-position-left">
+            <div class="feature-icon theme-text"><i class="fa fa-line-chart" aria-hidden="true"></i></div>
+            <div class="feature-info">
+              <h5>Online Marketing</h5>
+              <p>Web design encompasses many different skills and disciplines in the production of websites.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature icon-position-left">
+            <div class="feature-icon theme-text"><i class="fa fa-file-video-o" aria-hidden="true"></i></div>
+            <div class="feature-info">
+              <h5>Video Production</h5>
+              <p>It is a range of customer services to assist customers in making cost effective and correct use of a product.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature icon-position-left">
+            <div class="feature-icon text-center theme-text"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div>
+            <div class="feature-info">
+              <h5>Style &amp; Identity</h5>
+              <p>The process of economic and social transformation that is based on complex cultural factors.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Tabs start -->
+  <section id="custom_tabs_12" class="section-md custom-tabs-1 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="heading-block">
+            <div class="sub-heading">WHO WE ARE</div>
+            <h2 class="title">We create brand new <br /> corporate identities</h2>
+          </div>
+          
+          <div class="tab tab-border-bottom">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs text-left" role="tablist">
+              <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">MANAGEMENT</a></li>
+              <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">DEVELOPMENT</a></li>
+              <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">FAST SUPPORT</a></li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="home">
+                <p class="lead">We make websites are the number one ranked design and marketing team. We build beautiful websites that will make you more successful.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="profile">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>We make websites are the number one ranked design and marketing team. We build beautiful websites that will make you more successful.</p>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="messages">
+                <p class="lead">We make websites are the number one ranked design and marketing team. We build beautiful websites that will make you more successful.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-md-offset-1">
+          <img class="img-responsive img-shadow" src="/theme_impacto/static/src/img/creative-bussiness/img-04.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Tabs End -->
+  <section class="dark-bg section-md" style="background-image: url('/theme_impacto/static/src/img/creative-bussiness/bg-01.jpg'); background-size: cover; ">
+    <div class="container">
+      <div class="row valign">
+        <!-- Accordion Shadow color-->
+        <div class="col-md-7" data-valign-overlay="middle">
+          <div class="heading-block">
+            <div class="sub-heading">Pricing</div>
+            <h2>Motivated by the desire to achieve</h2>
+          </div>
+          <p class="mb-2 lead">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.We work to make your business start effectively working for you. Meet the financial and marketing specialists. These guys create a magic.</p>
+          <a href="#" class="btn btn-default">Ream more</a>
+        </div>
+        <div class="col-md-4">
+          <div class="pricing-table pricing-style2 standard white-bg">
+            <label>Standard</label>
+            <header>
+              <h4 class="title">$150<span>/Per month</span></h4>
+              <span>Sed do eiusmod</span>
+            </header>
+            <a href="#" class="btn btn-sm btn-default animated btn-outline">Purchase Now <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+            <div class="table-body table-icon"><ul>
+              <li>Lorem Ipsum <i class="fa fa-check"></i></li>
+              <li>Dolor sit Amet <i class="fa fa-check"></i></li>
+              <li>Consectetur Adipisicing  <i class="fa fa-check"></i></li>
+              <li>Eiusmod Tempor <i class="fa fa-check"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section-md">
+  <div class="container">
+    <div class="row"> 
+      <div class="col-md-6 pr-5">
+        <div class="heading-block">
+          <div class="sub-heading">Abuot Us</div>
+          <h2>We make creative projects for awesome clients</h2>
+        </div>
+        <p class="mb-2 lead">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.</p>
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti  dolores.</p>
+      </div> 
+      <div class="col-md-6">
+        <div class="skill">
+          <div class="skill-bar">
+            <div class="progress-bar" data-percent="96" data-delay="0" data-type="%">
+              <div class="progress-title">General Consulting</div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="progress-bar" data-percent="80" data-delay="0" data-type="%">
+              <div class="progress-title">Construction Management</div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="progress-bar" data-percent="60" data-delay="0" data-type="%">
+              <div class="progress-title">Design &amp; Build</div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="progress-bar" data-percent="40" data-delay="0" data-type="%">
+              <div class="progress-title">Special Projects</div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+</section>
+<script>
+  $(window.document).ready(function(){
+    $("body").addClass("home-creative");
+  });
+</script>
+</div>
+</t>
+</template>
+<record id="home-creative-bussiness_record" model="website.page">
+        <field name="url">/home-creative-business</field>
+        <field name="website_published">True</field>
+        <field name="view_id" ref="home-creative-bussiness"/>
+</record>
+</odoo>

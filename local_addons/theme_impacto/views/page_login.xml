@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+		<template id="custom_login_form" inherit_id="web.login" name="Page Login">
+            <xpath expr="//form" position="replace">
+                <div id="wrapper"  class="page-wrapper" t-att-style="'' if editable else '' ">
+                    <div class="container-fluid">
+                        <div class="row no-gutter row-eq-height">
+                            <div class="col-md-6" style="background-image: url('/theme_impacto/static/src/img/bussiness/banner-01.jpg'); background-size: cover; height: 80vh">
+                            </div>
+                            <div class="col-md-6 grey-bg">
+                            <div class="main object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="300">
+                                <div class="form-block center-block">
+                                    <form class="oe_login_form form-horizontal" role="form" t-attf-action="/web/login{{ '?debug' if debug else '' }}" method="post" onsubmit="this.action = this.action + location.hash">
+                                        <div class="form-group has-feedback">
+                                        <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                            <h4 class="title">Login</h4>
+                                            <hr/>
+                                        </div>
+                                        <div class="alert alert-danger" t-if="error">
+                                            <i class="fa fa-frown-o"></i>
+                                            <t t-esc="error"/>
+                                        </div>
+                                        <div class="form-group field-db has-feedback" t-if="databases and len(databases) &gt; 1">
+                                            <label for="db" class="col-sm-3 control-label"><strong>Database</strong></label>
+                                            <div class="input-group col-sm-8">
+                                                <input type="text" name="db" t-att-value="request.db" id="db" class="form-control" required="required" readonly="readonly"/>
+                                                <span class="input-group-btn custom-span">
+                                                    <a href="/web/database/selector" class="btn btn-default custom-a" style="margin: 0;">Select
+                                                        <i class="fa fa-database"></i>
+                                                    </a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group has-feedback">                                            
+                                            <div class="input-group col-md-12">
+                                                <input type="text" name="login" t-att-value="login" id="login" class="form-control" placeholder="Email" required="required" autofocus="autofocus"/>
+                                                <i class="fa fa-user form-control-feedback"></i>
+                                            </div>
+                                        </div>
+                                        <div class="form-group has-feedback">
+                                            <div class="input-group col-md-12">
+                                                <input type="password" name="password" t-att-value="login" id="password" class="form-control" placeholder="Password" required="required" t-att-autofocus="'autofocus' if login else None"/>
+                                                <i class="fa fa-lock form-control-feedback"></i>
+                                            </div>
+                                        </div>
+                                        <div class="form-group has-feedback">
+                                             <label for="db" class="col-sm-3 control-label"></label>
+                                            <div class="input-group2  ">
+                                                <input type="hidden" name="redirect" t-att-value="redirect"/>
+                                                <span>
+                                                    <button type="submit" class="btn btn-default btn-block" style="border-radius: 0;">Log in</button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="oe_structure" />
+                    </div>
+                </div>
+            </xpath>
+        </template>
+   
+</odoo>

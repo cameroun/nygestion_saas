@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+<template name="Home Education" id="home-education">
+<t t-call="website.layout">
+<div class="page-wrapper oe_structure">
+            <section class="as-animated-slider">
+              <div id="carousel-1" class="carousel banner slide" data-ride="carousel" data-arrow="none">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-1" data-slide-to="1" class=""></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <div class="slide-item" style="background-image: url(/theme_impacto/static/src/img/education/banner-01.jpg);">
+                      <div class="slider-text">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-8 col-md-offset-2 text-center">
+                              <h1 class="white-text title-medium">Dreamers.<span class="theme-text">Thinkers.</span>Doers</h1>
+                              <div class="white-text lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div>
+                              <a href="#" class="btn btn-default btn-radius ">Lern More </a>
+                              <a href="#" class="btn btn-default btn-radius btn-outline white ml-2">Lern More </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="slide-item" style="background-image: url(/theme_impacto/static/src/img/education/banner-02.jpg);">
+                      <div class="slider-text">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-8 col-md-offset-2 text-center">
+                              <h1 class="white-text title-medium">Purpose.<span class="theme-text">Mission.</span>Dream</h1>
+                              <div class="white-text lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div>
+                              <a href="#" class="btn btn-default btn-radius ">Lern More </a>
+                              <a href="#" class="btn btn-default btn-radius white btn-outline ml-2">Lern More </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="p-0">
+              <div class="container box-top ">
+                <div class="row">
+                  <div class="col-md-4 ">
+                    <div class="feature pxy-5 radius-4 white-bg box-shadow-2">
+                      <div class="feature-icon theme-text">
+                        <i class="fa fa-trophy" aria-hidden="true"></i>
+                      </div>
+                      <div class="feature-info">
+                        <h5 class="title">Best Industry Leaders</h5>
+                        <p>It is a vital part of developing new products, helping you avoid expensive mistakes.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="feature pxy-5 radius-4 white-bg box-shadow-2">
+                      <div class="feature-icon theme-text">
+                        <i class="fa fa-book" aria-hidden="true"></i>
+                      </div>
+                      <div class="feature-info">
+                        <h5 class="title">Learn Courses Online</h5>
+                        <p>Encompasses many skills and disciplines in the production and service of websites.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 ">
+                    <div class="feature pxy-5 radius-4 white-bg box-shadow-2">
+                      <div class="feature-icon theme-text">
+                        <i class="fa fa-university" aria-hidden="true"></i>
+                      </div>
+                      <div class="feature-info">
+                        <h5 class="title">Book Library &amp; Store</h5>
+                        <p>Testing is the name given to software testing that focuses on web applications.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="section-md">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="heading-block">
+                      <div class="sub-heading theme-text">WHO WE ARE</div>
+                      <h2 class="title">The Education You Want. The Attention You Deserve.</h2>
+                    </div>
+                    <p class="lead">We make websites are the number one ranked design and marketing team. We build unique and beautiful websites that will make you more successful.</p>
+                    <ul class="list round mt-2" style="margin-bottom: 30px;">
+                      <li>We provide free initial consultation and support.</li>
+                      <li>We work with some of the most successful businesses.</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6 col-md-offset-1">
+                    <img class="img-responsive img-shadow" src="/theme_impacto/static/src/img/education/img-01.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="section-md grey-bg">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="heading-block"><h3>Our Mission</h3></div>
+                    <p>We offer many advantages to students, both international and domestic: a full curriculum taught by certified and knowledgeable teaching staff, on- and off-campus housing support and student meal plans, a full curriculum taught by certified and kn specia- lized student services department that offers individualized assistance with applications.</p>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="heading-block"><h3>Our Principles</h3></div>
+                    <ul class="list line">
+                      <li>Contrary to popular belief Malorum</li>
+                      <li>In a free hour qui officia</li>
+                      <li>Written by Cicero in 45 BC</li>
+                      <li>De Finibus Bonorum et Malorum officia</li>
+                      <li>The standard Lorem Ipsum passage</li>
+                      <li>The standard Lorem Ipsum passage</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="heading-block"><h3>Our Skill</h3></div>
+                    <div class="skill-bar">
+                      <div class="progress-bar" data-percent="70" data-delay="0" data-type="%">
+                        <div class="progress-title">Exact Sciences</div>
+                      </div>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="progress-bar" data-percent="90" data-delay="0" data-type="%">
+                        <div class="progress-title">Technologies</div>
+                      </div>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="progress-bar" data-percent="85" data-delay="0" data-type="%">
+                        <div class="progress-title">Languages</div>
+                      </div>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="progress-bar" data-percent="80" data-delay="0" data-type="%">
+                        <div class="progress-title">Humanities</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="section-md pos-r section-lg" style="background-image: url('/theme_impacto/static/src/img/education/bg-1.jpg'); background-size: cover; ">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 text-center col-md-offset-2">
+                    <div class="heading-block">
+                      <div class="sub-heading theme-text">Our Course</div>
+                      <h2 class="white-text">Look Like An Expert Right From The Start</h2>
+                    </div>
+                    <p class="white-text">find your course, and your calling</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="p-0 grey-bg">
+              <div class="container box-top">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="photobox radius-4 o-hidden">
+                      <div class="photobox-img">
+                        <img src="/theme_impacto/static/src/img/education/img-02.jpg" class="img-responsive" alt="" />
+                      </div>
+                      <div class="photobox-content pxy-2">
+                        <h4>Masters of Psychology</h4>
+                        <p>Morbi nulla malesuada sem nunc consectetuer.</p>
+                        <a href="#" title="">Learn more</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="photobox radius-4 o-hidden">
+                      <div class="photobox-img">
+                        <img src="/theme_impacto/static/src/img/education/img-03.jpg" class="img-responsive" alt="" />
+                      </div>
+                      <div class="photobox-content pxy-2">
+                        <h4>Business &amp; Management</h4>
+                        <p>Morbi nulla malesuada sem nunc consectetuer.</p>
+                        <a href="#" title="">Learn more</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="photobox radius-4 o-hidden">
+                      <div class="photobox-img">
+                        <img src="/theme_impacto/static/src/img/education/img-04.jpg" class="img-responsive" alt="" />
+                      </div>
+                      <div class="photobox-content pxy-2">
+                        <h4>Economics &amp; Finance</h4>
+                        <p>Morbi nulla malesuada sem nunc consectetuer.</p>
+                        <a href="#" title="">Learn more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="section-md grey-bg">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="counter timer-lg">
+                      <div class="counter-info">
+                        <span class="timer theme-text" data-to="120" data-speed="1000">1200</span>
+                        <label>
+                          Questions Answered
+                          <span>Sed do Eiusmod tempor labore</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="counter timer-lg">
+                      <div class="counter-info">
+                        <span class="timer theme-text" data-to="255" data-speed="1000">255</span>
+                        <label>
+                          Awords Wininng
+                          <span>Sed do Eiusmod tempor labore</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="counter timer-lg">
+                      <div class="counter-info">
+                        <span class="timer theme-text" data-to="245" data-speed="1000">245</span>
+                        <label>
+                          Completed Projects
+                          <span>Sed do Eiusmod tempor labore</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="section-md">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 text-center col-md-offset-2">
+                    <div class="heading-block">
+                      <div class="sub-heading">OUR GALLERY</div>
+                      <h2>When You Get Here You Understand</h2>
+                    </div>
+                    <p class="mb-4">View some of the most successful projects and more by our specialists presented in this gallery. We work to make your business start effectively working for you.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="container-fluid clearfix">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="isotope no-padding columns-4 popup-gallery">
+                      <div class="grid-item">
+                        <div class="portfolio-item">
+                          <img src="/theme_impacto/static/src/img/education/gallery/img1.jpg" alt="Design" />
+                          <div class="portfolio-overlay">
+                            <h4><a href="#">Creative Digital Solutions</a></h4>
+                            <span class="theme-text">BRANDING</span>
+                          </div>
+                          <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/education/gallery/img1.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                      </div>
+                      <div class="grid-item">
+                        <div class="portfolio-item">
+                          <img src="/theme_impacto/static/src/img/education/gallery/img2.jpg" alt="Design" />
+                          <div class="portfolio-overlay">
+                            <h4><a href="#">App Development</a></h4>
+                            <span class="theme-text">BRANDING</span>
+                          </div>
+                          <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/education/gallery/img2.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                      </div>
+                      <div class="grid-item">
+                        <div class="portfolio-item">
+                          <img src="/theme_impacto/static/src/img/education/gallery/img3.jpg" alt="Design" />
+                          <div class="portfolio-overlay">
+                            <h4><a href="#">Portrait Printing</a></h4>
+                            <span class="theme-text">BRANDING</span>
+                          </div>
+                          <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/education/gallery/img3.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                      </div>
+                      <div class="grid-item">
+                        <div class="portfolio-item">
+                          <img src="/theme_impacto/static/src/img/education/gallery/img4.jpg" alt="Design" />
+                          <div class="portfolio-overlay">
+                            <h4><a href="#">Office Stationery</a></h4>
+                            <span class="theme-text">BRANDING</span>
+                          </div>
+                          <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/education/gallery/img4.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                      </div>
+                      <div class="grid-item">
+                        <div class="portfolio-item">
+                          <img src="/theme_impacto/static/src/img/education/gallery/img5.jpg" alt="Design" />
+                          <div class="portfolio-overlay">
+                            <h4><a href="#">Booklet Printing</a></h4>
+                            <span class="theme-text">BRANDING</span>
+                          </div>
+                          <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/education/gallery/img5.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                      </div>
+                      <div class="grid-item">
+                        <div class="portfolio-item">
+                          <img src="/theme_impacto/static/src/img/education/gallery/img6.jpg" alt="Design" />
+                          <div class="portfolio-overlay">
+                            <h4><a href="#">Business Arrangements </a></h4>
+                            <span class="theme-text">BRANDING</span>
+                          </div>
+                          <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/education/gallery/img6.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                      </div>
+                      <div class="grid-item">
+                        <div class="portfolio-item">
+                          <img src="/theme_impacto/static/src/img/education/gallery/img7.jpg" alt="Design" />
+                          <div class="portfolio-overlay">
+                            <h4><a href="#">Embroidered Packaging</a></h4>
+                            <span class="theme-text">BRANDING</span>
+                          </div>
+                          <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/education/gallery/img7.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                      </div>
+                      <div class="grid-item">
+                        <div class="portfolio-item">
+                          <img src="/theme_impacto/static/src/img/education/gallery/img8.jpg" alt="Design" />
+                          <div class="portfolio-overlay">
+                            <h4><a href="#">Business Cards</a></h4>
+                            <span class="theme-text">BRANDING</span>
+                          </div>
+                          <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/education/gallery/img8.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 text-center col-md-offset-2 mt-4">
+                    <a href="#" class="btn btn-default btn-radius ">View All </a>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="section-md" style="background-image: url('/theme_impacto/static/src/img/education/bg-2.jpg'); background-size: cover; position: relative; overflow: hidden;">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2  text-center">
+                    <div class="heading-block">
+                      <div class="sub-heading theme-text">WHAT PEOPLE SAY</div>
+                      <h2 class="white-text">What They are Saying</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container pb-4"  >
+                <div class="row mt-4">
+                  <div class="col-md-12">
+                    <div id="team-carousel-4" class="carousel slide inds-bottom light-control" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#team-carousel-4" data-slide-to="0" class="active"></li>
+                    <li data-target="#team-carousel-4" data-slide-to="1" class=""></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <div class="col-md-4">
+                        <div class="testimonials mt-6 style-5">
+                          <div class="author-info pull-top  text-center">
+                            <div class="author-img"><img class="img-responsive" src="/theme_impacto/static/src/img/education/image1.jpg" alt="" /></div>
+                            <span class="author-name">John Doe</span>
+                            <span class="author-title">Company CEO</span>
+                          </div>
+                          <div class="author-description">
+                            <i class="fa fa-quote-left pull-left" aria-hidden="true"></i>
+                            <p class="black-text big-f text-center">Great theme maker. I wish they would create more themes.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="testimonials mt-6 style-5">
+                          <div class="author-info pull-top  text-center">
+                            <div class="author-img"><img class="img-responsive" src="/theme_impacto/static/src/img/education/image2.jpg" alt="" /></div>
+                            <span class="author-name">John Doe</span>
+                            <span class="author-title">Company CEO</span>
+                          </div>
+                          <div class="author-description">
+                            <i class="fa fa-quote-left pull-left" aria-hidden="true"></i>
+                            <p class="black-text big-f text-center">Great theme maker. I wish they would create more themes.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="testimonials mt-6 style-5">
+                          <div class="author-info pull-top  text-center">
+                            <div class="author-img"><img class="img-responsive" src="/theme_impacto/static/src/img/education/image3.jpg" alt="" /></div>
+                            <span class="author-name">John Doe</span>
+                            <span class="author-title">Company CEO</span>
+                          </div>
+                          <div class="author-description">
+                            <i class="fa fa-quote-left pull-left" aria-hidden="true"></i>
+                            <p class="black-text big-f text-center">Great theme maker. I wish they would create more themes.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="col-md-4">
+                        <div class="testimonials mt-6 style-5">
+                          <div class="author-info pull-top  text-center">
+                            <div class="author-img"><img class="img-responsive" src="/theme_impacto/static/src/img/education/image1.jpg" alt="" /></div>
+                            <span class="author-name">John Doe</span>
+                            <span class="author-title">Company CEO</span>
+                          </div>
+                          <div class="author-description">
+                            <i class="fa fa-quote-left pull-left" aria-hidden="true"></i>
+                            <p class="black-text big-f text-center">Great theme maker. I wish they would create more themes.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="testimonials mt-6 style-5">
+                          <div class="author-info pull-top  text-center">
+                            <div class="author-img"><img class="img-responsive" src="/theme_impacto/static/src/img/education/image2.jpg" alt="" /></div>
+                            <span class="author-name">John Doe</span>
+                            <span class="author-title">Company CEO</span>
+                          </div>
+                          <div class="author-description">
+                            <i class="fa fa-quote-left pull-left" aria-hidden="true"></i>
+                            <p class="black-text big-f text-center">Great theme maker. I wish they would create more themes.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="testimonials mt-6 style-5">
+                          <div class="author-info pull-top  text-center">
+                            <div class="author-img"><img class="img-responsive" src="/theme_impacto/static/src/img/education/image3.jpg" alt="" /></div>
+                            <span class="author-name">John Doe</span>
+                            <span class="author-title">Company CEO</span>
+                          </div>
+                          <div class="author-description">
+                            <i class="fa fa-quote-left pull-left" aria-hidden="true"></i>
+                            <p class="black-text big-f text-center">Great theme maker. I wish they would create more themes.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+<script>
+  $(window.document).ready(function(){
+    $("body").addClass("home-education");
+  });
+</script>
+          </div>
+</t>
+</template>
+<record id="home-education_record" model="website.page">
+        <field name="url">/home-education</field>
+        <field name="website_published">True</field>
+        <field name="view_id" ref="home-education"/>
+</record>
+</odoo>

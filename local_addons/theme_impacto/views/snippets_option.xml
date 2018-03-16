@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+  
+        <template id="All_snippet_options" inherit_id="website.snippet_options">
+       
+
+            <xpath expr="//div[@data-js='background']" position="after">
+                 
+                <div data-js='js_progress_bar' data-selector=".progress-bar"></div>
+                <div data-js='js_counter' data-selector=".counter"></div>
+
+                <div data-js="js_embed_html" data-selector=".custom-snippet-embed"></div>
+              
+               <div data-selector="section .btn">
+                    <li class="dropdown-submenu">
+                        <a tabindex="-1" href="#">Button Style</a>
+                        <ul class="dropdown-menu">
+                            <li data-select-class = "">
+                                <a>Default</a>
+                            </li>
+                            <li data-select-class = "btn-shadow">
+                                <a>Shadow</a>
+                            </li>
+                            <li data-select-class = "btn-outline">
+                                <a>Outline</a>
+                            </li>
+                            <li data-select-class = "btn-grdn">
+                                <a>Gradiant</a>
+                            </li>
+                        </ul>
+                    </li>
+                </div> 
+
+                <div data-selector="section .accordion">
+                    <li class="dropdown-submenu">
+                        <a tabindex="-1" href="#">Accordion Style</a>
+                        <ul class="dropdown-menu">
+                            <li data-select-class = "">
+                                <a>Default</a>
+                            </li>
+                            <li data-select-class = "boxed">
+                                <a>Style 2</a>
+                            </li>
+                            <li data-select-class = "bottom-border">
+                                <a>Style 3</a>
+                            </li>
+                            <li data-select-class = "border">
+                                <a>Style 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                </div> 
+                <div data-selector="section .tab">
+                    <li class="dropdown-submenu">
+                        <a tabindex="-1" href="#">Tab Style</a>
+                        <ul class="dropdown-menu">
+                            <li data-select-class = "tab-default">
+                                <a>Default</a>
+                            </li>
+                            <li data-select-class = "tab-border">
+                                <a>Style 2</a>
+                            </li>
+                            <li data-select-class = "tab-border-bottom">
+                                <a>Style 3</a>
+                            </li>                           
+                        </ul>
+                    </li>
+                </div> 
+            </xpath>
+
+       <xpath expr="//div[@data-js='background']" position="before">
+        <div data-js='js_get_posts' data-selector=".js_get_posts"/>
+        <div data-js='js_get_posts_selectBlog' data-selector=".js_get_posts">
+          <li class="dropdown-submenu">
+            <a tabindex="-1" href="#">Limit by blog</a>
+            <ul class="dropdown-menu">
+              <li data-filter_by_blog_id="0"><a>All blogs</a></li>
+              <!-- the blogs' list will be generated in js -->
+            </ul>
+          </li>
+        </div>
+
+        <div data-js='js_get_posts_limit' data-selector=".js_get_posts">
+          <li class="dropdown-submenu">
+            <a tabindex="-1" href="#">Limit number to...</a>
+            <ul class="dropdown-menu">
+              <li data-posts_limit="1"><a>1 post</a></li>
+              <li data-posts_limit="2"><a>2 posts</a></li>
+              <li data-posts_limit="3"><a>3 posts</a></li>
+              <li data-posts_limit="4"><a>4 posts</a></li>
+              <li data-posts_limit="5"><a>5 posts</a></li>
+              <li data-posts_limit="6"><a>6 posts</a></li>
+              <li data-posts_limit="7"><a>7 posts</a></li>
+              <li data-posts_limit="8"><a>8 posts</a></li>
+              <li data-posts_limit="9"><a>9 posts</a></li>
+              <li data-posts_limit="10"><a>10 posts</a></li>
+            </ul>
+          </li>
+        </div>
+      </xpath>
+      </template>
+
+      <template id="assets_frontend_js" name="Frontend assets" inherit_id="website.assets_frontend">
+          <xpath expr="//script[last()]" position="after">
+              <script type="text/javascript" src="/theme_impacto/static/src/js/theme_snippets_editor.js"></script>
+          </xpath>
+      </template>
+    
+</odoo>

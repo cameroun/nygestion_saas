@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+<template name="Home Agency" id="home-agency">
+<t t-call="website.layout">
+<div class="page-wrapper oe_structure">
+  <section class="as-animated-slider">
+    <div id="carousel-1" class="carousel slide banner indicators-right" data-ride="carousel" data-arrow="none">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-1" data-slide-to="1" class=""></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div class="slide-item" style="background-image: url(/theme_impacto/static/src/img/agency/banner-01.jpg);">
+            <div class="slider-text">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8">
+                    <h1 class="white-text letter-space-1 title-medium">Creativity is <span class="alt-font f-weight-400 ">the power</span> to connect the unconnected things</h1>
+                    <p class="white-text letter-space-10">SUB TEXT HERE</p>
+                    <a href="#" class="btn btn-default mt-1">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="slide-item" style="background-image: url(/theme_impacto/static/src/img/agency/banner-02.jpg);">
+            <div class="slider-text">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2 text-center">
+                    <h1 class="white-text letter-space-1 title-medium">Creativity is <span class="alt-font f-weight-400 ">the power</span> to connect the unconnected things</h1>
+                    <p class="white-text letter-space-10">SUB TEXT HERE</p>
+                    <a href="#" class="btn btn-sm btn-default mt-1">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-md">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5" style="margin-bottom: 20px;">
+          <div class="heading-block">
+            <div class="sub-heading">WHO WE ARE</div>
+            <h2 class="title">We create brand new <br/> corporate identities</h2>
+          </div>
+          <p class="lead">We make websites are the number one ranked design and marketing team. We build unique and beautiful websites that will make you more successful.</p>
+          <ul class="list round mt-2">
+            <li>We provide free initial consultation and support.</li>
+            <li>We work with some of the most successful businesses.</li>
+          </ul>
+          <a href="#" class="btn  btn-default mt-1">Read More</a>
+        </div>
+        <div class="col-md-6 col-md-offset-1">
+          <img class="img-responsive img-shadow" src="/theme_impacto/static/src/img/agency/img-01.jpg" alt="" />
+        </div>
+      </div>
+      <div class="row mt-7">
+        <div class="col-md-12">
+          <hr/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mt-4">
+          <div class="feature">
+            <div class="feature-info">
+              <h5><span class="theme-text">01.</span> Management</h5>
+              <p>It is a vital part of developing new products. At every stage of the process, research can help you identify key issues and avoid mistakes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-4">
+          <div class="feature">
+            <div class="feature-info">
+              <h5><span class="theme-text">02.</span> Development</h5>
+              <p>The process of economic and social that is based on complex cultural and environmental factors and their interactions.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-4">
+          <div class="feature">
+            <div class="feature-info">
+              <h5><span class="theme-text">03.</span> Fast support</h5>
+              <p>Complete testing of a web-based system before going life can help address issues before the system is revealed to the public.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-md dark-bg pos-r" style="background-image: url('/theme_impacto/static/src/img/agency/bg-01.jpg'); background-size: cover; ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+          <div class="heading-block">
+            <div class="sub-heading">We're Pecto Agency</div>
+            <h2>We Make Creative Solutions</h2>
+          </div>
+          <p>We are creative and interactive business agency, we make creative projects. View some of the most successful projects. Passion, ideas, and ambition.</p>
+        </div>
+      </div>
+      <div class="row mt-7">
+        <div class="col-md-4">
+          <div class="feature">
+            <div class="feature-icon theme-text"><i class="fa fa-paint-brush" aria-hidden="true"></i></div>
+            <div class="feature-info">
+              <h5>Website Design</h5>
+              <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature">
+            <div class="feature-icon theme-text"><i class="fa fa-user" aria-hidden="true"></i></div>
+            <div class="feature-info">
+              <h5>Customer Support</h5>
+              <p>It is a range of customer services to assist customers in making cost effective and correct use of a product.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature">
+            <div class="feature-icon theme-text"><i class="fa fa-cog" aria-hidden="true"></i></div>
+            <div class="feature-info">
+              <h5>Development</h5>
+              <p>The process of economic and social transformation that is based on complex cultural factors and their interactions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-md">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 text-center col-md-offset-2">
+          <div class="heading-block">
+            <div class="sub-heading">OUR WORKS</div>
+            <h2>Case Studies</h2>
+          </div>
+          <p class="mb-4">View some of the most successful projects and more by our specialists presented in this gallery. We work to make your business start effectively working for you.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="isotope columns-3 popup-gallery">
+            <div class="grid-item">
+              <div class="portfolio-item">
+                <img src="/theme_impacto/static/src/img/gallery/gallery-1.jpg" alt="Design" />
+                <div class="portfolio-overlay">
+                  <h4><a href="#">Creative Digital Solutions</a></h4>
+                  <span class="theme-text">BRANDING</span>
+                </div>
+                <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/gallery/gallery-1.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div class="portfolio-item">
+                <img src="/theme_impacto/static/src/img/gallery/gallery-2.jpg" alt="Design" />
+                <div class="portfolio-overlay">
+                  <h4><a href="#">App Development</a></h4>
+                  <span class="theme-text">BRANDING</span>
+                </div>
+                <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/gallery/gallery-2.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div class="portfolio-item">
+                <img src="/theme_impacto/static/src/img/gallery/gallery-3.jpg" alt="Design" />
+                <div class="portfolio-overlay">
+                  <h4><a href="#">Portrait Printing</a></h4>
+                  <span class="theme-text">BRANDING</span>
+                </div>
+                <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/gallery/gallery-3.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div class="portfolio-item">
+                <img src="/theme_impacto/static/src/img/gallery/gallery-4.jpg" alt="Design" />
+                <div class="portfolio-overlay">
+                  <h4><a href="#">Office Stationery</a></h4>
+                  <span class="theme-text">BRANDING</span>
+                </div>
+                <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/gallery/gallery-4.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div class="portfolio-item">
+                <img src="/theme_impacto/static/src/img/gallery/gallery-5.jpg" alt="Design" />
+                <div class="portfolio-overlay">
+                  <h4><a href="#">Booklet Printing</a></h4>
+                  <span class="theme-text">BRANDING</span>
+                </div>
+                <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/gallery/gallery-5.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div class="portfolio-item">
+                <img src="/theme_impacto/static/src/img/gallery/gallery-6.jpg" alt="Design" />
+                <div class="portfolio-overlay">
+                  <h4><a href="#">Business Arrangements </a></h4>
+                  <span class="theme-text">BRANDING</span>
+                </div>
+                <a class="popup popup-img" title="Project" href="/theme_impacto/static/src/img/gallery/gallery-6.jpg"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="section-md pb-0 grey-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2  text-center">
+            <div class="heading-block">
+              <div class="sub-heading">Team</div>
+              <h2>Our Creative Staff</h2>
+            </div>
+            <p class="mb-2 lead">We work to make your business start effectively working for you. Meet the financial and marketing specialists. These guys create a magic.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid mt-4">
+        <div class="row no-gutter">
+          <div class="col-md-3">
+            <div class="team style3 no-radius text-center">
+              <div class="member-image">
+                <img class="img-responsive" src="/theme_impacto/static/src/img/team/team-01.jpg" alt="" />
+              </div>
+              <div class="team-info">
+                <h4 class="member-name l-space-1">Antonio Creighton</h4>
+                <h6 class="member-position">CREATIVE DIRECTOR</h6>
+                <div class="social">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="team style3 no-radius text-center">
+              <div class="member-image">
+                <img class="img-responsive" src="/theme_impacto/static/src/img/team/team-02.jpg" alt="" />
+              </div>
+              <div class="team-info">
+                <h4 class="member-name l-space-1">Samanta Jonson</h4>
+                <h6 class="member-position">PARTNER &amp; CEO</h6>
+                <div class="social">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="team style3 no-radius text-center">
+              <div class="member-image">
+                <img class="img-responsive" src="/theme_impacto/static/src/img/team/team-03.jpg" alt="" />
+              </div>
+              <div class="team-info">
+                <h4 class="member-name l-space-1">Frederick Smith</h4>
+                <h6 class="member-position">DIGITAL DIRECTOR</h6>
+                <div class="social">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="team style3 no-radius text-center">
+              <div class="member-image">
+                <img class="img-responsive" src="/theme_impacto/static/src/img/team/team-04.jpg" alt="" />
+              </div>
+              <div class="team-info">
+                <h4 class="member-name l-space-1">Antonio Creighton</h4>
+                <h6 class="member-position">CREATIVE DIRECTOR</h6>
+                <div class="social">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section class="section-md dark-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2  text-center">
+            <div class="heading-block">
+              <div class="sub-heading">Team</div>
+              <h2>Why Choose Us?</h2>
+            </div>
+            <p class="mb-2 lead">We design, build and support websites and apps for clients worldwide. We make your business stand out. Interested? Let's chat.</p>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <div class="counter text-center">
+              <div class="counter-icon">
+                <i class="fa fa-clock-o theme-text" aria-hidden="true"></i>
+              </div>
+              <div class="counter-info">
+                <span class="timer" data-to="700" data-speed="1000">700</span>
+                <label>Hours Of Work</label>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="counter text-center">
+              <div class="counter-icon">
+                <i class="fa fa-trophy theme-text" aria-hidden="true"></i>
+              </div>
+              <div class="counter-info">
+                <span class="timer" data-to="250" data-speed="1000">250</span>
+                <label>Awords Wininng</label>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="counter text-center">
+              <div class="counter-icon">
+                <i class="fa fa-briefcase theme-text" aria-hidden="true"></i>
+              </div>
+              <div class="counter-info">
+                <span class="timer" data-to="400" data-speed="1000">400</span>
+                <label>Completed Projects</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-xs pb-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="team-carousel-2" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#team-carousel-2" data-slide-to="0" class=""> </li>
+                <li data-target="#team-carousel-2" data-slide-to="1" class="active"> </li>
+                <li data-target="#team-carousel-2" data-slide-to="2" class=""> </li>
+              </ol>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item">
+                  <div class="row valign">
+                    <div class="col-md-6" data-valign-overlay="middle">
+                      <img class="img-responsive" src="/theme_impacto/static/src/img/testimonials/testimonial-startup-1.png" alt="" />
+                    </div>
+                    <div class="col-md-6" data-valign-overlay="middle">
+                      <div class="testimonials style-4" style="margin-bottom: 20px;">
+                        <div class="author-description"><i class="fa fa-quote-left" aria-hidden="true"></i>The countries Vokalia and Consonantia there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics,a large language ocean.<i class="fa fa-quote-right" aria-hidden="true"></i></div>
+                        <span class="author-name"><span class="line"></span>John Doe</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item active">
+                  <div class="row valign">
+                    <div class="col-md-6" data-valign-overlay="middle">
+                      <img class="img-responsive" src="/theme_impacto/static/src/img/testimonials/testimonial-startup-1.png" alt="" />
+                    </div>
+                    <div class="col-md-6" data-valign-overlay="middle">
+                      <div class="testimonials style-4" style="margin-bottom: 20px;">
+                        <div class="author-description"><i class="fa fa-quote-left" aria-hidden="true"></i>The countries Vokalia and Consonantia there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics,a large language ocean.<i class="fa fa-quote-right" aria-hidden="true"></i></div>
+                        <span class="author-name"><span class="line"></span>John Doe</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="row valign">
+                    <div class="col-md-6" data-valign-overlay="middle">
+                      <img class="img-responsive" src="/theme_impacto/static/src/img/testimonials/testimonial-startup-1.png" alt="" />
+                    </div>
+                    <div class="col-md-6" data-valign-overlay="middle">
+                      <div class="testimonials style-4" style="margin-bottom: 20px;">
+                        <div class="author-description"><i class="fa fa-quote-left" aria-hidden="true"></i>The countries Vokalia and Consonantia there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics,a large language ocean.<i class="fa fa-quote-right" aria-hidden="true"></i></div>
+                        <span class="author-name"><span class="line"></span>John Doe</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+  $(window.document).ready(function(){
+    $("body").addClass("home-agency");
+  });
+</script>
+  </div>
+  </t>
+</template>
+<record id="home-agency_record" model="website.page">
+        <field name="url">/home-agency</field>
+        <field name="website_published">True</field>
+        <field name="view_id" ref="home-agency"/>
+</record>
+
+</odoo>
