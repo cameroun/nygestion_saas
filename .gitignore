@@ -79,25 +79,15 @@ access_addons/
 reporting_engine/
 
 .vscode/
+
+# NY Gestion
+
+.buildout_prod.cfg
+
 account_financial_tools/
 addons_steigend/
 backend_theme/
 oca_server_tools/
-perfomist_addons/backend_theme_v10/
-perfomist_addons/muk_dms/
-perfomist_addons/muk_dms_access/
-perfomist_addons/muk_dms_field/
-perfomist_addons/muk_dms_file/
-perfomist_addons/muk_web_client/
-perfomist_addons/muk_web_client_refresh/
-perfomist_addons/muk_web_preview/
-perfomist_addons/muk_web_preview_image/
-perfomist_addons/muk_web_preview_msoffice/
-perfomist_addons/odoo_web_login/
-perfomist_addons/web_responsive/
-perfomist_addons/x/
-performist_addons_oca/
-performist_addons_rachit/
 x_theme_rachit/
 ecommerce/
 hilarak_addons/
