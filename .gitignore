@@ -82,7 +82,7 @@ reporting_engine/
 
 # NY Gestion
 
-.buildout_prod.cfg
+buildout_prod.cfg
 
 account_financial_tools/
 addons_steigend/
