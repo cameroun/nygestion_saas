@@ -99,3 +99,7 @@ serpentcs_addons/
 testbox/
 website_addons/
 dumps/
+advanced.attachment.scripts/
+buildout_private.cfg
+l10n_france/
+oca_web/
