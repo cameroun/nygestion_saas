@@ -31,7 +31,7 @@ Fonctionnalites:
     """,
     'depends': [
         # Odoo standard apps
-        'website_event_sale',
+        # 'website_event_sale',  # This module have a bug
         'account',
 
         # OCA and local apps
