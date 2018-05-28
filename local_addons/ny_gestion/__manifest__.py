@@ -30,19 +30,11 @@ Fonctionnalites:
 
     """,
     'depends': [
-        # Odoo standard apps
-        'website_event_sale',
-        'account',
-
-        # OCA and local apps
-        'theme_impacto',
         'bi_website_support_ticket',
         'project_start_stop',
         'employee_document',
         'print_project_report',
         'project_kanban',
-        'backend_theme_v11',
-        # 'odoo-debrand-11',
     ],
     'data': [
     ],

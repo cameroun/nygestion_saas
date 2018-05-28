@@ -10,11 +10,13 @@ def run(session, logger):
     """Update script"""
     if session.is_initialization:
         modules = [
-            'website_event_sale', 'account',
-            'theme_impacto', 'bi_website_support_ticket',
-            'project_start_stop', 'employee_document',
-            'print_project_report', 'project_kanban',
-            'backend_theme_v11', 'attachment_large_object',
+            'account', 'crm', 'stock', 'account_invoicing',
+            'sale_management', 'purchase', 'account_type_menu',
+            'account_tag_menu', 'account_group_menu',
+            'l10n_fr', 'l10n_fr_sale_closing', 'l10n_fr_department',
+	    'l10n_fr_department_oversea', 'l10n_fr_state',
+            'l10n_fr_certification', 'backend_theme_v11',
+            'attachment_large_object', 'ny_gestion'
         ]
         logger.info(u"Fresh database - Installing modules %r" % modules)
         session.install_modules(modules)
@@ -22,13 +24,22 @@ def run(session, logger):
 
     if session.db_version <= '1.0':
         logger.info("ATTACHMENT LARGE OBJECT")
+        install_module_if_not_already_done(
+            session, logger, [
+		'attachment_large_object', 'l10n_fr_department_oversea',
+		'l10n_fr', 'l10n_fr_sale_closing', 'l10n_fr_department',
+		'l10n_fr_certification', 'backend_theme_v11',
+	    ])
+
         session.env['ir.config_parameter'].set_param(
             'ir_attachment.location', 'postgresql:lobject')
-        install_module_if_not_already_done(
-            session, logger, ['attachment_large_object'])
+	
+	session.db_version = '1.0'
 
     logger.info("Default upgrade procedure : updating all modules.")
     session.update_modules(['all'])
+
+    session.cr.commit()
 
 
 def install_module_if_not_already_done(session, logger, modules):
