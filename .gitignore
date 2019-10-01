@@ -103,3 +103,4 @@ advanced.attachment.scripts/
 buildout_private.cfg
 l10n_france/
 oca_web/
+local_addons/project_start_stop/
